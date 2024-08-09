@@ -69,11 +69,11 @@ ATIS3:vats.im/lexx
 ATIS4:Charts on aip.enaire.es/AIP/ - Want to provide feedback? feedback@vatsimspain.es
 PROFILE:LEAL_APP:150:5
 ATIS2:$radioname - PDC/DCL Datalink [LEAL]
-ATIS3:SFC/FL125 - vats.im/lexx
+ATIS3:Covering LEAL, LELC & LEMI below FL125 - vats.im/lexx
 ATIS4:Charts on aip.enaire.es/AIP/ - Want to provide feedback? feedback@vatsimspain.es
 PROFILE:LEAL_DEP:150:5
 ATIS2:$radioname - PDC/DCL Datalink [LEAL]
-ATIS3:Covering LEAL/LC/MI below FL245 - vats.im/lexx
+ATIS3:Covering LEAL, LELC & LEMI below FL245 - vats.im/lexx
 ATIS4:charts aip.enaire.es/AIP/ - Want to provide feedback? feedback@vatsimspain.es
 PROFILE:LEBL_DEL:20:2
 ATIS2:$radioname - PDC/DCL Datalink [LEBL]
@@ -181,7 +181,7 @@ ATIS3:vats.im/lexx
 ATIS4:Charts on aip.enaire.es/AIP/ - Want to provide feedback? feedback@vatsimspain.es
 PROFILE:LELC_APP:150:5
 ATIS2:$radioname
-ATIS3:SFC/FL115 - vats.im/lexx
+ATIS3:Covering LELC & LEMI SFC/FL115 - vats.im/lexx
 ATIS4:Charts on aip.enaire.es/AIP/ - Want to provide feedback? feedback@vatsimspain.es
 PROFILE:LELL_GND:20:3
 ATIS2:$radioname

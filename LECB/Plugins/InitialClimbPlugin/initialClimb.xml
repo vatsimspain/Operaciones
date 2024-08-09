@@ -132,7 +132,7 @@
 			</sid>
 		</runway>
 		<runway name="06R">
-			<sid name="BAVER4B">
+			<sid name="BAVER5B">
 				<alt>040</alt>
 			</sid>
 			<sid name="BAVER3T">
@@ -179,7 +179,7 @@
 			</sid>
 		</runway>
 		<runway name="06L">
-			<sid name="BAVER4G">
+			<sid name="BAVER5G">
 				<alt>040</alt>
 			</sid>
 			<sid name="BAVER3S">
