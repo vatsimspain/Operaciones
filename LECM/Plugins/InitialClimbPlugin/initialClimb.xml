@@ -1,5 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
 <initialClimb>
+	<apt icao="LEAS">
+		<runway name="11">
+			<sid name="MAVOS">
+				<alt>150</alt>
+			</sid>
+			<sid name="AMAKA">
+				<alt>150</alt>
+			</sid>
+			<sid name="XONDA">
+				<alt>150</alt>
+			</sid>
+			<sid name="KUVAN">
+				<alt>150</alt>
+			</sid>
+			<sid name="MASIP">
+				<alt>150</alt>
+			</sid>
+		</runway>
+		<runway name="29">
+			<sid name="MAVOS">
+				<alt>150</alt>
+			</sid>
+			<sid name="AMAKA">
+				<alt>150</alt>
+			</sid>
+			<sid name="XONDA">
+				<alt>150</alt>
+			</sid>
+			<sid name="KUVAN">
+				<alt>150</alt>
+			</sid>
+			<sid name="MASIP">
+				<alt>150</alt>
+			</sid>
+		</runway>
+	</apt>
+	<apt icao="LEXJ">
+		<runway name="11">
+			<sid name="CALCE">
+				<alt>130</alt>
+			</sid>
+			<sid name="OBETO">
+				<alt>130</alt>
+			</sid>
+			<sid name="TITAN">
+				<alt>130</alt>
+			</sid>
+			<sid name="VADOX">
+				<alt>130</alt>
+			</sid>
+			<sid name="XORNA">
+				<alt>130</alt>
+			</sid>
+		</runway>
+		<runway name="29">
+			<sid name="BLV">
+				<alt>140</alt>
+			</sid>
+			<sid name="OBETO">
+				<alt>130</alt>
+			</sid>
+			<sid name="TITAN">
+				<alt>130</alt>
+			</sid>
+			<sid name="VADOX">
+				<alt>130</alt>
+			</sid>
+			<sid name="XORNA">
+				<alt>130</alt>
+			</sid>
+		</runway>
+	</apt>
+	<apt icao="LESO">
+		<runway name="04">
+			<sid name="BTZ">
+				<alt>090</alt>
+			</sid>
+			<sid name="BLV">
+				<alt>090</alt>
+			</sid>
+			<sid name="CEGAM">
+				<alt>090</alt>
+			</sid>
+			<sid name="PPN">
+				<alt>090</alt>
+			</sid>
+		</runway>
+		<runway name="22">
+			<sid name="BTZ">
+				<alt>090</alt>
+			</sid>
+			<sid name="BLV">
+				<alt>090</alt>
+			</sid>
+			<sid name="CEGAM">
+				<alt>090</alt>
+			</sid>
+			<sid name="PPN">
+				<alt>090</alt>
+			</sid>
+		</runway>
+	</apt>
     <apt icao="LEMG">
 		<runway name="13">
 			<sid name="BLN">
