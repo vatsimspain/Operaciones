@@ -508,6 +508,7 @@ SAP_Buffer_Vert_L_VFR=300
 SAP_Buffer_Vert_U=1700
 
 Equip_RVSM=W
+Equip_Assume_All_SSRs_Mode_S=0
 
 FlightLeg_AssumeTime=5
 FlightLeg_AutoShow=1
