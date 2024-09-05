@@ -512,6 +512,7 @@ SAP_Buffer_Vert_L_VFR=300
 SAP_Buffer_Vert_U=1700
 
 Equip_RVSM=W
+Equip_Assume_All_SSRs_Mode_S=0
 
 FlightLeg_AssumeTime=5
 FlightLeg_AutoShow=1
@@ -545,7 +546,7 @@ Window_NOTAM=0
 //Maps Shortcuts
 Shortcut_Map_Target=1,GCCC\TAXILINES
 Shortcut_Map_Target=2,GCCC\STANDLINES
-Shortcut_Map_Target=3,GCCC\HOLDS
+Shortcut_Map_Target=3,GCCC\VFR
 Shortcut_Map_Target=0,GCCC\ATCSMAC
 Shortcut_Map_Target=9,GCCC\FAUNA
 

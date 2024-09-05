@@ -113,6 +113,11 @@
 			   "min_fl": 95,
 			   "max_fl": 145,
 			   "airways": ["G23"]
+            },
+            {
+                "direction": "EVEN",
+                "min_fl": 95,
+                "airways": ["N75"]
             }
 		],
 			"MAPAX": [
@@ -126,6 +131,11 @@
 			   "min_fl": 95,
 			   "max_fl": 145,
 			   "airways": ["H867"]
+            },
+            {
+                "direction": "EVEN",
+                "min_fl": 95,
+                "airways": ["N867"]
             }
          ],
 			"BISKA": [
@@ -139,6 +149,11 @@
 			   "min_fl": 95,
 			   "max_fl": 145,
 			   "airways": ["J87"]
+            },
+            {
+                "direction": "EVEN",
+                "min_fl": 95,
+                "airways": ["P87"]
             }
          ],
 		 	"SSN": [
@@ -157,6 +172,21 @@
 			   "min_fl": 80,
 			   "max_fl": 145,
 			   "airways": ["R10"]
+            },
+            {
+                "direction": "EVEN",
+                "min_fl": 195,
+                "airways": ["L176"]
+            },
+            {
+                "direction": "EVEN",
+                "min_fl": 65,
+                "airways": ["P181"]
+            },
+            {
+                "direction": "ODD",
+                "min_fl": 65,
+                "airways": ["N10"]
             }
          ],
 		 	"PPN": [
@@ -215,6 +245,59 @@
 			   "min_fl": 55,
 			   "max_fl": 145,
 			   "airways": ["R10"]
+            },
+            {
+                "direction": "EVEN",
+                "min_fl": 65,
+                "max_fl": 305,
+                "destinations": ["LEBL","LEDA","LEGE","LERS","LELL"],
+                "airways": ["M601"]
+            },
+            {
+                "direction": "EVEN",
+                "min_fl": 145,
+                "max_fl": 335,
+                "destinations": ["LEAL","LELC","LEVC","LEMI"],
+                "airways": ["M601","M176"]
+            },
+            {
+                "direction": "EVEN",
+                "min_fl": 145,
+                "max_fl": 345,
+                "destinations": ["LEIB","LEMH","LEPA","LESB","LESJ","LESL"],
+                "airways": ["M601"]
+            },
+            {
+                "direction": "ODD",
+                "min_fl": 145,
+                "max_fl": 335,
+                "destinations": ["LEAM","LEGR","LEMG","GEML","LEJR","LEMO","LERT","LEZL","LECU","LEGT","LEMD","LETO","LEVS"],
+                "airways": ["N10","N857","N976"]
+            },
+            {
+                "direction": "EVEN",
+                "min_fl": 145,
+                "airways": ["M601","M176","M299"]
+            },
+            {
+                "direction": "ODD",
+                "min_fl": 145,
+                "airways": ["N10","N857","N976"]
+            },
+            {
+                "direction": "EVEN",
+                "min_fl": 195,
+                "airways": ["T424"]
+            },
+            {
+                "direction": "EVEN",
+                "min_fl": 75,
+                "airways": ["M299"]
+            },
+            {
+                "direction": "ODD",
+                "min_fl": 65,
+                "airways": ["N10"]
             }
          ],
 		  	"AMTOS": [
@@ -235,6 +318,18 @@
 			   "min_fl": 95,
 			   "max_fl": 145,
 			   "airways": ["R75"]
+            },
+            {
+                "direction": "ODD",
+                "min_fl": 95,
+                "max_fl": 335,
+                "destinations": ["LEAM","LEGR","LEMG","GEML","LEJR","LEMO","LERT","LEZL","LECU","LEGT","LEMD","LETO","LEVS"],
+                "airways": ["L14"]
+            },
+            {
+                "direction": "ODD",
+                "min_fl": 95,
+                "airways": ["L14"]
             }
          ],
 		  	"CALCE": [
@@ -255,6 +350,18 @@
 			   "min_fl": 80,
 			   "max_fl": 145,
 			   "airways": ["R42"]
+            },
+            {
+                "direction": "ODD",
+                "min_fl": 75,
+                "max_fl": 335,
+                "destinations": ["LECU","LEGT","LEMD","LETO","LEVS","LECO","LEST","LEVX","LEAS"],
+                "airways": ["M190"]
+            },
+            {
+                "direction": "ODD",
+                "min_fl": 75,
+                "airways": ["M190"]
             }
          ]
       }
