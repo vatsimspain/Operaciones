@@ -558,7 +558,11 @@ WXR_Latitude_Min=17
 WXR_Longitude_Max=-8.6
 WXR_Longitude_Min=-25
 WXR_Brightness=20
-WXR_Gain=100
+WXR_Echo_dBZ_Hi=40
+WXR_Echo_dBZ_Lo=20
+WXR_Echo_dBZ_Med=30
+WXR_DisplayType=0
+WXR_Gain=113
 WXR_Zoom=4
 WXR_ImageSize=512
 
