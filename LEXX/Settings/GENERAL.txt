@@ -93,7 +93,7 @@ m_ServerMessageLevel:2
 m_AtcMessageLevel:2
 m_BroadcastMessageLevel:2
 m_SupMessageLevel:3
-m_AtisMessageLevel:1
+m_AtisMessageLevel:0
 m_PrivateMessageLevel:3
 m_FreqMessageLevel:4
 m_MericUnits:0
