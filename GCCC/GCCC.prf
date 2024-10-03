@@ -54,7 +54,23 @@ Plugins	Plugin10Display0	Standard ES radar screen
 Plugins	Plugin11	\LEXX\Plugins\DiscordEuroscope\DiscordEuroscope.dll
 Plugins	Plugin11Display0	Standard ES radar screen
 RecentFiles	Recent1	\GCCC\ASR\GCCC.asr
+RecentFiles	Recent2	\GCCC\ASR\GND GR\GCTS_GND_GR.asr
+RecentFiles	Recent3	\GCCC\ASR\GND GR\GCLP_GND_GR.asr
+RecentFiles	Recent4	\GCCC\ASR\GND GR\GCFV_GND_GR.asr
+RecentFiles	Recent5	\GCCC\ASR\GND GR\GCRR_GND_GR.asr
+RecentFiles	Recent6	\GCCC\ASR\GND GR\GCXO_GND_GR.asr
+RecentFiles	Recent7	\GCCC\ASR\GND GR\GCLA_GND_GR.asr
+RecentFiles	Recent8	\GCCC\ASR\GND GR\GCHI_GND_GR.asr
+RecentFiles	Recent9	\GCCC\ASR\GND GR\GCGM_GND_GR.asr
 ASRFastKeys	1	\GCCC\ASR\GCCC.asr
+ASRFastKeys	2	\GCCC\ASR\GND GR\GCTS_GND_GR.asr
+ASRFastKeys	3	\GCCC\ASR\GND GR\GCLP_GND_GR.asr
+ASRFastKeys	4	\GCCC\ASR\GND GR\GCFV_GND_GR.asr
+ASRFastKeys	5	\GCCC\ASR\GND GR\GCRR_GND_GR.asr
+ASRFastKeys	6	\GCCC\ASR\GND GR\GCXO_GND_GR.asr
+ASRFastKeys	7	\GCCC\ASR\GND GR\GCLA_GND_GR.asr
+ASRFastKeys	8	\GCCC\ASR\GND GR\GCHI_GND_GR.asr
+ASRFastKeys	9	\GCCC\ASR\GND GR\GCGM_GND_GR.asr
 Sounds	Sound0	\LEXX\Sounds\handoff_request.wav
 Sounds	Sound1	\LEXX\Sounds\handoff_accept.wav
 Sounds	Sound2	\LEXX\Sounds\conflict_alert.wav
@@ -75,3 +91,5 @@ Sounds	Sound16	\LEXX\Sounds\handoff_refused.wav
 Sounds	Sound17	\LEXX\Sounds\pointout.wav
 Sounds	Sound18	\LEXX\Sounds\startup.wav
 LastSession	server	AUTOMATIC
+TeamSpeakVccs	TsVccsMiniControlX	1607
+TeamSpeakVccs	TsVccsMiniControlY	979

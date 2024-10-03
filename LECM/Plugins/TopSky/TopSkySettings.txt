@@ -555,10 +555,13 @@ WXR_Latitude_Min=34
 WXR_Longitude_Max=1
 WXR_Longitude_Min=-11
 WXR_Brightness=20
-WXR_Gain=100
+WXR_Echo_dBZ_Hi=40
+WXR_Echo_dBZ_Lo=20
+WXR_Echo_dBZ_Med=30
+WXR_DisplayType=0
+WXR_Gain=113
 WXR_ImageSize=512
 WXR_Zoom=5
-WXR_DisplayType=0
 
 HTTP_GRIB_Latitude_Max=47
 HTTP_GRIB_Latitude_Min=34

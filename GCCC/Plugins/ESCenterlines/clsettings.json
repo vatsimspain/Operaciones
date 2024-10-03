@@ -616,7 +616,7 @@
 			{
 				"dash": 1,
 				"gap": 0,
-				"number": 20,
+				"number": 11,
 				"starts_gap": true
 			}
 		],
@@ -691,60 +691,6 @@
 				"direction": "left",
 				"dist_cl": 0,
 				"dist_thr": 6,
-				"length": 0.2
-			},
-			{
-				"angle": 90,
-				"d_airport": "",
-				"d_runway": "",
-				"direction": "right",
-				"dist_cl": 0,
-				"dist_thr": 8,
-				"length": 0.2
-			},
-			{
-				"angle": 90,
-				"d_airport": "",
-				"d_runway": "",
-				"direction": "left",
-				"dist_cl": 0,
-				"dist_thr": 8,
-				"length": 0.2
-			},
-			{
-				"angle": 90,
-				"d_airport": "",
-				"d_runway": "",
-				"direction": "right",
-				"dist_cl": 0,
-				"dist_thr": 10,
-				"length": 0.2
-			},
-			{
-				"angle": 90,
-				"d_airport": "",
-				"d_runway": "",
-				"direction": "left",
-				"dist_cl": 0,
-				"dist_thr": 10,
-				"length": 0.2
-			},
-			{
-				"angle": 90,
-				"d_airport": "",
-				"d_runway": "",
-				"direction": "right",
-				"dist_cl": 0,
-				"dist_thr": 12,
-				"length": 0.2
-			},
-			{
-				"angle": 90,
-				"d_airport": "",
-				"d_runway": "",
-				"direction": "left",
-				"dist_cl": 0,
-				"dist_thr": 12,
 				"length": 0.2
 			}
 		]
@@ -759,7 +705,7 @@
 			{
 				"dash": 1,
 				"gap": 0,
-				"number": 20,
+				"number": 13,
 				"starts_gap": true
 			}
 		],
@@ -852,42 +798,6 @@
 				"direction": "left",
 				"dist_cl": 0,
 				"dist_thr": 8,
-				"length": 0.2
-			},
-			{
-				"angle": 90,
-				"d_airport": "",
-				"d_runway": "",
-				"direction": "right",
-				"dist_cl": 0,
-				"dist_thr": 10,
-				"length": 0.2
-			},
-			{
-				"angle": 90,
-				"d_airport": "",
-				"d_runway": "",
-				"direction": "left",
-				"dist_cl": 0,
-				"dist_thr": 10,
-				"length": 0.2
-			},
-			{
-				"angle": 90,
-				"d_airport": "",
-				"d_runway": "",
-				"direction": "right",
-				"dist_cl": 0,
-				"dist_thr": 12,
-				"length": 0.2
-			},
-			{
-				"angle": 90,
-				"d_airport": "",
-				"d_runway": "",
-				"direction": "left",
-				"dist_cl": 0,
-				"dist_thr": 12,
 				"length": 0.2
 			}
 		]
