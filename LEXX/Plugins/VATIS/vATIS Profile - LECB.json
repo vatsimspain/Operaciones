@@ -1,10 +1,13 @@
 {
   "name": "LECB",
   "id": "fcf909a7-be46-49d1-9904-ab94d3651ced",
+  "updateUrl": "https://raw.githubusercontent.com/vatspa/Operaciones/refs/heads/estable/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECB.json",
+  "updateSerial": 2024122701,
   "composites": [
     {
       "id": "372232d7-0fd9-4cdd-828f-a0b798a8b28e",
       "identifier": "LEAL",
+      "name" : "Alicante",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -337,6 +340,7 @@
     {
       "id": "8d20e738-b8e7-4d42-8a6a-961bee7043b4",
       "identifier": "LEBL",
+      "name" : "Barcelona - El Prat",
       "atisType": "Arrival",
       "codeRange": {
         "low": "A",
@@ -707,6 +711,7 @@
     {
       "id": "42511de8-4795-4236-bc5f-cd8316efbd9c",
       "identifier": "LEBL",
+      "name" : "Barcelona - El Prat",
       "atisType": "Departure",
       "codeRange": {
         "low": "A",
@@ -1057,6 +1062,7 @@
     {
       "id": "ca948c5b-4c18-444e-88a6-e82934823294",
       "identifier": "LEGE",
+      "name" : "Gerona",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -1388,6 +1394,7 @@
     {
       "id": "d1ea5ac2-44ce-4904-b2c0-0355580f94bd",
       "identifier": "LEIB",
+      "name" : "Ibiza",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -1720,6 +1727,7 @@
     {
       "id": "5ec5569a-bde6-40d3-9314-b32aa6f37ee1",
       "identifier": "LEMH",
+      "name" : "Menorca",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -2052,6 +2060,7 @@
     {
       "id": "4d35573f-5d00-4d94-9e27-58b66e11bfaa",
       "identifier": "LEPA",
+      "name" : "Palma de Mallorca",
       "atisType": "Arrival",
       "codeRange": {
         "low": "A",
@@ -2384,6 +2393,7 @@
     {
       "id": "d8389172-88ce-4189-a4e2-3ffe33d3e13e",
       "identifier": "LEPA",
+      "name" : "Palma de Mallorca",
       "atisType": "Departure",
       "codeRange": {
         "low": "A",
@@ -2716,6 +2726,7 @@
     {
       "id": "ca5b578c-ccaa-4a06-8b90-70fa4fd37209",
       "identifier": "LERS",
+      "name" : "Reus",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -3048,6 +3059,7 @@
     {
       "id": "109dfe10-b2be-4397-87ca-6e72ac14c4f7",
       "identifier": "LEVC",
+      "name" : "Valencia",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
