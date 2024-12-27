@@ -1,10 +1,13 @@
 {
   "name": "LECM",
   "id": "c7c86657-2726-4ec5-9529-32f2d2101f5b",
+  "updateUrl": "https://raw.githubusercontent.com/vatspa/Operaciones/refs/heads/estable/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECM.json",
+  "updateSerial": 2024122701,
   "composites": [
     {
       "id": "a7e1777e-b996-431d-af66-3445e5608bef",
       "identifier": "LECO",
+      "name" : "La Coruña",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -333,6 +336,7 @@
     {
       "id": "5462d67c-9bc1-463f-ba42-857559a8b834",
       "identifier": "LEAM",
+      "name" : "Almería",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -660,6 +664,7 @@
     {
       "id": "0804fcd1-bf1b-48a3-997f-f44a63a6447f",
       "identifier": "LEGR",
+      "name" : "Granada",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -987,6 +992,7 @@
     {
       "id": "338ef4de-0282-469d-a95d-b14789d9cfa1",
       "identifier": "LEBB",
+      "name" : "Bilbao",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -1301,6 +1307,7 @@
     {
       "id": "ea613185-187c-41a9-a397-1ada1c0dd425",
       "identifier": "LEVS",
+      "name" : "Cuatro Vientos",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -1629,6 +1636,7 @@
     {
       "id": "72c3f3a9-3236-447c-81c0-983aea71e135",
       "identifier": "LEJR",
+      "name" : "Jerez",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -1957,6 +1965,7 @@
     {
       "id": "3bf141e6-70f1-44fd-ad70-c7f54b7ea1cc",
       "identifier": "LEMD",
+      "name" : "Madrid - Barajas",
       "atisType": "Arrival",
       "codeRange": {
         "low": "A",
@@ -2307,6 +2316,7 @@
     {
       "id": "75ee6a1c-df9e-455c-a1a1-a281fa77d63a",
       "identifier": "LEMD",
+      "name" : "Madrid - Barajas",
       "atisType": "Departure",
       "codeRange": {
         "low": "A",
@@ -2657,6 +2667,7 @@
     {
       "id": "343c206c-afd4-4900-ab22-8d4470911435",
       "identifier": "LEMG",
+      "name" : "Málaga - Costa del Sol",
       "atisType": "Arrival",
       "codeRange": {
         "low": "A",
@@ -2966,6 +2977,7 @@
     {
       "id": "45b9f4eb-c14a-4575-8fda-015247556dac",
       "identifier": "LEMG",
+      "name" : "Málaga - Costa del Sol",
       "atisType": "Departure",
       "codeRange": {
         "low": "A",
@@ -3275,6 +3287,7 @@
     {
       "id": "8950e32d-8656-4cd3-a5b9-527e6762c392",
       "identifier": "LEXJ",
+      "name" : "Seve Ballesteros - Santander",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -3606,6 +3619,7 @@
     {
       "id": "5de658b2-86d6-414b-8801-f0deec947f15",
       "identifier": "LEST",
+      "name" : "Santiago de Compostela",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -3937,6 +3951,7 @@
     {
       "id": "b1fe6fd8-fa50-4367-a997-23d5585c194c",
       "identifier": "LEZL",
+      "name" : "Sevilla",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -4264,6 +4279,7 @@
     {
       "id": "a3a787bb-9cba-453c-9af9-0173808f396b",
       "identifier": "LEVX",
+      "name" : "Vigo",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -4591,6 +4607,7 @@
     {
       "id": "9c07db82-b8c2-4729-a5a6-f1538e99db92",
       "identifier": "LEVT",
+      "name" : "Vitoria",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",

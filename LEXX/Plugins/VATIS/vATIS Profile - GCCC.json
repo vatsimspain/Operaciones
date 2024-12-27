@@ -1,10 +1,13 @@
 {
   "name": "GCCC",
   "id": "7bfc7410-77a3-4245-a437-5a6280f42081",
+  "updateUrl": "https://raw.githubusercontent.com/vatspa/Operaciones/refs/heads/estable/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20GCCC.json",
+  "updateSerial": 2024122701,
   "composites": [
     {
       "id": "9ded66a5-997c-447f-be80-fb1c8b8a4117",
       "identifier": "GCFV",
+      "name": "Fuerteventura",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -333,6 +336,7 @@
     {
       "id": "b34cf418-ad57-421c-9164-22522574deec",
       "identifier": "GCLP",
+      "name": "Gran Canaria",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -697,6 +701,7 @@
     {
       "id": "182b940f-85d2-4f4f-9b33-849a2cddc3ad",
       "identifier": "GCLA",
+      "name": "La Palma",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -1029,6 +1034,7 @@
     {
       "id": "695e1c36-04b2-489a-95d3-c09bea218104",
       "identifier": "GCRR",
+      "name": "César Manrique - Lanzarote",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -1357,6 +1363,7 @@
     {
       "id": "edd49658-eca1-457e-b20d-3a4faf2195ec",
       "identifier": "GCXO",
+      "name": "Tenerife Norte",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -1685,6 +1692,7 @@
     {
       "id": "7c88606e-2f67-4c1e-9640-d1815109a6f3",
       "identifier": "GCTS",
+      "name": "Tenerife Sur",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
