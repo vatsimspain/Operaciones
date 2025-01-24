@@ -5,16 +5,18 @@
 	<expiredCtot time="25" />
 	<realMode mode="true" />
 	<invalidateAtTsat mode="true" />
-	<Rates url="https://archivos.vatsimspain.es/Operaciones/Plugins/CDM_data/rate.txt" />
+	<Rates url="https://archivos.vatsimspain.es/Operaciones/Plugins/CDM_data/rate_v2.txt" />
 	<Taxizones url="https://archivos.vatsimspain.es/Operaciones/Plugins/CDM_data/taxizones.txt" />
 	<Ctot url="https://archivos.vatsimspain.es/Operaciones/Plugins/CDM_data/ctot.txt" />
 	<DefaultTaxiTime minutes="15" />
-	<RefreshTime seconds="20" />
+	<DeIceTimes light="5" medium="9" heavy="12" super="15"/>
+	<RefreshTime seconds="10" />
 	<Debug mode="false" />
-	<vdgsFileType type="3"/>
 	<FlowRestrictions url="https://ecfmp.vatsim.net/api/v1/plugin" />
+	<vdgsFileType type="3" />
 	<ftpHost host="ftp.vatsimspain.es" />
 	<ftpUser user="aman_vatspa" />
 	<ftpPassword password="Ek0TxdyF33yaxBqxRAK5" />
+	<Server mode="true" />
 	<Su_Wait mode="true" />
 </CDM>

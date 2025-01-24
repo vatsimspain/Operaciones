@@ -165,10 +165,11 @@ m_Column:N/TIPO:6:1:10022:0:0:1:TopSky plugin:::0:0.0
 m_Column:STND:5:0:1:13:1:1:Ground Radar plugin:Ground Radar plugin:Ground Radar plugin:0:0.0
 m_Column:EOBT:5:1:1:120:0:1:CDM Plugin:CDM Plugin::0:0.0
 m_Column:E:2:1:9:0:0:1:CDM Plugin:::0:0.0
-m_Column:TOBT:5:1:4:121:0:1:CDM Plugin:CDM Plugin::0:0.0
+m_Column:TOBT:5:1:4:121:114:1:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
 m_Column:EVCT:5:1:15:130:0:0:CDM Plugin:CDM Plugin::0:0.0
 m_Column:CTOT:5:1:10:108:0:1:CDM Plugin:CDM Plugin::0:0.0
-m_Column:FM:10:0:11:0:0:0:CDM Plugin:::0:0.0
+m_Column:STS:5:0:18:137:0:1:CDM Plugin:CDM Plugin::0:0.0
+m_Column:FM:10:0:11:0:0:1:CDM Plugin:::0:0.0
 m_Column:TSAT:5:1:2:0:0:1:CDM Plugin:::0:0.0
 m_Column:TSAC:5:1:5:122:0:1:CDM Plugin:CDM Plugin::0:0.0
 m_Column:ASRT:5:1:7:107:0:1:CDM Plugin:CDM Plugin::0:0.0
