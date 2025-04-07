@@ -19,6 +19,10 @@ PROFILE:GCCA_INB_APP:150:5
 ATIS2:$radioname - PDC/DCL Datalink [CINB]
 ATIS3:Covering GCTS/XO/GM/LA/HI below FL245 - vats.im/gccc
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
+PROFILE:GCCA_NBE_APP:150:5
+ATIS2:$radioname - PDC/DCL Datalink [CINB]
+ATIS3:Covering GCTS/XO below FL245 - vats.im/gccc
+ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:GCCA_AAC_APP:150:5
 ATIS2:$radioname - PDC/DCL Datalink [CAAC]
 ATIS3:Covering GCFV/RR below FL125 - vats.im/gccc
