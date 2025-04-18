@@ -467,4 +467,20 @@ PROFILE:LECG_APP:150:5
 ATIS2:$radioname - PDC/DCL Datalink [LECG]
 ATIS3:vats.im/lexx
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
+PROFILE:LECM_CZU_CTR:400:6
+ATIS2:$radioname - NO CPDLC
+ATIS3:Only covering above FL245 - My active sector vats.im/lexx
+ATIS4:charts aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
+PROFILE:LECM_NEU_CTR:400:6
+ATIS2:$radioname - NO CPDLC
+ATIS3:Only covering above FL245 - My active sector vats.im/lexx
+ATIS4:charts aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
+PROFILE:LECM_ZTU_CTR:400:6
+ATIS2:$radioname - NO CPDLC
+ATIS3:Only covering above FL245 - My active sector vats.im/lexx
+ATIS4:charts aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
+PROFILE:LECM_SAU_CTR:400:6
+ATIS2:$radioname - NO CPDLC
+ATIS3:Only covering above FL245 - My active sector vats.im/lexx
+ATIS4:charts aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 END
