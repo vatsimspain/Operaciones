@@ -13,11 +13,11 @@ ATIS3:My active sector vats.im/lexx
 ATIS4:charts aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LECB_DDI_CTR:400:6
 ATIS2:$radioname - CPDLC [CDDI]
-ATIS3:My active sector vats.im/lexx
+ATIS3:Coverage from SFC/FL305 - My active sector vats.im/lexx
 ATIS4:charts aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LECB_XAL_CTR:400:6
 ATIS2:$radioname - CPDLC [CXAL]
-ATIS3:My active sector vats.im/lexx
+ATIS3:Coverage from SFC/FL305 - My active sector vats.im/lexx
 ATIS4:charts aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LECB_CCC_CTR:400:6
 ATIS2:$radioname - CPDLC [CCCC]
