@@ -54,6 +54,78 @@
 			</sid>
 		</runway>
     </apt>
+	<apt icao="LEMH">
+		<runway name="01">
+			<sid name="BAVER">
+				<alt>060</alt>
+			</sid>
+			<sid name="EDULI">
+				<alt>060</alt>
+			</sid>
+			<sid name="MJV">
+				<alt>060</alt>
+			</sid>
+			<sid name="EPAMA">
+				<alt>060</alt>
+			</sid>
+			<sid name="NEVIC">
+				<alt>060</alt>
+			</sid>
+			<sid name="MAMEB">
+				<alt>060</alt>
+			</sid>
+			<sid name="LUNIK">
+				<alt>060</alt>
+			</sid>
+			<sid name="SARGO">
+				<alt>060</alt>
+			</sid>
+			<sid name="MEROS">
+				<alt>060</alt>
+			</sid>
+			<sid name="ISTER">
+				<alt>060</alt>
+			</sid>
+			<sid name="MORSS">
+				<alt>060</alt>
+			</sid>
+		</runway>
+		<runway name="19">
+			<sid name="BAVER">
+				<alt>060</alt>
+			</sid>
+			<sid name="EDULI">
+				<alt>060</alt>
+			</sid>
+			<sid name="MJV">
+				<alt>060</alt>
+			</sid>
+			<sid name="EPAMA">
+				<alt>060</alt>
+			</sid>
+			<sid name="NEVIC">
+				<alt>060</alt>
+			</sid>
+			<sid name="MAMEB">
+				<alt>060</alt>
+			</sid>
+			<sid name="LUNIK">
+				<alt>060</alt>
+			</sid>
+			<sid name="SARGO">
+				<alt>060</alt>
+			</sid>
+			<sid name="MEROS">
+				<alt>060</alt>
+			</sid>
+			<sid name="ISTER">
+				<alt>060</alt>
+			</sid>
+			<sid name="MORSS">
+				<alt>060</alt>
+			</sid>
+		</runway>
+	</apt>
 	<apt icao="LEPA">
 		<runway name="24R">
 			<sid name="BAVER">
