@@ -126,6 +126,36 @@
 			</sid>
 		</runway>
 	</apt>
+	<apt icao="LEGE">
+		<runway name="01">
+			<sid name="VIBOK">
+				<alt>080</alt>
+			</sid>
+			<sid name="BGR">
+				<alt>080</alt>
+			</sid>
+			<sid name="MAMUK">
+				<alt>080</alt>
+			</sid>
+			<sid name="GEANT">
+				<alt>080</alt>
+			</sid>
+		</runway>
+		<runway name="19">
+			<sid name="VIBOK">
+				<alt>080</alt>
+			</sid>
+			<sid name="BGR">
+				<alt>080</alt>
+			</sid>
+			<sid name="MAMUK">
+				<alt>080</alt>
+			</sid>
+			<sid name="GEANT">
+				<alt>080</alt>
+			</sid>
+		</runway>
+	</apt>
 	<apt icao="LEPA">
 		<runway name="24R">
 			<sid name="BAVER">
