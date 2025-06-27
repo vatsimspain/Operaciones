@@ -2,7 +2,7 @@
   "name": "LECB",
   "id": "fcf909a7-be46-49d1-9904-ab94d3651ced",
   "updateUrl": "https://raw.githubusercontent.com/vatspa/Operaciones/refs/heads/estable/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECB.json",
-  "updateSerial": 2024122701,
+  "updateSerial": 2025062701,
   "composites": [
     {
       "id": "372232d7-0fd9-4cdd-828f-a0b798a8b28e",
@@ -699,6 +699,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "{notams}",
+            "voice": "{notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -732,6 +738,7 @@
           "id": "799dd449-5de1-4ba7-94c8-3206e55d3b37",
           "name": "WRL",
           "airportConditions": "RWY IN USE FOR DEPARTURES 24 LEFT.",
+          "notams": "AFTER DEPARTURE CONTACT NEXT AVAILABLE ATC BEFORE PASSING 2000FT..",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -741,6 +748,7 @@
           "id": "04ad6741-2b86-4b45-a82a-f7520926f63b",
           "name": "WLL",
           "airportConditions": "RWY IN USE FOR DEPARTURES 24 LEFT.",
+          "notams": "AFTER DEPARTURE CONTACT NEXT AVAILABLE ATC BEFORE PASSING 2000FT..",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -750,6 +758,7 @@
           "id": "720992bf-f126-4ee7-9e0b-af213933b83a",
           "name": "ENR",
           "airportConditions": "RWY IN USE FOR DEPARTURES 06 RIGHT.",
+          "notams": "AFTER DEPARTURE CONTACT NEXT AVAILABLE ATC BEFORE PASSING 2000FT..",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -759,6 +768,7 @@
           "id": "478c8d14-95e0-4d05-a04e-452b2c3a6e99",
           "name": "ELR",
           "airportConditions": "RWY IN USE FOR DEPARTURES 06 RIGHT.",
+          "notams": "AFTER DEPARTURE CONTACT NEXT AVAILABLE ATC BEFORE PASSING 2000FT..",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -809,6 +819,11 @@
         {
           "string": "NOSIG",
           "spoken": "NO-SIG"
+        },
+        {
+          "variableName": "2000FT",
+          "text": "2000FT",
+          "voice": "TWO THOUSAND FEETS"
         }
       ],
       "airportConditionDefinitions": [],
@@ -1048,6 +1063,12 @@
           "template": {
             "text": "TRANSITION LEVEL {trl}",
             "voice": "TRANSITION LEVEL {trl}"
+          }
+        },
+        "notams": {
+          "template": {
+            "text": "{notams}",
+            "voice": "{notams}"
           }
         },
         "closingStatement": {
@@ -3378,6 +3399,12 @@
           "template": {
             "text": "TRANSITION LEVEL {trl}",
             "voice": "TRANSITION LEVEL {trl}"
+          }
+        },
+        "notams": {
+          "template": {
+            "text": "{notams}",
+            "voice": "{notams}"
           }
         },
         "closingStatement": {
