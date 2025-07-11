@@ -1543,7 +1543,7 @@
                "destinations": ["EDDF","EDDG","EDDL","EDFM","EDLP","EDLV","EDLW","EHAL","EHAM","EHBD","EHDL","EHDR","EHEH","EHGG","EHGR","EHHO","EHHV","EHKD","EHLE","EHLW","EHMZ","EHOW","EHRD","EHSE","EHST","EHTE","EHTW","EHTX","EHVK","EHWO"]
             },
             {
-               "direction": "ODD",
+               "direction": "EVEN",
                "min_fl": 195,
                "max_fl": 660
             }
