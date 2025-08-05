@@ -43,12 +43,13 @@ System_AutoAssignDist=50
 Color_Departure=95,220,1
 Color_Arrival=255,130,4
 Color_Caution=180,180,0
-Color_Runway=150,150,150
-Color_RunwayExtension=100,100,100
-Color_Background=0,0,0
+Color_APP_Runway=150,150,150
+Color_APP_RunwayExtension=100,100,100
+Color_APP_Background=0,0,0
 Color_WBackground=80,80,80
 Color_WBackground2=95,95,95
 Color_WBackground3=120,120,120
+Color_WBackground4=80,80,80
 Color_WForeground=255,255,255
 Color_WForeground2=130,130,130
 Color_Selected=200,200,200
@@ -156,13 +157,9 @@ List_Outbound_ExpiryTime=600
 List_Outbound_WTC_Type=0
 List_Outbound_SID_MaxChars=3
 RawVideo=0
-Window_APP_Extensions=10
-Window_APP_Extensions_TickWidth=0.3
-Window_APP_Rotation=0
-Window_APP=1,0,422,520,270
-Window_APP_Scale=10
-Window_APP_AltFilter=6000
 Equip_ProMode=0
+Window_APP_DefPos=0,422
+Window_APP_DefSize=520,270
 
 /--------------------TAG DEFINITION---------------------
 
@@ -210,7 +207,7 @@ Airport_Radius=2
 Window_APP_Extensions=0
 Window_APP_Extensions_TickWidth=0
 Window_APP_Rotation=-10
-Window_APP=1,0,335,680,270
+Window_APP=1,1,0,335,680,270
 Window_APP_AltFilter=7000
 System_TowerMode_AltFilter_Low=192
 
@@ -228,7 +225,7 @@ Airport_Radius=3
 Window_APP_Extensions=0
 Window_APP_Extensions_TickWidth=0
 Window_APP_Rotation=24
-Window_APP=1,1025,580,680,260
+Window_APP=1,1,1025,580,680,260
 Window_APP_Scale=10
 Window_APP_AltFilter=7000
 System_TowerMode_AltFilter_Low=64
@@ -248,6 +245,7 @@ Airport_Radius=1
 Airport_Elevation=1182
 Window_APP_AltFilter=8200
 System_TowerMode_AltFilter_Low=1232
+Window_APP=1,1,0,422,520,270
 
 [LEDA]
 
@@ -262,6 +260,7 @@ Airport_Radius=1
 Airport_Elevation=1152
 Window_APP_AltFilter=8200
 System_TowerMode_AltFilter_Low=1202
+Window_APP=1,1,0,422,520,270
 
 [LEGE]
 
@@ -278,6 +277,7 @@ Window_APP_AltFilter=7500
 System_TowerMode_AltFilter_Low=519
 Airport_Runway_Thr=19:N041.54.56.524:E002.45.57.945
 Airport_Runway_End=19:N041.54.56.524:E002.45.57.945
+Window_APP=1,1,0,422,520,270
 
 [LEIB]
 
@@ -293,7 +293,7 @@ Airport_Radius=2
 Window_APP_Extensions=0
 Window_APP_Extensions_TickWidth=0
 Window_APP_Rotation=28.4
-Window_APP=1,0,381,580,320
+Window_APP=1,1,0,381,580,320
 Window_APP_AltFilter=7000
 System_TowerMode_AltFilter_Low=74
 
@@ -308,7 +308,7 @@ Airport_ModeS=2
 Airport_Dep_Transfer_Height=3500
 Airport_Elevation=485
 Airport_Radius=2
-Window_APP=1,0,322,520,270
+Window_APP=1,1,0,322,520,270
 Window_APP_AltFilter=7500
 Window_APP_Extensions=3
 Window_APP_Rotation=323.4
@@ -330,7 +330,7 @@ Airport_ModeS=2
 Airport_Dep_Transfer_Height=1000
 Airport_Elevation=303
 Airport_Radius=1
-Window_APP=1,0,340,580,320
+Window_APP=1,1,0,340,580,320
 Window_APP_Extensions=0
 Window_APP_Extensions_TickWidth=0
 Window_APP_Rotation=0
@@ -355,6 +355,7 @@ Window_APP_Extensions_TickWidth=0
 Window_APP_Rotation=45.4
 Window_APP_AltFilter=7700
 System_TowerMode_AltFilter_Low=700
+Window_APP=1,1,0,422,520,270
 
 [LEPA]
 
@@ -370,7 +371,7 @@ Airport_Radius=2
 Window_APP_Extensions=0
 Window_APP_Extensions_TickWidth=0
 Window_APP_Rotation=31.5
-Window_APP=1,0,381,580,320
+Window_APP=1,1,0,381,580,320
 Window_APP_Scale=5
 Window_APP_AltFilter=7000
 System_TowerMode_AltFilter_Low=77
@@ -397,6 +398,7 @@ Window_APP_Rotation=20.79
 System_TowerMode_AltFilter_Low=280
 Airport_Runway_Thr=07:N041.08.38.768:E001.09.21.012
 Airport_Runway_End=07:N041.08.38.768:E001.09.21.012
+Window_APP=1,1,0,422,520,270
 
 [LESU]
 
@@ -411,6 +413,7 @@ Airport_Elevation=2630
 Airport_Radius=1
 Window_APP_AltFilter=9700
 System_TowerMode_AltFilter_Low=2680
+Window_APP=1,1,0,422,520,270
 
 [LEVC]
 
@@ -426,7 +429,7 @@ Airport_Radius=3
 Window_APP_Extensions=0
 Window_APP_Extensions_TickWidth=0
 Window_APP_Rotation=153.6
-Window_APP=1,1520,371,400,300
+Window_APP=1,1,1520,371,400,300
 Window_APP_Scale=9
 Window_APP_AltFilter=7300
 System_TowerMode_AltFilter_Low=290
