@@ -357,6 +357,7 @@
           "id": "9e069ef7-33bc-433f-8e79-2a8607e3963f",
           "name": "NORTH",
           "airportConditions": "DEPARTURE RWY 03 RIGHT. ARRIVAL RWY 03 LEFT. EXPECT ILS Z APPROACH RWY 03 LEFT.",
+          "notams": "COMPLY 190 KNOTS IAS AT FALPU AND 160 AT 4 DME. ADVISE IF UNABLE.. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -366,6 +367,7 @@
           "id": "6c1b902f-4d96-44ab-9aae-484aa1c1d61b",
           "name": "SOUTH",
           "airportConditions": "DEPARTURE RWY 21 LEFT. ARRIVAL RWY 21 RIGHT. EXPECT ILS Z APPROACH RWY 21 RIGHT.",
+          "notams": "COMPLY 190 KNOTS IAS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE.. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -375,6 +377,7 @@
           "id": "5bc5e143-0a4e-4a94-8637-32beb1483d94",
           "name": "NORTH SINGLE",
           "airportConditions": "DEPARTURE RWY 03 LEFT. ARRIVAL RWY 03 LEFT. EXPECT ILS Z APPROACH RWY 03 LEFT.",
+          "notams": "COMPLY 190 KNOTS IAS AT FALPU AND 160 AT 4 DME. ADVISE IF UNABLE.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -384,6 +387,7 @@
           "id": "1e1e3526-4b0e-4905-a278-8253cc5e0044",
           "name": "SOUTH SINGLE",
           "airportConditions": "DEPARTURE RWY 21 RIGHT. ARRIVAL RWY 21 RIGHT. EXPECT ILS Z APPROACH RWY 21 RIGHT.",
+          "notams": "COMPLY 190 KNOTS IAS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -393,6 +397,7 @@
           "id": "4ad0c7ff-52ca-4e21-8609-33841dcf4264",
           "name": "NORTH DUAL",
           "airportConditions": "DEPARTURE RWY 03 LEFT AND 03 RIGHT. ARRIVAL RWY 03 LEFT. EXPECT ILS Z APPROACH RWY 03 LEFT.",
+          "notams": "COMPLY 190 KNOTS IAS AT FALPU AND 160 AT 4 DME. ADVISE IF UNABLE.. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -402,6 +407,7 @@
           "id": "db9b3a37-faf2-4df5-aeec-1378bd884fb0",
           "name": "SOUTH DUAL",
           "airportConditions": "DEPARTURE RWY 21 RIGHT AND 21 LEFT. ARRIVAL RWY 21 RIGHT. EXPECT ILS Z APPROACH RWY 21 RIGHT.",
+          "notams": "COMPLY 190 KNOTS IAS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE.. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
