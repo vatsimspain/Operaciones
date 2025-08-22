@@ -55,12 +55,13 @@ System_AutoAssignDist=50
 Color_Departure=95,220,1
 Color_Arrival=255,130,4
 Color_Caution=180,180,0
-Color_Runway=150,150,150
-Color_RunwayExtension=100,100,100
-Color_Background=0,0,0
+Color_APP_Runway=150,150,150
+Color_APP_RunwayExtension=100,100,100
+Color_APP_Background=0,0,0
 Color_WBackground=80,80,80
 Color_WBackground2=95,95,95
 Color_WBackground3=120,120,120
+Color_WBackground4=80,80,80
 Color_WForeground=255,255,255
 Color_WForeground2=130,130,130
 Color_Selected=200,200,200
@@ -168,13 +169,9 @@ List_Outbound_ExpiryTime=600
 List_Outbound_WTC_Type=0
 List_Outbound_SID_MaxChars=3
 RawVideo=0
-Window_APP_Extensions=10
-Window_APP_Extensions_TickWidth=0.3
-Window_APP_Rotation=0
-Window_APP=1,0,422,520,270
-Window_APP_Scale=10
-Window_APP_AltFilter=6000
 Equip_ProMode=0
+Window_APP_DefPos=0,422
+Window_APP_DefSize=520,270
 
 /--------------------TAG DEFINITION---------------------
 
@@ -220,6 +217,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=2301
 Airport_Radius=1.2
 Window_APP_AltFilter=9300
+Window_APP=1,1,0,422,520,270
 
 [LEAM]
 
@@ -233,6 +231,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=70
 Airport_Radius=1.2
 Window_APP_AltFilter=7000
+Window_APP=1,1,0,422,520,270
 
 [LEAS]
 
@@ -246,6 +245,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=414
 Airport_Radius=2
 Window_APP_AltFilter=7500
+Window_APP=1,1,0,422,520,270
 
 [LEBB]
 
@@ -259,6 +259,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=136
 Airport_Radius=1.2
 Window_APP_AltFilter=7200
+Window_APP=1,1,0,422,520,270
 
 [LEBG]
 
@@ -272,6 +273,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=2962
 Airport_Radius=2
 Window_APP_AltFilter=10000
+Window_APP=1,1,0,422,520,270
 
 [LEBZ]
 
@@ -285,6 +287,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=608
 Airport_Radius=1.2
 Window_APP_AltFilter=7700
+Window_APP=1,1,0,422,520,270
 
 [LECO]
 
@@ -298,6 +301,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=330
 Airport_Radius=1.2
 Window_APP_AltFilter=7400
+Window_APP=1,1,0,422,520,270
 
 [LEGR]
 
@@ -311,6 +315,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=1860
 Airport_Radius=1.2
 Window_APP_AltFilter=8900
+Window_APP=1,1,0,422,520,270
 
 [LEGT]
 
@@ -324,6 +329,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=2032
 Airport_Radius=2
 Window_APP_AltFilter=9100
+Window_APP=1,1,0,422,520,270
 
 [LEHC]
 
@@ -337,6 +343,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=1769
 Airport_Radius=1.2
 Window_APP_AltFilter=8800
+Window_APP=1,1,0,422,520,270
 
 [LEJR]
 
@@ -350,6 +357,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=93
 Airport_Radius=1
 Window_APP_AltFilter=7100
+Window_APP=1,1,0,422,520,270
 
 [LELN]
 
@@ -363,6 +371,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=3006
 Airport_Radius=1.2
 Window_APP_AltFilter=10000
+Window_APP=1,1,0,422,520,270
 
 [LEMD]
 
@@ -391,7 +400,7 @@ Airport_Runway_Thr=18R:N040.31.55.919:W003.34.29.478
 Airport_Runway_End=18R:N040.31.55.919:W003.34.29.478
 Window_APP_Rotation=270.2
 Window_APP_AltFilter=9000
-Window_APP=1,0,665,585,280
+Window_APP=1,1,0,665,585,280
 Window_APP_Extensions=0
 Window_APP_Extensions_TickWidth=0
 
@@ -408,7 +417,7 @@ Airport_Elevation=52
 Airport_Radius=2
 Airport_Runway_Thr=30:N036.40.39.145:W004.28.32.389
 Airport_Runway_End=30:N036.40.39.145:W004.28.32.389
-Window_APP=1,1252,363,360,230
+Window_APP=1,1,1252,363,360,230
 Window_APP_Rotation=317
 Window_APP_Scale=14
 Window_APP_Extensions=0
@@ -427,6 +436,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=1506
 Airport_Radius=1.2
 Window_APP_AltFilter=8500
+Window_APP=1,1,0,422,520,270
 
 [LERJ]
 
@@ -440,6 +450,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=1156
 Airport_Radius=1.2
 Window_APP_AltFilter=8200
+Window_APP=1,1,0,422,520,270
 
 [LERL]
 
@@ -453,6 +464,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=622
 Airport_Radius=1.2
 Window_APP_AltFilter=7700
+Window_APP=1,1,0,422,520,270
 
 [LERT]
 
@@ -466,6 +478,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=86
 Airport_Radius=1.2
 Window_APP_AltFilter=7100
+Window_APP=1,1,0,422,520,270
 
 [LESA]
 
@@ -479,6 +492,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=2595
 Airport_Radius=1.2
 Window_APP_AltFilter=9600
+Window_APP=1,1,0,422,520,270
 
 [LESO]
 
@@ -492,6 +506,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=15
 Airport_Radius=1.2
 Window_APP_AltFilter=7100
+Window_APP=1,1,0,422,520,270
 
 [LEST]
 
@@ -505,6 +520,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=1211
 Airport_Radius=1.2
 Window_APP_AltFilter=8300
+Window_APP=1,1,0,422,520,270
 
 [LETL]
 
@@ -518,6 +534,7 @@ Airport_Dep_Transfer_Height=2000
 Airport_Elevation=1337
 Airport_Radius=2
 Window_APP_AltFilter=8400
+Window_APP=1,1,0,422,520,270
 
 [LETO]
 
@@ -531,6 +548,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=2026
 Airport_Radius=2
 Window_APP_AltFilter=9100
+Window_APP=1,1,0,422,520,270
 
 [LEVD]
 
@@ -544,6 +562,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=2775
 Airport_Radius=2
 Window_APP_AltFilter=9800
+Window_APP=1,1,0,422,520,270
 
 [LEVT]
 
@@ -557,6 +576,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=1682
 Airport_Radius=1.2
 Window_APP_AltFilter=8000
+Window_APP=1,1,0,422,520,270
 
 [LEVX]
 
@@ -570,6 +590,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=856
 Airport_Radius=1.2
 Window_APP_AltFilter=7900
+Window_APP=1,1,0,422,520,270
 
 [LEXJ]
 
@@ -583,6 +604,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=16
 Airport_Radius=1.2
 Window_APP_AltFilter=7100
+Window_APP=1,1,0,422,520,270
 
 [LEZG]
 
@@ -596,6 +618,7 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=862
 Airport_Radius=5
 Window_APP_AltFilter=7900
+Window_APP=1,1,0,422,520,270
 
 [LEZL]
 
@@ -609,3 +632,4 @@ Airport_Dep_Transfer_Height=1000
 Airport_Elevation=111
 Airport_Radius=2
 Window_APP_AltFilter=7200
+Window_APP=1,1,0,422,520,270

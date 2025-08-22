@@ -1778,6 +1778,7 @@
           "id": "fb252ca9-5176-40d5-9342-cd02780e0c96",
           "name": "SOUTH",
           "airportConditions": "DEPARTURE RWY 19. ARRIVAL RWY 19. EXPECT ILS Y APPROACH RWY 19.",
+          "notams":"CAUTION TANGO 1 IS ON MAIN TAXIWAY",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
