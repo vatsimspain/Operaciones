@@ -81,7 +81,7 @@ ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
 ATIS4:charts aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEMD_W_DEL:20:2
 ATIS2:$radioname - PDC/DCL Datalink [LEMW]
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:DEPARTURES VIA SIE,ZMR,BARDI,CCS,VTB CONTACT ME - TOBT/TSAT at vats.im/vdgs
 ATIS4:charts aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEMD_GND:20:3
 ATIS2:$radioname - PDC/DCL Datalink [LEMD]
