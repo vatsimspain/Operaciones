@@ -119,15 +119,15 @@ PROFILE:LEMD_TWR:50:4
 ATIS2:$radioname - PDC/DCL Datalink [LEMD]
 ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
-PROFILE:LEMD_E_TWR:50:4
+PROFILE:LEMD_SE_TWR:50:4
+ATIS2:$radioname - PDC/DCL Datalink [LEMD]
+ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
+PROFILE:LEMD_NE_TWR:50:4
 ATIS2:$radioname - PDC/DCL Datalink [LEMD]
 ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEMD_N_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEMD]
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
-ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
-PROFILE:LEMD_S_TWR:50:4
 ATIS2:$radioname - PDC/DCL Datalink [LEMD]
 ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
