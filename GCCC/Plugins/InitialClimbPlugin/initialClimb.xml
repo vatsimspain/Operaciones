@@ -328,6 +328,36 @@
 			</sid>
 		</runway>
     </apt>
+	<apt icao="GCHI">
+		<runway name="16">
+			<sid name="ARACO">
+				<alt>050</alt>
+			</sid>
+			<sid name="LPC">
+				<alt>050</alt>
+			</sid>
+			<sid name="TFN">
+				<alt>050</alt>
+			</sid>
+			<sid name="YELBE">
+				<alt>050</alt>
+			</sid>
+		</runway>
+		<runway name="34">
+			<sid name="ARACO">
+				<alt>050</alt>
+			</sid>
+			<sid name="LPC">
+				<alt>050</alt>
+			</sid>
+			<sid name="TFN">
+				<alt>050</alt>
+			</sid>
+			<sid name="YELBE">
+				<alt>050</alt>
+			</sid>
+		</runway>
+	</apt>
 	<apt icao="GCRR">
 		<runway name="03">
 			<sid name="BAMKU">
