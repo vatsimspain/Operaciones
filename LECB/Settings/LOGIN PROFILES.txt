@@ -33,7 +33,7 @@ ATIS3:My active sector vats.im/lexx (BCN TMA up to FL195)
 ATIS4:charts aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LECB_RE_CTR:400:6
 ATIS2:$radioname - CPDLC [CBRE]
-ATIS3:My active sector (Not covering BCN TMA)
+ATIS3:My active sector vats.im/lexx (Not covering BCN TMA)
 ATIS4:charts aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LECB_PPI_CTR:400:6
 ATIS2:$radioname - CPDLC [CPPI]
