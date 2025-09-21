@@ -525,21 +525,15 @@
 			"BLN": [
             {
                "direction": "EVEN",
-			   "min_fl": 145,
+			   "min_fl": 95,
 			   "max_fl": 325,
-			   "airways": ["UN865","UN869","UL27","UN747"],
+			   "airways": ["N865","N869","L27","N747"],
 			   "destinations": ["LEMD","LECU","LEGT","LEMD","LETO","LEVS"]
             },
 			{
                "direction": "EVEN",
-			   "min_fl": 145,
-			   "airways": ["UN865","UN869","UL27","UN747"]
-            },
-			{
-               "direction": "EVEN",
 			   "min_fl": 95,
-			   "max_fl": 145,
-			   "airways": ["J865","G5","R47"]
+			   "airways": ["N865","N869","L27","N747"]
             }
 		],
 			"VIBAS": [
