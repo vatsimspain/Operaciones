@@ -33,7 +33,7 @@ ATIS3:My active sector vats.im/lexx (BCN TMA up to FL195)
 ATIS4:charts aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LECB_RE_CTR:400:6
 ATIS2:$radioname - CPDLC [CBRE]
-ATIS3:My active sector (Not covering BCN TMA)
+ATIS3:My active sector vats.im/lexx (Not covering BCN TMA)
 ATIS4:charts aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LECB_PPI_CTR:400:6
 ATIS2:$radioname - CPDLC [CPPI]
@@ -57,15 +57,15 @@ ATIS3:My active sector vats.im/lexx
 ATIS4:charts aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEAL_DEL:20:2
 ATIS2:$radioname - PDC/DCL Datalink [LEAL]
-ATIS3:vats.im/lexx
+ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEAL_GND:20:3
 ATIS2:$radioname - PDC/DCL Datalink [LEAL]
-ATIS3:vats.im/lexx
+ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEAL_TWR:50:4
 ATIS2:$radioname - PDC/DCL Datalink [LEAL]
-ATIS3:vats.im/lexx
+ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEAL_APP:150:5
 ATIS2:$radioname - PDC/DCL Datalink [LEAL]
@@ -77,27 +77,27 @@ ATIS3:Covering LEAL, LELC & LEMI below FL245 - vats.im/lexx
 ATIS4:charts aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEBL_DEL:20:2
 ATIS2:$radioname - PDC/DCL Datalink [LEBL]
-ATIS3:vats.im/lexx
+ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEBL_GND:20:3
 ATIS2:$radioname - PDC/DCL Datalink [LEBL]
-ATIS3:vats.im/lexx
+ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEBL_C_GND:20:3
 ATIS2:$radioname - PDC/DCL Datalink [LEBL]
-ATIS3:vats.im/lexx
+ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEBL_S_GND:20:3
 ATIS2:$radioname - PDC/DCL Datalink [LEBL]
-ATIS3:vats.im/lexx
+ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEBL_TWR:50:4
 ATIS2:$radioname - PDC/DCL Datalink [LEBL]
-ATIS3:vats.im/lexx
+ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEBL_S_TWR:50:4
 ATIS2:$radioname - PDC/DCL Datalink [LEBL]
-ATIS3:vats.im/lexx
+ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEBL_APP:150:5
 ATIS2:$radioname - PDC/DCL Datalink [LEBL]
@@ -149,15 +149,15 @@ ATIS3:Procedural APP Service SFC/6500ft - vats.im/lexx
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEIB_DEL:20:2
 ATIS2:$radioname - PDC/DCL Datalink [LEIB]
-ATIS3:vats.im/lexx
+ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEIB_GND:20:3
 ATIS2:$radioname - PDC/DCL Datalink [LEIB]
-ATIS3:vats.im/lexx
+ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEIB_TWR:50:4
 ATIS2:$radioname - PDC/DCL Datalink [LEIB]
-ATIS3:vats.im/lexx
+ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEIB_IXX_APP:150:5
 ATIS2:$radioname - PDC/DCL Datalink [LEIB]
@@ -213,23 +213,23 @@ ATIS3:vats.im/lexx
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEPA_DEL:20:2
 ATIS2:$radioname - PDC/DCL Datalink [LEPA]
-ATIS3:vats.im/lexx
+ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEPA_GND:20:3
 ATIS2:$radioname - PDC/DCL Datalink [LEPA]
-ATIS3:vats.im/lexx
+ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEPA_N_GND:20:3
 ATIS2:$radioname - PDC/DCL Datalink [LEPA]
-ATIS3:vats.im/lexx
+ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEPA_TWR:50:4
 ATIS2:$radioname - PDC/DCL Datalink [LEPA]
-ATIS3:vats.im/lexx
+ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEPA_D_TWR:50:4
 ATIS2:$radioname - PDC/DCL Datalink [LEPA]
-ATIS3:vats.im/lexx
+ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
 ATIS4:Charts on aip.enaire.es/AIP/ - We love feedback! vatsimspain.es/en/vacc/contacto/
 PROFILE:LEPA_APP:150:5
 ATIS2:$radioname - PDC/DCL Datalink [LEPA]

@@ -667,6 +667,26 @@ Window_ASM=0
 STCA_Floor=3077
 Setup_LoadView=RW3
 
+[GCCC_NEL_CTR]
+WXR_Latitude=29.5
+WXR_Longitude=-13.2
+WXR_Latitude_Max=31
+WXR_Latitude_Min=28
+WXR_Longitude_Max=-12
+WXR_Longitude_Min=-15
+HTTP_GRIB_Latitude_Max=31
+HTTP_GRIB_Latitude_Min=28
+HTTP_GRIB_Longitude_Max=-12
+HTTP_GRIB_Longitude_Min=-15
+WXR_Zoom=6
+Setup_ScreenLat=GCRR
+Window_CPDLC_Setting=3,0,365
+Window_QNHTL=1,1636,741
+Window_ASM=0
+STCA_Floor=1083
+Setup_LoadView=NEL
+CPDLC_Default=0
+
 [GCCA_INB_APP]
 WXR_Latitude=28.5
 WXR_Longitude=-17.3
