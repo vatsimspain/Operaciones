@@ -2,7 +2,7 @@
   "name": "LECB",
   "id": "fcf909a7-be46-49d1-9904-ab94d3651ced",
   "updateUrl": "https://raw.githubusercontent.com/vatspa/Operaciones/refs/heads/estable/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECB.json",
-  "updateSerial": 2025083001,
+  "updateSerial": 2025083002,
   "composites": [
     {
       "id": "372232d7-0fd9-4cdd-828f-a0b798a8b28e",
@@ -1776,7 +1776,7 @@
         },
         {
           "id": "cd7131e8-9684-42dd-bea7-611919626d08",
-          "name": "WEST",
+          "name": "EAST",
           "airportConditions": "DEPARTURE RWY 05L AND 05R. ARRIVAL RWY 05R. EXPECT ILS Z APPROACH RWY 05R.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
