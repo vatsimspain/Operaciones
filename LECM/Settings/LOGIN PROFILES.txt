@@ -77,7 +77,7 @@ ATIS3:My active sector vats.im/lexx
 ATIS4:charts vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEMD_DEL:20:2
 ATIS2:$radioname - PDC/DCL Datalink [LEMD]
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:charts vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEMD_W_DEL:20:2
 ATIS2:$radioname - PDC/DCL Datalink [LEMW]
@@ -85,51 +85,51 @@ ATIS3:DEPARTURES VIA SIE,ZMR,BARDI,CCS,VTB CONTACT ME - TOBT/TSAT at vats.im/vdg
 ATIS4:charts vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEMD_GND:20:3
 ATIS2:$radioname - PDC/DCL Datalink [LEMD]
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:charts vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEMD_C_GND:20:3
 ATIS2:$radioname - PDC/DCL Datalink [LEMD]
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEMD_CS_GND:20:3
 ATIS2:$radioname - PDC/DCL Datalink [LEMD]
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEMD_E_GND:20:3
 ATIS2:$radioname - PDC/DCL Datalink [LEMD]
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEMD_S_GND:20:3
 ATIS2:$radioname - PDC/DCL Datalink [LEMD]
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEMD_SN_GND:20:3
 ATIS2:$radioname - PDC/DCL Datalink [LEMD]
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEMD_W_GND:20:3
 ATIS2:$radioname - PDC/DCL Datalink [LEMD]
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEMD_WS_GND:20:3
 ATIS2:$radioname - PDC/DCL Datalink [LEMD]
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEMD_TWR:50:4
 ATIS2:$radioname - PDC/DCL Datalink [LEMD]
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEMD_SE_TWR:50:4
 ATIS2:$radioname - PDC/DCL Datalink [LEMD]
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEMD_NE_TWR:50:4
 ATIS2:$radioname - PDC/DCL Datalink [LEMD]
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEMD_N_TWR:50:4
 ATIS2:$radioname - PDC/DCL Datalink [LEMD]
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEMD_EN_APP:150:5
 ATIS2:$radioname - PDC/DCL Datalink [LEMD]
@@ -173,23 +173,23 @@ ATIS3:vats.im/lexx
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEMG_DEL:20:2
 ATIS2:$radioname - PDC/DCL Datalink [LEMG]
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:charts vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEMG_GND:20:3
 ATIS2:$radioname - PDC/DCL Datalink [LEMG]
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEMG_E_GND:20:3
 ATIS2:$radioname - PDC/DCL Datalink [LEMG]
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEMG_TWR:50:4
 ATIS2:$radioname - PDC/DCL Datalink [LEMG]
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEMG_E_TWR:50:4
 ATIS2:$radioname - PDC/DCL Datalink [LEMG]
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEMG_APP:150:5
 ATIS2:$radioname - PDC/DCL Datalink [LEMG]
@@ -273,11 +273,11 @@ ATIS3:Procedural Approach Service below FL155 - vats.im/lexx
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEBB_GND:20:3
 ATIS2:$radioname - PDC/DCL Datalink [LEBB]
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEBB_TWR:50:4
 ATIS2:$radioname - PDC/DCL Datalink [LEBB]
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEBB_APP:150:5
 ATIS2:$radioname - PDC/DCL Datalink [LEBB]

@@ -101,15 +101,15 @@ ATIS3:Covering GCTS below FL105 - vats.im/gccc
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:GCTS_DEL:20:2
 ATIS2:$radioname
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:GCTS_GND:20:3
 ATIS2:$radioname
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:GCTS_TWR:50:4
 ATIS2:$radioname
-ATIS3:REPORT YOUR TOBT AT vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:GCXO_APP:150:5
 ATIS2:$radioname
