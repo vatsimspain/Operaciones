@@ -2,7 +2,7 @@
   "name": "LECB",
   "id": "fcf909a7-be46-49d1-9904-ab94d3651ced",
   "updateUrl": "https://raw.githubusercontent.com/vatspa/Operaciones/refs/heads/estable/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECB.json",
-  "updateSerial": 2025092201,
+  "updateSerial": 2025100701,
   "composites": [
     {
       "id": "372232d7-0fd9-4cdd-828f-a0b798a8b28e",
@@ -380,7 +380,7 @@
         {
           "id": "78066058-3ae4-4723-89f8-73e6484b857c",
           "name": "ENR",
-          "airportConditions": "RWY IN USE FOR ARRIVALS 02. EXPECT ILS Z APPROACH RWY 02.",
+          "airportConditions": "RWY IN USE FOR ARRIVALS 02. EXPECT ILS Z APPROACH RWY 02. ARR ACFT MUST USE EXIT UB , RWY 02 LAST EXIT AVAILABLE U3L",
           "notams": "CAUTION, R-NAV APPROACH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. CHECK FMS, EXPECT 2N APPROACH TRANSITIONS FOR RUNWAY 02.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
@@ -458,6 +458,14 @@
         {
           "string": "2E",
           "spoken": "TWO ECHO"
+        },
+        {
+          "string": "UB",
+          "spoken": "UNIFORM BRAVO"
+        },
+        {
+          "string": "U3L",
+          "spoken": "UNIFORM THREE LIMA"
         }
       ],
       "airportConditionDefinitions": [],
