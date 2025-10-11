@@ -157,7 +157,7 @@ ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEIB_TWR:50:4
 ATIS2:$radioname - PDC/DCL Datalink [LEIB]
-ATIS3:RReport your TOBT at vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts on vats.im/es-aip - We love feedback! vats.im/es-feedback
 PROFILE:LEIB_IXX_APP:150:5
 ATIS2:$radioname - PDC/DCL Datalink [LEIB]
