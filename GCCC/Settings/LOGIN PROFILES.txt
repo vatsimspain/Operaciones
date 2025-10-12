@@ -98,7 +98,7 @@ ATIS4:Charts at chartfox.org/GCRR - We love feedback! vats.im/es-feedback
 PROFILE:GCTS_APP:150:5
 ATIS2:$radioname
 ATIS3:Covering GCTS below FL105 - vats.im/gccc
-ATIS4:Charts at chartfox.org/GCTS - We love feedback! vats.im/es-feedback
+ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:GCTS_DEL:20:2
 ATIS2:$radioname
 ATIS3:Report your TOBT at vats.im/vdgs
