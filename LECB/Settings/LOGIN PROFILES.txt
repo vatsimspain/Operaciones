@@ -3,10 +3,18 @@ PROFILE:LECL_CTR:400:6
 ATIS2:$radioname - PDC/DCL Datalink [LECL]
 ATIS3:My active sector vats.im/lexx
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
+PROFILE:LECL_FMP:400:6
+ATIS2:$radioname
+ATIS3:Flow Management LECL - Text me if you have any question
+ATIS4:We love feedback! vats.im/es-feedback
 PROFILE:LECP_CTR:400:6
 ATIS2:$radioname - PDC/DCL Datalink [LECP]
 ATIS3:My active sector vats.im/lexx
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
+PROFILE:LECP_FMP:400:6
+ATIS2:$radioname
+ATIS3:Flow Management LECP - Text me if you have any question
+ATIS4:We love feedback! vats.im/es-feedback
 PROFILE:LECB_RN_CTR:400:6
 ATIS2:$radioname - CPDLC [CBRN]
 ATIS3:My active sector vats.im/lexx
@@ -55,6 +63,10 @@ PROFILE:LECB_CTR:400:6
 ATIS2:$radioname - CPDLC [CBRA]
 ATIS3:My active sector vats.im/lexx
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
+PROFILE:LECB_FMP:400:6
+ATIS2:$radioname
+ATIS3:Flow Management LECB - Text me if you have any question
+ATIS4:We love feedback! vats.im/es-feedback
 PROFILE:LEAL_DEL:20:2
 ATIS2:$radioname - PDC/DCL Datalink [LEAL]
 ATIS3:Report your TOBT at vats.im/vdgs
@@ -115,14 +127,22 @@ PROFILE:LEBL_4_APP:150:5
 ATIS2:$radioname - PDC/DCL Datalink [LEBL]
 ATIS3:Covering North-West sector- vats.im/lexx
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
-PROFILE:LEBL_N_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [LEBL]
-ATIS3:Covering North sector - vats.im/lexx
-ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_F_APP:150:5
 ATIS2:$radioname
 ATIS3:Covering Final sector - vats.im/lexx
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
+PROFILE:LEBL_FMP:400:6
+ATIS2:$radioname
+ATIS3:Planner para LEBL_APP - Text me if you have any question
+ATIS4:We love feedback! vats.im/es-feedback
+PROFILE:LEBL_2_FMP:400:6
+ATIS2:$radioname
+ATIS3:Planner para LEBL_2_APP - Text me if you have any question
+ATIS4:We love feedback! vats.im/es-feedback
+PROFILE:LEBL_F_FMP:400:6
+ATIS2:$radioname
+ATIS3:Planner para LEBL_F_APP - Text me if you have any question
+ATIS4:We love feedback! vats.im/es-feedback
 PROFILE:LECH_TWR:50:4
 ATIS2:$radioname
 ATIS3:vats.im/lexx
@@ -171,6 +191,10 @@ PROFILE:LEIB_IXN_APP:150:5
 ATIS2:$radioname - PDC/DCL Datalink [LEIB]
 ATIS3:FL85/FL245 - vats.im/lexx
 ATIS4:Charts at chartfox.org/LEIB - We love feedback! vats.im/es-feedback
+PROFILE:LEIB_FMP:300:6
+ATIS2:$radioname
+ATIS3:Planner para LEIB_APP - Text me if you have any question
+ATIS4:We love feedback! vats.im/es-feedback
 PROFILE:LELC_GND:20:3
 ATIS2:$radioname
 ATIS3:vats.im/lexx
@@ -247,6 +271,10 @@ PROFILE:LEPA_DEP:150:5
 ATIS2:$radioname - PDC/DCL Datalink [LEPA]
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEPA - We love feedback! vats.im/es-feedback
+PROFILE:LEPA_FMP:400:6
+ATIS2:$radioname
+ATIS3:Planner para LEPA_APP - Text me if you have any question
+ATIS4:We love feedback! vats.im/es-feedback
 PROFILE:LERI_TWR:50:4
 ATIS2:$radioname 
 ATIS3:vats.im/lexx

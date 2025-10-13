@@ -63,6 +63,10 @@ PROFILE:LECM_ZMU_CTR:400:6
 ATIS2:$radioname (+FL345) - CPDLC [CZMU]
 ATIS3:Covering only UPPER SECTOR (+FL345) - My active sector vats.im/lexx
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
+PROFILE:LECM_FMP:600:6
+ATIS2:$radioname
+ATIS3:Flow Management LECM - Text me if you have any question
+ATIS4:We love feedback! vats.im/es-feedback
 PROFILE:LECS_CTR:400:6
 ATIS2:$radioname - CPDLC [CSRA]
 ATIS3:My active sector vats.im/lexx
@@ -75,6 +79,14 @@ PROFILE:LECS_NCS_CTR:400:6
 ATIS2:$radioname - CPDLC [CNCS]
 ATIS3:My active sector vats.im/lexx
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
+PROFILE:LECS_CEN_CTR:400:6
+ATIS2:$radioname - CPDLC [CCEN]
+ATIS3:My active sector vats.im/lexx
+ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
+PROFILE:LECS_FMP:400:6
+ATIS2:$radioname
+ATIS3:Flow Management LECS - Text me if you have any question
+ATIS4:We love feedback! vats.im/es-feedback
 PROFILE:LEMD_DEL:20:2
 ATIS2:$radioname - PDC/DCL Datalink [LEMD]
 ATIS3:Report your TOBT at vats.im/vdgs
