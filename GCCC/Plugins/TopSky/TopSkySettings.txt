@@ -8,7 +8,7 @@ System_GUI_Scale_Windows=1
 System_UseAUP=1
 
 CPDLC_Default=1
-CPDLC_MinLevel=245
+CPDLC_MinLevel=285
 CPDLC_Transfer=1
 CPDLC_VCI_UM_Type=1
 CPDLC_CFL=1
@@ -686,6 +686,26 @@ Window_ASM=0
 STCA_Floor=1083
 Setup_LoadView=NEL
 CPDLC_Default=0
+
+[GCCC_RCW_CTR]
+WXR_Latitude=29.6
+WXR_Longitude=-15
+WXR_Latitude_Max=31.5
+WXR_Latitude_Min=27.5
+WXR_Longitude_Max=-13.5
+WXR_Longitude_Min=-15.5
+HTTP_GRIB_Latitude_Max=32
+HTTP_GRIB_Latitude_Min=27
+HTTP_GRIB_Longitude_Max=-13
+HTTP_GRIB_Longitude_Min=-16
+WXR_Zoom=6
+Setup_ScreenLat=GCLP
+Window_CPDLC_Current=3,825,44
+Window_CPDLC_Setting=3,0,365
+Window_QNHTL=0
+Window_ASM=0
+STCA_Floor=1077
+Setup_LoadView=RCW
 
 [GCCA_INB_APP]
 WXR_Latitude=28.5
