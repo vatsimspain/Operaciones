@@ -216,15 +216,15 @@ ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LELL - We love feedback! vats.im/es-feedback
 PROFILE:LEMH_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEMH]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEMH - We love feedback! vats.im/es-feedback
 PROFILE:LEMH_A_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEMH]
+ATIS2:$radioname
 ATIS3:Procedural APP Service SFC/6000ft - vats.im/lexx
 ATIS4:Charts at chartfox.org/LEMH - We love feedback! vats.im/es-feedback
 PROFILE:LEMH_MXX_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [LEMH]
+ATIS2:$radioname
 ATIS3:SFC/FL245 - vats.im/lexx
 ATIS4:Charts at chartfox.org/LEMH - We love feedback! vats.im/es-feedback
 PROFILE:LEMI_GND:20:3
