@@ -1237,7 +1237,7 @@ Airspace_AOR_Airports=LELL
 
 [LEMH_GND]
 Window_CPDLC_Current=3,1545,0
-Window_CPDLC_Setting=3,0,250
+Window_CPDLC_Setting=0,0,250
 Setup_ScreenLat=LEMH
 Setup_LoadView=MHG
 Airspace_AOR_Airports=LEMH
@@ -1257,7 +1257,7 @@ HTTP_GRIB_Longitude_Max=5
 HTTP_GRIB_Longitude_Min=0
 WXR_Zoom=6
 Window_CPDLC_Current=3,1545,0
-Window_CPDLC_Setting=3,0,250
+Window_CPDLC_Setting=0,0,250
 Setup_ScreenLat=LEMH
 Setup_LoadView=MHT
 Airspace_AOR_Airports=LEMH,LESL
@@ -1277,7 +1277,7 @@ HTTP_GRIB_Longitude_Max=5
 HTTP_GRIB_Longitude_Min=0
 WXR_Zoom=6
 Window_CPDLC_Current=3,1545,0
-Window_CPDLC_Setting=3,0,250
+Window_CPDLC_Setting=0,0,250
 Setup_ScreenLat=LEMH
 Setup_LoadView=MHT
 Airspace_AOR_Airports=LEMH,LESL
