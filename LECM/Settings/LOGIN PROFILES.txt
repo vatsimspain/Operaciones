@@ -248,39 +248,39 @@ ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LELO - We love feedback! vats.im/es-feedback
 PROFILE:GEML_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [GEML]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/GEML - We love feedback! vats.im/es-feedback
 PROFILE:GEML_A_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [GEML]
+ATIS2:$radioname
 ATIS3:Procedural Approach Service below 6000ft - vats.im/lexx
 ATIS4:Charts at chartfox.org/GEML - We love feedback! vats.im/es-feedback
 PROFILE:LEAB_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEAB]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEAB - We love feedback! vats.im/es-feedback
 PROFILE:LEAB_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEAB]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEAB - We love feedback! vats.im/es-feedback
 PROFILE:LEAB_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [LEAB]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEAB - We love feedback! vats.im/es-feedback
 PROFILE:LEAM_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEAM]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEAM - We love feedback! vats.im/es-feedback
 PROFILE:LEAM_A_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEAM]
+ATIS2:$radioname
 ATIS3:Procedural Approach Service below FL145 - vats.im/lexx
 ATIS4:Charts at chartfox.org/LEAM - We love feedback! vats.im/es-feedback
 PROFILE:LEAS_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEAS]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEAS - We love feedback! vats.im/es-feedback
 PROFILE:LEAS_A_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEAS]
+ATIS2:$radioname
 ATIS3:Procedural Approach Service below FL155 - vats.im/lexx
 ATIS4:Charts at chartfox.org/LEAS - We love feedback! vats.im/es-feedback
 PROFILE:LEBB_GND:20:3
@@ -296,23 +296,23 @@ ATIS2:$radioname - PDC/DCL Datalink [LEBB]
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEBB - We love feedback! vats.im/es-feedback
 PROFILE:LEBZ_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEBZ]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEBZ - We love feedback! vats.im/es-feedback
 PROFILE:LEBZ_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEBZ]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEBZ - We love feedback! vats.im/es-feedback
 PROFILE:LEBZ_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [LEBZ]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEBZ - We love feedback! vats.im/es-feedback
 PROFILE:LECO_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LECO]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LECO - We love feedback! vats.im/es-feedback
 PROFILE:LECO_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LECO]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LECO - We love feedback! vats.im/es-feedback
 PROFILE:LECU_GND:20:3
@@ -332,11 +332,11 @@ ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEGA - We love feedback! vats.im/es-feedback
 PROFILE:LEGT_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEGT]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEGT - We love feedback! vats.im/es-feedback
 PROFILE:LEGT_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEGT]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEGT - We love feedback! vats.im/es-feedback
 PROFILE:LEJR_GND:20:3
@@ -348,19 +348,19 @@ ATIS2:$radioname - PDC/DCL Datalink [LEJR]
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEJR - We love feedback! vats.im/es-feedback
 PROFILE:LEPP_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEPP]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEPP - We love feedback! vats.im/es-feedback
 PROFILE:LEPP_A_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEPP]
+ATIS2:$radioname
 ATIS3:Procedural Approach Service below FL95 - vats.im/lexx
 ATIS4:Charts at chartfox.org/LEPP - We love feedback! vats.im/es-feedback
 PROFILE:LERJ_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LERJ]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LERJ - We love feedback! vats.im/es-feedback
 PROFILE:LERJ_A_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LERJ]
+ATIS2:$radioname
 ATIS3:Procedural Approach Service below FL95 - vats.im/lexx
 ATIS4:Charts at chartfox.org/LERJ - We love feedback! vats.im/es-feedback
 PROFILE:LERT_GND:20:3
@@ -372,83 +372,83 @@ ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LERT - We love feedback! vats.im/es-feedback
 PROFILE:LESA_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LESA]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LESA - We love feedback! vats.im/es-feedback
 PROFILE:LESA_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LESA]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LESA - We love feedback! vats.im/es-feedback
 PROFILE:LESA_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [LESA]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LESA - We love feedback! vats.im/es-feedback
 PROFILE:LESO_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LESO]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LESO - We love feedback! vats.im/es-feedback
 PROFILE:LESO_A_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LESO]
+ATIS2:$radioname
 ATIS3:Procedural Approach Service below FL95 - vats.im/lexx
 ATIS4:Charts at chartfox.org/LESO - We love feedback! vats.im/es-feedback
 PROFILE:LEST_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEST]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEST - We love feedback! vats.im/es-feedback
 PROFILE:LEST_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEST]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEST - We love feedback! vats.im/es-feedback
 PROFILE:LETO_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LETO]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LETO - We love feedback! vats.im/es-feedback
 PROFILE:LETO_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LETO]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LETO - We love feedback! vats.im/es-feedback
 PROFILE:LETO_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [LETO]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LETO - We love feedback! vats.im/es-feedback
 PROFILE:LEVT_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEVT]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEVT - We love feedback! vats.im/es-feedback
 PROFILE:LEVT_A_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEVT]
+ATIS2:$radioname
 ATIS3:Procedural Approach Service below FL95 - vats.im/lexx
 ATIS4:Charts at chartfox.org/LEVT - We love feedback! vats.im/es-feedback
 PROFILE:LEVX_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEVX]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEVX - We love feedback! vats.im/es-feedback
 PROFILE:LEVX_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEVX]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEVX - We love feedback! vats.im/es-feedback
 PROFILE:LEXJ_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEXJ]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEXJ - We love feedback! vats.im/es-feedback
 PROFILE:LEXJ_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEXJ]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEXJ - We love feedback! vats.im/es-feedback
 PROFILE:LEXJ_A_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEXJ]
+ATIS2:$radioname
 ATIS3:Procedural Approach Service below FL145 - vats.im/lexx
 ATIS4:Charts at chartfox.org/LEXJ - We love feedback! vats.im/es-feedback
 PROFILE:LEZG_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEZG]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEZG - We love feedback! vats.im/es-feedback
 PROFILE:LEZG_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEZG]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEZG - We love feedback! vats.im/es-feedback
 PROFILE:LEZG_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [LEZG]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LEZL_GND:20:3
@@ -468,15 +468,15 @@ ATIS2:$radioname - PDC/DCL Datalink [LEZL]
 ATIS3:Covering LEZL, LEJR, LEBA, LEMO & LERT below FL205 - vats.im/lexx
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LEGR_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEGR]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEGR - We love feedback! vats.im/es-feedback
 PROFILE:LEGR_A_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEGR]
+ATIS2:$radioname
 ATIS3:Procedural Approach Service below FL95 - vats.im/lexx
 ATIS4:Charts at chartfox.org/LEGR - We love feedback! vats.im/es-feedback
 PROFILE:LELN_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LELN]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LELN - We love feedback! vats.im/es-feedback
 PROFILE:LEMO_TWR:50:4
@@ -488,11 +488,11 @@ ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LETL - We love feedback! vats.im/es-feedback
 PROFILE:LEVD_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEVD]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEVD - We love feedback! vats.im/es-feedback
 PROFILE:LELN_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [LELN]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LELN - We love feedback! vats.im/es-feedback
 PROFILE:LECG_APP:150:5
