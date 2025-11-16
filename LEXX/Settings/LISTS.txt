@@ -79,7 +79,7 @@ m_Column:N/TIPO:6:1:10022:0:0:1:TopSky plugin:::0:0.0
 m_Column:STND:5:1:1:13:1:1:Ground Radar plugin:Ground Radar plugin:Ground Radar plugin:0:0.0
 m_Column:EOBT:5:1:1:100:114:1:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
 m_Column:E:2:1:19:0:0:0::::0:0.0
-m_Column:CTOT:5:1:10:108:0:0:CDM Plugin:CDM Plugin::0:0.0
+m_Column:CTOT:5:1:10:108:0:1:CDM Plugin:CDM Plugin::0:0.0
 m_Column:HOPM:5:1:2:0:0:1:CDM Plugin:::0:0.0
 m_Column:ORIG:5:1:10007:7:1001:0:TopSky plugin::TopSky plugin:0:0.0
 m_Column:DEST:5:1:10008:7:1001:1:TopSky plugin::TopSky plugin:0:0.0
