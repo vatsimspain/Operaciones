@@ -44,16 +44,13 @@ Plugins	Plugin4Display1	Ground Radar display
 Plugins	Plugin5	\LECB\Plugins\InitialClimbPlugin\InitialClimbPlugin.dll
 Plugins	Plugin6	\LECB\Plugins\VFPC\VFPC.dll
 Plugins	Plugin7	\LEXX\Plugins\CDM\CDM.dll
-Plugins	Plugin8	\LECB\Plugins\ESCenterlines\ESCenterlines.dll
-Plugins	Plugin8Display0	ES Centerlines
-Plugins	Plugin8Display1	Standard ES radar screen
-Plugins	Plugin9	\LEXX\Plugins\VCH\VCH.dll
+Plugins	Plugin8	\LEXX\Plugins\VCH\VCH.dll
+Plugins	Plugin8Display0	Standard ES radar screen
+Plugins	Plugin8Display1	Ground Radar display
+Plugins	Plugin9	\LEXX\Plugins\MAESTRO\MAESTRO.dll
 Plugins	Plugin9Display0	Standard ES radar screen
-Plugins	Plugin9Display1	Ground Radar display
-Plugins	Plugin10	\LEXX\Plugins\MAESTRO\MAESTRO.dll
+Plugins	Plugin10	\LEXX\Plugins\DiscordEuroscope\DiscordEuroscope.dll
 Plugins	Plugin10Display0	Standard ES radar screen
-Plugins	Plugin11	\LEXX\Plugins\DiscordEuroscope\DiscordEuroscope.dll
-Plugins	Plugin11Display0	Standard ES radar screen
 RecentFiles	Recent1	\LECB\ASR\LECB.asr
 RecentFiles	Recent2	\LECB\ASR\GND GR\LEPA_GND_GR.asr
 RecentFiles	Recent3	\LECB\ASR\GND GR\LEBL_GND_GR.asr
