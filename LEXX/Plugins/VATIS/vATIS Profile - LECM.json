@@ -27,7 +27,7 @@
         {
           "id": "68dbdfb7-4504-4de0-8043-ef0cb2939f68",
           "name": "NORTH",
-          "airportConditions": "DEPARTURE RWY 03. ARRIVAL RWY 03.",
+          "airportConditions": "RWY IN USE 03.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -36,7 +36,7 @@
         {
           "id": "8fa2df59-573a-4012-9e5f-304aaac74840",
           "name": "SOUTH",
-          "airportConditions": "DEPARTURE RWY 21. ARRIVAL RWY 21. EXPECT ILS Z APPROACH RWY 21.",
+          "airportConditions": "RWY IN USE 21. EXPECT ILS Z APPROACH RWY 21.",
           "notams":"INTERMEDIATE TURNING PAD UNSERVICEABLE",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
@@ -1657,7 +1657,7 @@
         {
           "id": "151554c3-ecaa-45af-874a-37e0c0484435",
           "name": "SOUTH",
-          "airportConditions": "DEPARTURE RWY 20. ARRIVAL RWY 20. EXPECT ILS Z APPROACH RWY 20.",
+          "airportConditions": "RWY IN USE 20. EXPECT ILS Z APPROACH RWY 20.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -1666,7 +1666,7 @@
         {
           "id": "12a47bad-e229-40c3-bf49-eda2e0179584",
           "name": "NORTH",
-          "airportConditions": "DEPARTURE RWY 02. ARRIVAL RWY 02. EXPECT RNP Z APPROACH RWY 02.",
+          "airportConditions": "RWY IN USE 02.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -3318,7 +3318,7 @@
         {
           "id": "97d29adf-e1a3-40ab-9082-8a9ba965b0f7",
           "name": "EAST",
-          "airportConditions": "DEPARTURE RWY 11. ARRIVAL RWY 11. EXPECT RNP Z APPROACH RWY 11.",
+          "airportConditions": "RWY IN USE 11. EXPECT RNP Y APPROACH RWY 11.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -3327,7 +3327,7 @@
         {
           "id": "a927f724-c91e-4f3c-81d0-cd90b8779170",
           "name": "WEST",
-          "airportConditions": "DEPARTURE RWY 29. ARRIVAL RWY 29. EXPECT ILS Z APPROACH RWY 29.",
+          "airportConditions": "RWY IN USE 29. EXPECT ILS Z APPROACH RWY 29.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -4310,7 +4310,7 @@
         {
           "id": "7f0e0b14-9223-4708-8af1-a73adc7494ef",
           "name": "NORTH",
-          "airportConditions": "DEPARTURE RWY 01. ARRIVAL RWY 01. EXPECT RNP X APPROACH RWY 01.",
+          "airportConditions": "RWY IN USE 01. EXPECT RNP X APPROACH RWY 01.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -4319,7 +4319,7 @@
         {
           "id": "441805a9-b4f3-4ca5-9ba2-aa608e028bc3",
           "name": "SOUTH",
-          "airportConditions": "DEPARTURE RWY 19. ARRIVAL RWY 19. EXPECT ILS Z APPROACH RWY 19.",
+          "airportConditions": "RWY IN USE 19. EXPECT ILS Z APPROACH RWY 19.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
