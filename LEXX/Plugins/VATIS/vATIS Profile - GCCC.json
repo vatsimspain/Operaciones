@@ -1069,7 +1069,7 @@
         {
           "id": "54046716-ceb0-4b03-8d39-4842403a4514",
           "name": "SOUTH",
-          "airportConditions": "DEPARTURE RWY 21. ARRIVAL RWY 21. EXPECT VOR A APCH RWY IN USE 21.",
+          "airportConditions": "RWY IN USE 21, EXPECT VOR A APPROACH",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
