@@ -37,7 +37,7 @@ ATIS3:My active sector vats.im/lexx
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LECB_RW_CTR:400:6
 ATIS2:$radioname - CPDLC [CBRW]
-ATIS3:My active sector vats.im/lexx (BCN TMA up to FL195)
+ATIS3:vats.im/lexx - Covers BCN TMA up to FL195 and LEIB up to FL245
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LECB_RE_CTR:400:6
 ATIS2:$radioname - CPDLC [CBRE]
