@@ -1443,7 +1443,7 @@
         {
           "id": "607308b3-eaf2-41ea-9579-e736900f9099",
           "name": "WEST",
-          "airportConditions": "DEPARTURE RWY 24. ARRIVAL RWY 24. EXPECT ILS Z APPROACH RWY 24.",
+          "airportConditions": "DEPARTURE RWY 24. ARRIVAL RWY 24. EXPECT ILS APPROACH RWY 24.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -1452,7 +1452,7 @@
         {
           "id": "7bf4fced-9a6b-47ef-af92-5f5a3779d119",
           "name": "EAST",
-          "airportConditions": "DEPARTURE RWY 06. ARRIVAL RWY 06. EXPECT ILS Z APPROACH RWY 06.",
+          "airportConditions": "DEPARTURE RWY 06. ARRIVAL RWY 06. EXPECT ILS APPROACH RWY 06.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -1776,7 +1776,7 @@
         {
           "id": "e993f5f3-fae8-416d-9faf-9345ee3e9134",
           "name": "WEST",
-          "airportConditions": "DEPARTURE RWY 23L AND 23R. ARRIVAL RWY 23L. EXPECT ILS Z APPROACH RWY 23L.",
+          "airportConditions": "DEPARTURE RWY 22L AND 22R. ARRIVAL RWY 22L. EXPECT ILS Z APPROACH RWY 22L.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -1785,7 +1785,7 @@
         {
           "id": "cd7131e8-9684-42dd-bea7-611919626d08",
           "name": "EAST",
-          "airportConditions": "DEPARTURE RWY 05L AND 05R. ARRIVAL RWY 05R. EXPECT ILS Z APPROACH RWY 05R.",
+          "airportConditions": "DEPARTURE RWY 04L AND 04R. ARRIVAL RWY 04R. EXPECT ILS Z APPROACH RWY 04R.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false

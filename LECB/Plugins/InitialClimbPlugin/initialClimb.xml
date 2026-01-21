@@ -300,10 +300,10 @@
 			</sid>
 		</runway>
 		<runway name="06R">
-			<sid name="BAVER5B">
+			<sid name="BAVER6B">
 				<alt>040</alt>
 			</sid>
-			<sid name="BAVER3T">
+			<sid name="BAVER4T">
 				<alt>060</alt>
 			</sid>
 			<sid name="CDP">
@@ -312,10 +312,10 @@
 			<sid name="DRAGO">
 				<alt>060</alt>
 			</sid>
-			<sid name="EPAMA3B">
+			<sid name="EPAMA4B">
 				<alt>100</alt>
 			</sid>
-			<sid name="EPAMA3R">
+			<sid name="EPAMA4R">
 				<alt>060</alt>
 			</sid>
 			<sid name="ESPOR">
@@ -347,10 +347,10 @@
 			</sid>
 		</runway>
 		<runway name="06L">
-			<sid name="BAVER5G">
+			<sid name="BAVER6G">
 				<alt>040</alt>
 			</sid>
-			<sid name="BAVER3S">
+			<sid name="BAVER4S">
 				<alt>060</alt>
 			</sid>
 			<sid name="CDP">
@@ -359,10 +359,10 @@
 			<sid name="DRAGO">
 				<alt>060</alt>
 			</sid>
-			<sid name="EPAMA2L">
+			<sid name="EPAMA3L">
 				<alt>100</alt>
 			</sid>
-			<sid name="EPAMA3N">
+			<sid name="EPAMA4N">
 				<alt>060</alt>
 			</sid>
 			<sid name="ESPOR">
