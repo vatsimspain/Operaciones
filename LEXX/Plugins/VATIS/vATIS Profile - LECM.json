@@ -2713,7 +2713,7 @@
         {
           "id": "8d4ee396-d0ef-492f-8d46-dbf9e0ae6e98",
           "name": "SOUTH DUAL",
-          "airportConditions": "RWY IN USE FOR ARRIVALS 12. EXPECT ILS ZULU APPROACH RWY 12.",
+          "airportConditions": "RWY IN USE FOR ARRIVALS 12. EXPECT ILS Z APPROACH RWY 12.",
           "notams": "FIRST RAPID EXIT TAXIWAY ONLY AVAILABLE FOR LIGHT AIRCRAFTS",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
@@ -2723,7 +2723,7 @@
         {
           "id": "6c2c8aa9-8889-4cf0-b30b-97fc842bffdc",
           "name": "NORTH DUAL",
-          "airportConditions": "RWY IN USE FOR ARRIVALS 31. EXPECT ILS ZULU APPROACH RWY 31.",
+          "airportConditions": "RWY IN USE FOR ARRIVALS 31. EXPECT ILS Z APPROACH RWY 31.",
           "notams": "",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
