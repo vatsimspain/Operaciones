@@ -88,48 +88,48 @@ ATIS2:$radioname - PDC/DCL Datalink [LEAL]
 ATIS3:Covering LEAL, LELC & LEMI below FL245 - vats.im/lexx
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_DEL:20:2
-ATIS2:$radioname - PDC/DCL Datalink [LEBL]
-ATIS3:Report your TOBT at vats.im/vdgs
+ATIS2:$radioname - PDC/DCL LEBL
+ATIS3:Report your TOBT at vats.im/vdgs - Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEBL - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEBL]
-ATIS3:Report your TOBT at vats.im/vdgs
+ATIS2:$radioname - PDC/DCL LEBL
+ATIS3:Report your TOBT at vats.im/vdgs - Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEBL - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_C_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEBL]
-ATIS3:Report your TOBT at vats.im/vdgs
+ATIS2:$radioname - PDC/DCL LEBL
+ATIS3:Report your TOBT at vats.im/vdgs - Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEBL - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_S_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEBL]
-ATIS3:Report your TOBT at vats.im/vdgs
+ATIS2:$radioname - PDC/DCL LEBL
+ATIS3:Report your TOBT at vats.im/vdgs - Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEBL - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEBL]
-ATIS3:Report your TOBT at vats.im/vdgs
+ATIS2:$radioname - PDC/DCL LEBL
+ATIS3:Report your TOBT at vats.im/vdgs - Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEBL - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_S_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEBL]
-ATIS3:Report your TOBT at vats.im/vdgs
+ATIS2:$radioname - PDC/DCL LEBL
+ATIS3:Report your TOBT at vats.im/vdgs - Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEBL - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [LEBL]
-ATIS3:Covering LEBL, LERS, LELL, LEDA & LEGE below FL195 - vats.im/lexx
+ATIS2:$radioname - PDC/DCL LEBL
+ATIS3:Covering LEBL, LERS, LELL, LEDA & LEGE below FL195 - Squawk C mode on ground
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_2_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [LEBL]
-ATIS3:Covering South-East sector - vats.im/lexx
+ATIS2:$radioname - PDC/DCL LEBL
+ATIS3:Covering South-East sector - Squawk C mode on ground
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_3_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [LEBL]
-ATIS3:Covering South-West sector - vats.im/lexx
+ATIS2:$radioname - PDC/DCL LEBL
+ATIS3:Covering South-West sector - Squawk C mode on ground
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_4_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [LEBL]
-ATIS3:Covering North-West sector- vats.im/lexx
+ATIS2:$radioname - PDC/DCL LEBL
+ATIS3:Covering North-West sector- Squawk C mode on ground
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_F_APP:150:5
 ATIS2:$radioname
-ATIS3:Covering Final sector - vats.im/lexx
+ATIS3:Covering Final sector - Squawk C mode on ground
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_FMP:400:6
 ATIS2:$radioname
