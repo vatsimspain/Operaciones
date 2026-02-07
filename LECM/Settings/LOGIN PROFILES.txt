@@ -184,36 +184,36 @@ ATIS2:$radioname - PDC/DCL LEMD
 ATIS3:Squawk C mode on ground
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LEMG_DEL:20:2
-ATIS2:$radioname - PDC/DCL Datalink [LEMG]
-ATIS3:Report your TOBT at vats.im/vdgs
+ATIS2:$radioname - PDC/DCL LEMG
+ATIS3:Report your TOBT at vats.im/vdgs - Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEMG - We love feedback! vats.im/es-feedback
 PROFILE:LEMG_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEMG]
-ATIS3:Report your TOBT at vats.im/vdgs
+ATIS2:$radioname - PDC/DCL LEMG
+ATIS3:Report your TOBT at vats.im/vdgs - Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEMG - We love feedback! vats.im/es-feedback
 PROFILE:LEMG_E_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEMG]
-ATIS3:Report your TOBT at vats.im/vdgs
+ATIS2:$radioname - PDC/DCL LEMG
+ATIS3:Report your TOBT at vats.im/vdgs - Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEMG - We love feedback! vats.im/es-feedback
 PROFILE:LEMG_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEMG]
-ATIS3:Report your TOBT at vats.im/vdgs
+ATIS2:$radioname - PDC/DCL LEMG
+ATIS3:Report your TOBT at vats.im/vdgs - Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEMG - We love feedback! vats.im/es-feedback
 PROFILE:LEMG_E_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEMG]
-ATIS3:Report your TOBT at vats.im/vdgs
+ATIS2:$radioname - PDC/DCL LEMG
+ATIS3:Report your TOBT at vats.im/vdgs - Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEMG - We love feedback! vats.im/es-feedback
 PROFILE:LEMG_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [LEMG]
-ATIS3:vats.im/lexx
+ATIS2:$radioname - PDC/DCL LEMG
+ATIS3:Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEMG - We love feedback! vats.im/es-feedback
 PROFILE:LEMG_W_APP:150:5
 ATIS2:$radioname 
-ATIS3:vats.im/lexx
+ATIS3:Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEMG - We love feedback! vats.im/es-feedback
 PROFILE:LEMG_F_APP:150:5
 ATIS2:$radioname 
-ATIS3:vats.im/lexx
+ATIS3:Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEMG - We love feedback! vats.im/es-feedback
 PROFILE:LEAG_H_TWR:50:4
 ATIS2:$radioname
