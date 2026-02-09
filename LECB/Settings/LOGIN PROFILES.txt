@@ -237,23 +237,23 @@ ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEMI - We love feedback! vats.im/es-feedback
 PROFILE:LEPA_DEL:20:2
 ATIS2:$radioname - DCL [LEPA]
-ATIS3:Report your TOBT at vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs - Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEPA - We love feedback! vats.im/es-feedback
 PROFILE:LEPA_GND:20:3
 ATIS2:$radioname - DCL [LEPA]
-ATIS3:Report your TOBT at vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs - Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEPA - We love feedback! vats.im/es-feedback
 PROFILE:LEPA_N_GND:20:3
 ATIS2:$radioname - DCL [LEPA]
-ATIS3:Report your TOBT at vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs - Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEPA - We love feedback! vats.im/es-feedback
 PROFILE:LEPA_TWR:50:4
 ATIS2:$radioname - DCL [LEPA]
-ATIS3:Report your TOBT at vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs - Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEPA - We love feedback! vats.im/es-feedback
 PROFILE:LEPA_D_TWR:50:4
 ATIS2:$radioname - DCL [LEPA]
-ATIS3:Report your TOBT at vats.im/vdgs
+ATIS3:Report your TOBT at vats.im/vdgs - Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEPA - We love feedback! vats.im/es-feedback
 PROFILE:LEPA_APP:150:5
 ATIS2:$radioname - DCL [LEPA]
