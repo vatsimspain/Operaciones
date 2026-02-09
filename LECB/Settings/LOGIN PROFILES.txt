@@ -1,6 +1,6 @@
 PROFILE
 PROFILE:LECL_CTR:400:6
-ATIS2:$radioname - PDC/DCL Datalink [LECL]
+ATIS2:$radioname - DCL [LECL]
 ATIS3:My active sector vats.im/lexx
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LECL_FMP:400:6
@@ -8,7 +8,7 @@ ATIS2:$radioname
 ATIS3:Flow Management LECL - Text me if you have any question
 ATIS4:We love feedback! vats.im/es-feedback
 PROFILE:LECP_CTR:400:6
-ATIS2:$radioname - PDC/DCL Datalink [LECP]
+ATIS2:$radioname - DCL [LECP]
 ATIS3:My active sector vats.im/lexx
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LECP_FMP:400:6
@@ -68,68 +68,68 @@ ATIS2:$radioname
 ATIS3:Flow Management LECB - Text me if you have any question
 ATIS4:We love feedback! vats.im/es-feedback
 PROFILE:LEAL_DEL:20:2
-ATIS2:$radioname - PDC/DCL Datalink [LEAL]
+ATIS2:$radioname - DCL [LEAL]
 ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts at chartfox.org/LEAL - We love feedback! vats.im/es-feedback
 PROFILE:LEAL_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEAL]
+ATIS2:$radioname - DCL [LEAL]
 ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts at chartfox.org/LEAL - We love feedback! vats.im/es-feedback
 PROFILE:LEAL_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEAL]
+ATIS2:$radioname - DCL [LEAL]
 ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts at chartfox.org/LEAL - We love feedback! vats.im/es-feedback
 PROFILE:LEAL_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [LEAL]
+ATIS2:$radioname - DCL [LEAL]
 ATIS3:Covering LEAL, LELC & LEMI below FL125 - vats.im/lexx
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LEAL_DEP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [LEAL]
+ATIS2:$radioname - DCL [LEAL]
 ATIS3:Covering LEAL, LELC & LEMI below FL245 - vats.im/lexx
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_DEL:20:2
-ATIS2:$radioname - PDC/DCL LEBL
+ATIS2:$radioname - DCL [LEBL]
 ATIS3:Report your TOBT at vats.im/vdgs - Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEBL - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_GND:20:3
-ATIS2:$radioname - PDC/DCL LEBL
+ATIS2:$radioname - DCL [LEBL]
 ATIS3:Report your TOBT at vats.im/vdgs - Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEBL - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_C_GND:20:3
-ATIS2:$radioname - PDC/DCL LEBL
+ATIS2:$radioname - DCL [LEBL]
 ATIS3:Report your TOBT at vats.im/vdgs - Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEBL - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_S_GND:20:3
-ATIS2:$radioname - PDC/DCL LEBL
+ATIS2:$radioname - DCL [LEBL]
 ATIS3:Report your TOBT at vats.im/vdgs - Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEBL - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_TWR:50:4
-ATIS2:$radioname - PDC/DCL LEBL
+ATIS2:$radioname - DCL [LEBL]
 ATIS3:Report your TOBT at vats.im/vdgs - Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEBL - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_S_TWR:50:4
-ATIS2:$radioname - PDC/DCL LEBL
+ATIS2:$radioname - DCL [LEBL]
 ATIS3:Report your TOBT at vats.im/vdgs - Squawk C mode on ground
 ATIS4:Charts at chartfox.org/LEBL - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_APP:150:5
-ATIS2:$radioname - PDC/DCL LEBL
-ATIS3:Covering LEBL, LERS, LELL, LEDA & LEGE below FL195 - Squawk C mode on ground
+ATIS2:$radioname - DCL [LEBL]
+ATIS3:Covering LEBL, LERS, LELL, LEDA & LEGE below FL195
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_2_APP:150:5
-ATIS2:$radioname - PDC/DCL LEBL
-ATIS3:Covering South-East sector - Squawk C mode on ground
+ATIS2:$radioname 
+ATIS3:Covering South-East sector
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_3_APP:150:5
-ATIS2:$radioname - PDC/DCL LEBL
-ATIS3:Covering South-West sector - Squawk C mode on ground
+ATIS2:$radioname
+ATIS3:Covering South-West sector
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_4_APP:150:5
-ATIS2:$radioname - PDC/DCL LEBL
-ATIS3:Covering North-West sector- Squawk C mode on ground
+ATIS2:$radioname 
+ATIS3:Covering North-West sector
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_F_APP:150:5
 ATIS2:$radioname
-ATIS3:Covering Final sector - Squawk C mode on ground
+ATIS3:Initial contact callsign only - vats.im/lexx
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LEBL_FMP:400:6
 ATIS2:$radioname
@@ -168,27 +168,27 @@ ATIS2:$radioname
 ATIS3:Procedural APP Service SFC/6500ft - vats.im/lexx
 ATIS4:Charts at chartfox.org/LEGE - We love feedback! vats.im/es-feedback
 PROFILE:LEIB_DEL:20:2
-ATIS2:$radioname - PDC/DCL Datalink [LEIB]
+ATIS2:$radioname - DCL [LEIB]
 ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts at chartfox.org/LEIB - We love feedback! vats.im/es-feedback
 PROFILE:LEIB_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEIB]
+ATIS2:$radioname - DCL [LEIB]
 ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts at chartfox.org/LEIB - We love feedback! vats.im/es-feedback
 PROFILE:LEIB_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEIB]
+ATIS2:$radioname - DCL [LEIB]
 ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts at chartfox.org/LEIB - We love feedback! vats.im/es-feedback
 PROFILE:LEIB_IXX_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [LEIB]
+ATIS2:$radioname
 ATIS3:FL85/FL245 Arrivals Contact Me - vats.im/lexx
 ATIS4:Charts at chartfox.org/LEIB - We love feedback! vats.im/es-feedback
 PROFILE:LEIB_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [LEIB]
+ATIS2:$radioname - DCL [LEIB]
 ATIS3:SFC/FL245 - vats.im/lexx
 ATIS4:Charts at chartfox.org/LEIB - We love feedback! vats.im/es-feedback
 PROFILE:LEIB_IXN_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [LEIB]
+ATIS2:$radioname
 ATIS3:FL85/FL245 - vats.im/lexx
 ATIS4:Charts at chartfox.org/LEIB - We love feedback! vats.im/es-feedback
 PROFILE:LEIB_FMP:300:6
@@ -236,39 +236,39 @@ ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEMI - We love feedback! vats.im/es-feedback
 PROFILE:LEPA_DEL:20:2
-ATIS2:$radioname - PDC/DCL Datalink [LEPA]
+ATIS2:$radioname - DCL [LEPA]
 ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts at chartfox.org/LEPA - We love feedback! vats.im/es-feedback
 PROFILE:LEPA_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEPA]
+ATIS2:$radioname - DCL [LEPA]
 ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts at chartfox.org/LEPA - We love feedback! vats.im/es-feedback
 PROFILE:LEPA_N_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEPA]
+ATIS2:$radioname - DCL [LEPA]
 ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts at chartfox.org/LEPA - We love feedback! vats.im/es-feedback
 PROFILE:LEPA_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEPA]
+ATIS2:$radioname - DCL [LEPA]
 ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts at chartfox.org/LEPA - We love feedback! vats.im/es-feedback
 PROFILE:LEPA_D_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEPA]
+ATIS2:$radioname - DCL [LEPA]
 ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts at chartfox.org/LEPA - We love feedback! vats.im/es-feedback
 PROFILE:LEPA_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [LEPA]
+ATIS2:$radioname - DCL [LEPA]
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEPA - We love feedback! vats.im/es-feedback
 PROFILE:LEPA_L2_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [LEPA]
+ATIS2:$radioname
 ATIS3:Covering East sector - vats.im/lexx
 ATIS4:Charts at chartfox.org/LEPA - We love feedback! vats.im/es-feedback
 PROFILE:LEPA_F_APP:150:5
 ATIS2:$radioname
-ATIS3:Covering Final sector - vats.im/lexx
+ATIS3:Initial contact callsign only - vats.im/lexx
 ATIS4:Charts at chartfox.org/LEPA - We love feedback! vats.im/es-feedback
 PROFILE:LEPA_DEP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [LEPA]
+ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEPA - We love feedback! vats.im/es-feedback
 PROFILE:LEPA_FMP:400:6
@@ -288,19 +288,19 @@ ATIS2:$radioname
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LERS - We love feedback! vats.im/es-feedback
 PROFILE:LEVC_DEL:20:2
-ATIS2:$radioname - PDC/DCL Datalink [LEVC]
+ATIS2:$radioname - DCL [LEVC]
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEVC - We love feedback! vats.im/es-feedback
 PROFILE:LEVC_GND:20:3
-ATIS2:$radioname - PDC/DCL Datalink [LEVC]
+ATIS2:$radioname - DCL [LEVC]
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEVC - We love feedback! vats.im/es-feedback
 PROFILE:LEVC_TWR:50:4
-ATIS2:$radioname - PDC/DCL Datalink [LEVC]
+ATIS2:$radioname - DCL [LEVC]
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEVC - We love feedback! vats.im/es-feedback
 PROFILE:LEVC_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [LEVC]
+ATIS2:$radioname - DCL [LEVC]
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 END
