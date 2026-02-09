@@ -36,23 +36,23 @@ ATIS2:$radioname
 ATIS3:Flow Management GCCC - Text me if you have any question
 ATIS4:We love feedback! vats.im/es-feedback
 PROFILE:GCCA_INB_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [CINB]
+ATIS2:$radioname - DCL [CINB]
 ATIS3:Covering GCTS/XO/GM/LA/HI below FL245 - vats.im/gccc
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:GCCA_NBE_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [CINB]
+ATIS2:$radioname - DCL [CNBE]
 ATIS3:Covering GCTS/XO below FL245 - vats.im/gccc
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:GCCA_AAC_APP:150:5
-ATIS2:$radioname - PDC/DCL Datalink [CAAC]
+ATIS2:$radioname - DCL [CAAC]
 ATIS3:Covering GCFV/RR below FL125 - vats.im/gccc
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:GCFV_GND:20:3
-ATIS2:$radioname
+ATIS2:$radioname - DCL [GCFV]
 ATIS3:vats.im/gccc
 ATIS4:Charts at chartfox.org/GCFV - We love feedback! vats.im/es-feedback
 PROFILE:GCFV_TWR:50:4
-ATIS2:$radioname
+ATIS2:$radioname - DCL [GCFV]
 ATIS3:vats.im/gccc
 ATIS4:Charts at chartfox.org/GCFV - We love feedback! vats.im/es-feedback
 PROFILE:GCGM_I_TWR:50:4
@@ -92,43 +92,43 @@ ATIS2:$radioname
 ATIS3:vats.im/gccc
 ATIS4:Charts at chartfox.org/GCLP - We love feedback! vats.im/es-feedback
 PROFILE:GCRR_GND:20:3
-ATIS2:$radioname
+ATIS2:$radioname - DCL [GCRR]
 ATIS3:vats.im/gccc
 ATIS4:Charts at chartfox.org/GCRR - We love feedback! vats.im/es-feedback
 PROFILE:GCRR_TWR:50:4
-ATIS2:$radioname
+ATIS2:$radioname - DCL [GCRR]
 ATIS3:vats.im/gccc
 ATIS4:Charts at chartfox.org/GCRR - We love feedback! vats.im/es-feedback
 PROFILE:GCTS_APP:150:5
-ATIS2:$radioname
+ATIS2:$radioname - DCL [GCTS]
 ATIS3:Covering GCTS below FL105 - vats.im/gccc
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:GCTS_DEL:20:2
-ATIS2:$radioname
+ATIS2:$radioname - DCL [GCTS]
 ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts at chartfox.org/GCTS - We love feedback! vats.im/es-feedback
 PROFILE:GCTS_GND:20:3
-ATIS2:$radioname
+ATIS2:$radioname - DCL [GCTS]
 ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts at chartfox.org/GCTS - We love feedback! vats.im/es-feedback
 PROFILE:GCTS_TWR:50:4
-ATIS2:$radioname
+ATIS2:$radioname - DCL [GCTS]
 ATIS3:Report your TOBT at vats.im/vdgs
 ATIS4:Charts at chartfox.org/GCTS - We love feedback! vats.im/es-feedback
 PROFILE:GCXO_APP:150:5
-ATIS2:$radioname
+ATIS2:$radioname - DCL [GCXO]
 ATIS3:Covering GCXO below FL105 - vats.im/gccc
 ATIS4:Charts at chartfox.org/GCXO - We love feedback! vats.im/es-feedback
 PROFILE:GCXO_DEL:20:2
-ATIS2:$radioname
+ATIS2:$radioname - DCL [GCXO]
 ATIS3:vats.im/gccc
 ATIS4:Charts at chartfox.org/GCXO - We love feedback! vats.im/es-feedback
 PROFILE:GCXO_GND:20:3
-ATIS2:$radioname
+ATIS2:$radioname - DCL [GCXO]
 ATIS3:vats.im/gccc
 ATIS4:Charts at chartfox.org/GCXO - We love feedback! vats.im/es-feedback
 PROFILE:GCXO_TWR:50:4
-ATIS2:$radioname
+ATIS2:$radioname - DCL [GCXO]
 ATIS3:vats.im/gccc
 ATIS4:Charts at chartfox.org/GCXO - We love feedback! vats.im/es-feedback
 END
