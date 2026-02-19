@@ -140,6 +140,9 @@
 			<sid name="VIBAS">
 				<alt>100</alt>
 			</sid>
+			<sid name="UMUKA">
+				<alt>100</alt>
+			</sid>
 		</runway>
 		<runway name="31">
 			<sid name="BLN">
@@ -175,6 +178,9 @@
 			<sid name="VIBAS">
 				<alt>100</alt>
 			</sid>
+			<sid name="UMUKA">
+				<alt>100</alt>
+			</sid>
 		</runway>
 		<runway name="30">
 			<sid name="BLN">
@@ -208,6 +214,9 @@
 				<alt>100</alt>
 			</sid>
 			<sid name="VIBAS">
+				<alt>100</alt>
+			</sid>
+			<sid name="UMUKA">
 				<alt>100</alt>
 			</sid>
 		</runway>

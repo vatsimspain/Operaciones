@@ -44,6 +44,8 @@ Plugins	Plugin4Display1	Ground Radar display
 Plugins	Plugin5	\LECM\Plugins\InitialClimbPlugin\InitialClimbPlugin.dll
 Plugins	Plugin6	\LECM\Plugins\VFPC\VFPC.dll
 Plugins	Plugin7	\LEXX\Plugins\CDM\CDM.dll
+Plugins	Plugin7Display0	ES Centerlines
+Plugins	Plugin7Display1	Standard ES radar screen
 Plugins	Plugin8	\LECM\Plugins\ESCenterlines\ESCenterlines.dll
 Plugins	Plugin8Display0	ES Centerlines
 Plugins	Plugin8Display1	Standard ES radar screen
