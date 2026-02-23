@@ -73,7 +73,7 @@ Color_Active_Map_Type_15=75,75,75
 Color_Active_Map_Type_16=30,30,30
 Color_Active_Map_Type_19=80,80,80
 Color_Active_Map_Type_20=100,0,0
-Color_Active_RD_Infill_Map=60,13,10
+Color_Active_RD_Infill_Map=45,13,10
 
 Color_Active_Text_Map=100,100,100
 Color_ACF_Via_CFL=82,190,115
