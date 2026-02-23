@@ -168,8 +168,9 @@ Color_WM_Fg=180,184,181
 Color_WM_Frame=88,95,99
 Color_Weather_Map=200,200,100
 
-HTTP_NOTAM_Server=https://www.notams.faa.gov/
-HTTP_NOTAM_Page_Prefix=dinsQueryWeb/queryRetrievalMapAction.do?reportType=Raw&retrieveLocId=
+HTTP_NOTAM_Server=https://notams.blip-radar.org/
+HTTP_NOTAM_Page_Prefix=api/legacy/query?loc=
+HTTP_NOTAM_Page_Suffix=
 HTTP_AUP_URL=https://lara.vatsim.pt/api/areas/LE/
 
 Malrt_Inbound_EST=INB EST
