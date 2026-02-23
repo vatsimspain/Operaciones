@@ -1,0 +1,19 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:-2
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:1
+DISABLEZOOMING:1
+DisplayRotation:270.80000
+TAGFAMILY:Matias (built in)
+WINDOWAREA:37.123513:-3.652830:37.140116:-3.613519
+PLUGIN:Ground Radar plugin:GroundMode:LEGA
+PLUGIN:TopSky plugin:NoDraw:1
