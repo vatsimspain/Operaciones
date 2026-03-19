@@ -12,6 +12,7 @@
 - Alejandro Gallegos - [@ImAlex28](https://www.github.com/ImAlex28)
 - Álvaro Ruiz - [@ACCSP2](https://github.com/ACCSP2)
 - Iker Hervás - [@IkerHervas](https://github.com/IkerHervas)
+- Izan Sabater - [@izxnsr](https://github.com/izxnsr)
 ## Autores previos
 - Toni Monner - [@ACCSP5](https://github.com/ACCSP5)
  
