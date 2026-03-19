@@ -1,9 +1,6 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:
-Geo:LECO Groundlayout GND:
 SHOWC:1
 SHOWSB:0
 BELOW:0
@@ -15,8 +12,8 @@ HISTORY_DOTS:0
 SIMULATION_MODE:1
 DISABLEPANNING:1
 DISABLEZOOMING:1
-DisplayRotation:58.00000
+DisplayRotation:270.80000
 TAGFAMILY:Matias (built in)
-WINDOWAREA:43.296026:-8.401344:43.310941:-8.366029
-PLUGIN:Ground Radar plugin:GroundMode:LECO
+WINDOWAREA:37.123513:-3.652830:37.140116:-3.613519
+PLUGIN:Ground Radar plugin:GroundMode:LEGA
 PLUGIN:TopSky plugin:NoDraw:1
