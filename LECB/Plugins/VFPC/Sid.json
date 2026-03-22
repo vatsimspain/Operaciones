@@ -215,27 +215,27 @@
 			   "min_fl": 95,
 			   "max_fl": 325,
 			   "destinations": ["LSER","LSEZ","LSGB","LSGC","LSGE","LSGK","LSGN","LSGR","LSGS","LSGT","LSGY","LSEA","LSEC","LSEG","LSMP","LSTB","LSTO","LSTR","LSTS","LSTZ","LSGG","LSGL","LSGP","LFLI","LFHN"],
-			   "airways": ["AGENA M985","AGENA L16"]
+			   "airways": ["AGENA M985","AGENA L16", "AGENA DCT BODEQ", "AGENA DCT DALIN", "AGENA DCT VERSO"]
             },
             {
             "direction": "EVEN",
 			   "min_fl": 95,
 			   "max_fl": 345,
 			   "destinations": ["LIME","LIMP","LIPE","LIPX","LIQS","LIRQ","LSZA","LSZL","LSZS","LFSB","LFST","LSZ","LSM","EDDS","EDNY","LF","EB","EDFH","EDDR","EDLN","EDRT","EDRZ","EHBK","ELLX","ETAD","ETAR","ETSB","LFJL"],
-			   "airways": ["AGENA M985","AGENA L16"]
+			   "airways": ["AGENA M985","AGENA L16", "AGENA DCT BODEQ", "AGENA DCT DALIN", "AGENA DCT VERSO"]
             },
             {
             "direction": "EVEN",
 			   "min_fl": 95,
 			   "max_fl": 365,
 			   "destinations": ["EDDF","EDDG","EDDL","EDFM","EDLP","EDLV","EDLW","EHAL","EHAM","EHBD","EHDL","EHDR","EHEH","EHGG","EHGR","EHHO","EHHV","EHKD","EHLE","EHLW","EHMZ","EHOW","EHRD","EHSE","EHST","EHTE","EHTW","EHTX","EHVK","EHWO"],
-			   "airways": ["AGENA M985","AGENA L16"]
+			   "airways": ["AGENA M985","AGENA L16", "AGENA DCT BODEQ", "AGENA DCT DALIN", "AGENA DCT VERSO"]
             },
             {
             "direction": "EVEN",
 			   "min_fl": 95,
 			   "max_fl": 660,
-			   "airways": ["AGENA M985","AGENA L16"]
+			   "airways": ["AGENA M985","AGENA L16", "AGENA DCT BODEQ", "AGENA DCT DALIN", "AGENA DCT VERSO"]
             }
          ],
 			"DALIN": [
@@ -244,27 +244,27 @@
 			   "min_fl": 95,
 			   "max_fl": 325,
 			   "destinations": ["LSER","LSEZ","LSGB","LSGC","LSGE","LSGK","LSGN","LSGR","LSGS","LSGT","LSGY","LSEA","LSEC","LSEG","LSMP","LSTB","LSTO","LSTR","LSTS","LSTZ","LSGG","LSGL","LSGP","LFLI","LFHN"],
-			   "airways": ["DALIN N870","DALIN L16"]
+			   "airways": ["DALIN N870","DALIN L16", "DALIN DCT BAGUR", "DALIN DCT AGENA", "DALIN DCT PIVUS"]
             },
 			{
             "direction": "EVEN",
 			   "min_fl": 95,
 			   "max_fl": 345,
 			   "destinations": ["LIME","LIMP","LIPE","LIPX","LIQS","LIRQ","LSZA","LSZL","LSZS","LFSB","LFST","LSZ","LSM","EDDS","EDNY","LF","EB","EDFH","EDDR","EDLN","EDRT","EDRZ","EHBK","ELLX","ETAD","ETAR","ETSB","LFJL"],
-			   "airways": ["DALIN N870","DALIN L16"]
+			   "airways": ["DALIN N870","DALIN L16", "DALIN DCT BAGUR", "DALIN DCT AGENA", "DALIN DCT PIVUS"]
             },
 			{
             "direction": "EVEN",
 			   "min_fl": 95,
 			   "max_fl": 365,
 			   "destinations": ["EDDF","EDDG","EDDL","EDFM","EDLP","EDLV","EDLW","EHAL","EHAM","EHBD","EHDL","EHDR","EHEH","EHGG","EHGR","EHHO","EHHV","EHKD","EHLE","EHLW","EHMZ","EHOW","EHRD","EHSE","EHST","EHTE","EHTW","EHTX","EHVK","EHWO"],
-			   "airways": ["DALIN N870","DALIN L16"]
+			   "airways": ["DALIN N870","DALIN L16", "DALIN DCT BAGUR", "DALIN DCT AGENA", "DALIN DCT PIVUS"]
             },			
 			{
             "direction": "EVEN",
 			   "min_fl": 95,
 			   "max_fl": 660,
-			   "airways": ["DALIN N870","DALIN L16"]
+			   "airways": ["DALIN N870","DALIN L16", "DALIN DCT BAGUR", "DALIN DCT AGENA", "DALIN DCT PIVUS"]
             }
 		],
 			"DIPES": [
