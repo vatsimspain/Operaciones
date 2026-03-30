@@ -8,6 +8,7 @@
 	<autoAtot mode="true" />
 	<invalidateAtTsat mode="true" />
 	<invalidateAtTobt mode="true" />
+	<readySetTsac mode="true" />
 	<Rates url="https://archivos.vatsimspain.es/Operaciones/Plugins/CDM_data/rate_v2.txt" />
 	<Taxizones url="https://archivos.vatsimspain.es/Operaciones/Plugins/CDM_data/taxizones.txt" />
 	<Ctot url="https://archivos.vatsimspain.es/Operaciones/Plugins/CDM_data/ctot.txt" />
