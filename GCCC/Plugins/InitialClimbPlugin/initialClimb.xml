@@ -344,16 +344,16 @@
 			</sid>
 		</runway>
 		<runway name="34">
-			<sid name="ARACO">
+			<sid name="FD34ARA">
 				<alt>050</alt>
 			</sid>
-			<sid name="LPC">
+			<sid name="FD34LPC">
 				<alt>050</alt>
 			</sid>
-			<sid name="TFN">
+			<sid name="FD34TFN">
 				<alt>050</alt>
 			</sid>
-			<sid name="YELBE">
+			<sid name="FD34YEL">
 				<alt>050</alt>
 			</sid>
 		</runway>

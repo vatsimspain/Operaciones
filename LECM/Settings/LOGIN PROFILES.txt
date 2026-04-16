@@ -56,7 +56,7 @@ ATIS2:$radioname (+FL345) - CPDLC [CTLU]
 ATIS3:Covering only UPPER SECTOR (+FL345) - My active sector vats.im/lexx
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LECM_ZMI_CTR:400:6
-ATIS2:$radioname - CPDLC [CMZMI]
+ATIS2:$radioname - CPDLC [CZMI]
 ATIS3:My active sector vats.im/lexx
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LECM_ZMU_CTR:400:6
