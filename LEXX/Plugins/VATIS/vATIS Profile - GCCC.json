@@ -282,7 +282,7 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "Q{altimeter}",
+            "text": "QNH {altimeter}HPA",
             "voice": "QNH {altimeter}"
           }
         },
@@ -367,7 +367,7 @@
           "id": "6c1b902f-4d96-44ab-9aae-484aa1c1d61b",
           "name": "SOUTH",
           "airportConditions": "DEPARTURE RWY 21 LEFT. ARRIVAL RWY 21 RIGHT. EXPECT ILS Z APPROACH RWY 21 RIGHT.",
-          "notams": "COMPLY 190 KNOTS IAS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE.. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY.",
+          "notams": "COMPLY 190 KNOTS IAS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE.. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY. LPC VOR OUT OF SERVICE. EXPECT CONTINGENCY DEPARTURE RWY 21 LEFT.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -387,7 +387,7 @@
           "id": "1e1e3526-4b0e-4905-a278-8253cc5e0044",
           "name": "SOUTH SINGLE",
           "airportConditions": "DEPARTURE RWY 21 RIGHT. ARRIVAL RWY 21 RIGHT. EXPECT ILS Z APPROACH RWY 21 RIGHT.",
-          "notams": "COMPLY 190 KNOTS IAS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE.",
+          "notams": "COMPLY 190 KNOTS IAS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE. LPC VOR OUT OF SERVICE. EXPECT CONTINGENCY DEPARTURE RWY 21 RIGHT.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -407,7 +407,7 @@
           "id": "db9b3a37-faf2-4df5-aeec-1378bd884fb0",
           "name": "SOUTH DUAL",
           "airportConditions": "DEPARTURE RWY 21 RIGHT AND 21 LEFT. ARRIVAL RWY 21 RIGHT. EXPECT ILS Z APPROACH RWY 21 RIGHT.",
-          "notams": "COMPLY 190 KNOTS IAS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE.. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY.",
+          "notams": "COMPLY 190 KNOTS IAS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE.. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY. LPC VOR OUT OF SERVICE. EXPECT CONTINGENCY DEPARTURE RWY 21 RIGHT AND 21 LEFT.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -653,7 +653,7 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "Q{altimeter}",
+            "text": "QNH {altimeter}HPA",
             "voice": "QNH {altimeter}"
           }
         },
@@ -986,7 +986,7 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "Q{altimeter}",
+            "text": "QNH {altimeter}HPA",
             "voice": "QNH {altimeter}"
           }
         },
@@ -1315,7 +1315,7 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "Q{altimeter}",
+            "text": "QNH {altimeter}HPA",
             "voice": "QNH {altimeter}"
           }
         },
@@ -1644,7 +1644,7 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "Q{altimeter}",
+            "text": "QNH {altimeter}HPA",
             "voice": "QNH {altimeter}"
           }
         },
@@ -1973,7 +1973,7 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "Q{altimeter}",
+            "text": "QNH {altimeter}HPA",
             "voice": "QNH {altimeter}"
           }
         },
