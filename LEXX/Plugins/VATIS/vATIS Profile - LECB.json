@@ -1116,7 +1116,7 @@
         {
           "id": "55ba5467-5fe8-4e70-bb54-9c7358ff8c98",
           "name": "NORTH",
-          "airportConditions": "RWY IN USE 01. EXPECT VOR APPROACH RWY 01.",
+          "airportConditions": "RWY IN USE 01. EXPECT RNP Y APPROACH RWY 01.",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false

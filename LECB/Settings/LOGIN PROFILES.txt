@@ -31,6 +31,10 @@ PROFILE:LECB_CCC_CTR:400:6
 ATIS2:$radioname - CPDLC [CCCC]
 ATIS3:My active sector vats.im/lexx
 ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
+PROFILE:LECB_CVN_CTR:400:6
+ATIS2:$radioname - CPDLC [CCVN]
+ATIS3:My active sector vats.im/lexx
+ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LECB_RS_CTR:400:6
 ATIS2:$radioname - CPDLC [CBRS]
 ATIS3:My active sector vats.im/lexx
