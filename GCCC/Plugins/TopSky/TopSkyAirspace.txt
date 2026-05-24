@@ -145,13 +145,13 @@ INITIAL_CFL:7000
 CFL_FRUL:I
 CFL_ADEP:GCTS
 CFL_DRWY:07
-CFL_SID:COSSE1W
+CFL_SID:FUFFU1E
 
 INITIAL_CFL:8000
 CFL_FRUL:I
 CFL_ADEP:GCTS
 CFL_DRWY:25
-CFL_SID:COSSE2H
+CFL_SID:FUFFU1F
 
 //---------------------------------------------GCXO---------------------------------------------//
 
