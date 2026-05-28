@@ -215,10 +215,6 @@ PROFILE:LEMG_F_APP:150:5
 ATIS2:$radioname 
 ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEMG - We love feedback! vats.im/es-feedback
-PROFILE:LEAG_H_TWR:50:4
-ATIS2:$radioname
-ATIS3:vats.im/lexx
-ATIS4:Charts at chartfox.org/LEAG - We love feedback! vats.im/es-feedback
 PROFILE:LEAO_H_TWR:50:4
 ATIS2:$radioname
 ATIS3:vats.im/lexx
