@@ -574,24 +574,6 @@ HTTP_GRIB_Latitude_Min=35
 HTTP_GRIB_Longitude_Max=6
 HTTP_GRIB_Longitude_Min=-5
 
-[LECB_CTR]
-WXR_Latitude=40
-WXR_Longitude=1
-WXR_Latitude_Max=43
-WXR_Latitude_Min=36
-WXR_Longitude_Max=5
-WXR_Longitude_Min=-3.5
-HTTP_GRIB_Latitude_Max=43
-HTTP_GRIB_Latitude_Min=36
-HTTP_GRIB_Longitude_Max=5
-HTTP_GRIB_Longitude_Min=-4
-WXR_Zoom=5
-Window_CPDLC_Current=3,1545,0
-Window_CPDLC_Setting=3,0,250
-Setup_ScreenLat=LEPA
-Setup_LoadView=CB
-Window_ASM=0,0,250
-
 [LECB_CCC_CTR]
 WXR_Latitude=41
 WXR_Longitude=3

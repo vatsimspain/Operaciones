@@ -571,21 +571,6 @@ HTTP_GRIB_Latitude_Min=34
 HTTP_GRIB_Longitude_Max=1
 HTTP_GRIB_Longitude_Min=-15
 
-[LECM_ALL_CTR]
-STCA_Floor=3800
-WXR_Latitude=41
-WXR_Longitude=-6
-WXR_Latitude_Max=46.1
-WXR_Latitude_Min=34.8
-WXR_Longitude_Max=1
-WXR_Longitude_Min=-14.1
-WXR_Zoom=4
-Window_CPDLC_Current=3,1545,0
-Window_CPDLC_Setting=3,0,500
-Setup_ScreenLat=LEMD
-Setup_LoadView=ALL
-Window_ASM=0,0,250
-
 [LECM_CTR]
 STCA_Floor=3800
 WXR_Latitude=41
