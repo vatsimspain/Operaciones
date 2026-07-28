@@ -149,7 +149,7 @@ CCAMS:ACList/Mode S EHS/m_OrderingColumn:1
 SACTA Plugin:SACTAClockVisibility:1
 SACTA Plugin:SACTAClockPositionX:99
 SACTA Plugin:SACTAClockPositionY:708
-SACTA Plugin:SACTAVSPVVisibility:0
+SACTA Plugin:SACTAVSPVVisibility:1
 SACTA Plugin:SACTAVSPVPositionX:1866
 SACTA Plugin:SACTAVSPVPositionY:644
 SACTA Plugin:SACTAVIGVisibility:1
