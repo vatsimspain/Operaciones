@@ -49,7 +49,7 @@ AMAN_ShowPastSTA=180
 //Color settings
 Color_Assumed=11,177,76
 Color_Concerned=179,220,145
-Color_Coordination=221,221,221
+Color_Coordination=179,220,145
 Color_Redundant=221,221,221
 Color_Unconcerned=133,133,142
 Color_Warning=255,100,50
