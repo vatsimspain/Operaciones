@@ -4,6 +4,7 @@
 	<rateLvo ops="10" />
 	<expiredCtot time="25" />
 	<realMode mode="true" />
+	<bmi mode="false" />
 	<pilotTobt mode="true" />
 	<autoAtot mode="true" />
 	<invalidateAtTsat mode="true" />
@@ -11,11 +12,12 @@
 	<readySetTsac mode="true" />
 	<Rates url="https://archivos.vatsimspain.es/Operaciones/Plugins/CDM_data/rate_v2.txt" />
 	<Taxizones url="https://archivos.vatsimspain.es/Operaciones/Plugins/CDM_data/taxizones.txt" />
-	<Ctot url="https://archivos.vatsimspain.es/Operaciones/Plugins/CDM_data/ctot.txt" />
+	<Slots url="https://archivos.vatsimspain.es/Operaciones/Plugins/CDM_data/ctot.txt" />
 	<sidInterval url="" />
 	<DefaultTaxiTime minutes="15" />
 	<DeIceTimes light="5" medium="9" heavy="12" super="15"/>
 	<DeIceRemTaxi rem1Name= "" rem1="" rem2Name= "" rem2="" rem3Name= "" rem3="" rem4Name= "" rem4="" rem5Name= "" rem5=""/>
+	<eventModeMin time="5" />
 	<RefreshTime seconds="10" />
 	<Debug mode="false" />
 	<FlowRestrictions url="" />
@@ -26,4 +28,12 @@
 	<sftpConnection mode="false" />
 	<Server mode="true" />
 	<Su_Wait mode="true" />
+	<flashingMode tobtLastMin= "false" tsatFirstMin="false" tsatLastMin= "false"/>
+	<reqTobtPriority mode="true" />
+	<eventPriority mode="true" />
+	<autoSetTobtFromEvSlot mode="true" />
+	<PrivateMessage text="[CDM MSG] PLEASE, MONITOR https://vats.im/vdgs FOR CDM AND ATFCM UPDATES. [END OF CDM MSG]" />
+	<remarksOptionCtot mode="true" />
+	<disableTobtReqAfterAsrt mode="true" />
+	<loading text="...." />
 </CDM>
