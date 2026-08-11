@@ -4636,7 +4636,7 @@
         "useTextToSpeech": true,
         "voice": "AU Female"
       },
-      "useNotamPrefix": true,
+      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "airportConditionsBeforeFreeText": false,
       "notamsBeforeFreeText": false,
