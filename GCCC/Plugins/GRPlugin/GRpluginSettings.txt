@@ -23,7 +23,7 @@ RawVideo_MaxHistory=5
 Track_HistoryDots_GND=5
 
 Equip_ModeS=WZLCISG
-System_AutoAssignDist=50
+System_AutoAssignDist=150
 
 Color_Departure=95,220,1
 Color_Arrival=255,130,4
