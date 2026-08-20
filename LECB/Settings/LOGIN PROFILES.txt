@@ -15,6 +15,10 @@ PROFILE:LECP_FMP:400:6
 ATIS2:$radioname
 ATIS3:Flow Management LECP - Text me if you have any question
 ATIS4:We love feedback! vats.im/es-feedback
+PROFILE:LECB_U_CTR:400:6
+ATIS2:$radioname - CPDLC [CBUP]
+ATIS3:UPPER SECTOR - Coverage from FL305
+ATIS4:Charts at chartfox.org - We love feedback! vats.im/es-feedback
 PROFILE:LECB_RN_CTR:400:6
 ATIS2:$radioname - CPDLC [CBRN]
 ATIS3:My active sector vats.im/lexx
