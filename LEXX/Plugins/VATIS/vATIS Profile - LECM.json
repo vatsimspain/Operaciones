@@ -2,7 +2,7 @@
   "name": "LECM",
   "id": "c7c86657-2726-4ec5-9529-32f2d2101f5b",
   "updateUrl": "https://raw.githubusercontent.com/vatspa/Operaciones/refs/heads/estable/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECM.json",
-  "updateSerial": 2026041701,
+  "updateSerial": 2026081101,
   "composites": [
     {
       "id": "a7e1777e-b996-431d-af66-3445e5608bef",
@@ -3010,7 +3010,7 @@
           "id": "e1f3ef1b-9419-4128-933c-63dc9f94c84f",
           "name": "SOUTH",
           "airportConditions": "RWY IN USE FOR DEPARTURES 13.",
-          "notams": "AFTER DEPARTURE CONTACT NEXT AVAILABLE ATC BEFORE PASSING 2000FT..",
+          "notams": "ONCE AIRBORNE AND BEFORE REACHING 2000FT CONTACT NEXT AVAILABLE ATC..",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -3020,7 +3020,7 @@
           "id": "b6419818-2402-463a-8ca7-b5b0f07cf5f2",
           "name": "NORTH",
           "airportConditions": "RWY IN USE FOR DEPARTURES 31.",
-          "notams": "AFTER DEPARTURE CONTACT NEXT AVAILABLE ATC BEFORE PASSING 2000FT..",
+          "notams": "ONCE AIRBORNE AND BEFORE REACHING 2000FT CONTACT NEXT AVAILABLE ATC..",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -3030,7 +3030,7 @@
           "id": "8083c072-2a02-4784-99d5-0cb8069ea90e",
           "name": "SOUTH DUAL",
           "airportConditions": "RWY IN USE FOR DEPARTURES 13.",
-          "notams": "AFTER DEPARTURE CONTACT NEXT AVAILABLE ATC BEFORE PASSING 2000FT..",
+          "notams": "ONCE AIRBORNE AND BEFORE REACHING 2000FT CONTACT NEXT AVAILABLE ATC..",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -3040,7 +3040,7 @@
           "id": "ea2df371-af8b-4e8e-a5b5-d79d875fe439",
           "name": "NORTH DUAL",
           "airportConditions": "RWY IN USE FOR DEPARTURES 30.",
-          "notams": "AFTER DEPARTURE CONTACT NEXT AVAILABLE ATC BEFORE PASSING 2000FT..",
+          "notams": "ONCE AIRBORNE AND BEFORE REACHING 2000FT CONTACT NEXT AVAILABLE ATC..",
           "template": "THIS IS [FACILITY] ATIS INFORMATION [ATIS_CODE]. AT TIME [OBS_TIME]. [ARPT_COND]. [NOTAMS]. [FULL_WX_STRING]. [TL]. THIS WAS [FACILITY] ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -4636,7 +4636,7 @@
         "useTextToSpeech": true,
         "voice": "AU Female"
       },
-      "useNotamPrefix": true,
+      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "airportConditionsBeforeFreeText": false,
       "notamsBeforeFreeText": false,

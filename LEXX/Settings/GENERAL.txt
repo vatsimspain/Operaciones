@@ -33,7 +33,7 @@ m_ShowRouteWhenAccepting:0
 m_AllowAssumedACTagDown:0
 m_InhibitAutoPushOnHandoff:0
 m_RandomSquawks:1
-m_VFRSquawks:7000
+m_VFRSquawks:7000,1000
 m_WhoIsOnlineURL:http://eu.data.vatsim.net/vatsim-data.txt
 m_AutoLoadMetarForActiveAirports:1
 m_LockShowRouteWhenAccepting:0
@@ -122,7 +122,7 @@ m_UseIsectForScratchPad:0
 m_RotateRadarTargetSymbol:0
 m_RotateFlightPlanTrackSymbol:0
 m_RubberHeadingRounding:5
-SqawkForSModeTransponder:1000
+SqawkForSModeTransponder:
 m_TransparentTagBackground:1
 m_UseArrDepTagBgColor:0
 SET_MTCA_Show:0
