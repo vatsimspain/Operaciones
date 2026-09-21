@@ -424,36 +424,36 @@
 	<apt icao="LEST">
 		<runway name="17">
 			<sid name="DEMOS">
-				<alt>100</alt>
+				<alt>090</alt>
 			</sid>
 			<sid name="FORNO">
-				<alt>100</alt>
+				<alt>090</alt>
 			</sid>
 			<sid name="KORAV">
-				<alt>100</alt>
+				<alt>090</alt>
 			</sid>
 			<sid name="MEGAT">
-				<alt>100</alt>
+				<alt>090</alt>
 			</sid>
 			<sid name="ROXER">
-				<alt>100</alt>
+				<alt>090</alt>
 			</sid>
 		</runway>
 		<runway name="35">
 			<sid name="DEMOS">
-				<alt>100</alt>
+				<alt>090</alt>
 			</sid>
 			<sid name="FORNO">
-				<alt>100</alt>
+				<alt>090</alt>
 			</sid>
 			<sid name="KORAV">
-				<alt>100</alt>
+				<alt>090</alt>
 			</sid>
 			<sid name="MEGAT">
-				<alt>100</alt>
+				<alt>090</alt>
 			</sid>
 			<sid name="ROXER">
-				<alt>100</alt>
+				<alt>090</alt>
 			</sid>
 		</runway>
     </apt>
