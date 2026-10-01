@@ -948,32 +948,32 @@
             {
               "low": 942,
               "high": 959,
-              "altitude": 100
+              "altitude": 160
             },
             {
               "low": 960,
               "high": 977,
-              "altitude": 95
+              "altitude": 155
             },
             {
               "low": 978,
               "high": 995,
-              "altitude": 90
+              "altitude": 150
             },
             {
               "low": 996,
               "high": 1013,
-              "altitude": 85
+              "altitude": 145
             },
             {
               "low": 1014,
               "high": 1031,
-              "altitude": 80
+              "altitude": 140
             },
             {
               "low": 1032,
               "high": 1050,
-              "altitude": 75
+              "altitude": 135
             }
           ],
           "template": {
