@@ -1,0 +1,1691 @@
+{
+  "name": "LEXX",
+  "description": "Runway rules for every Spanish airport. Airports in the runway dialog but not listed here get all runways deselected at startup.",
+  "defaultTimezone": "Europe/Madrid",
+  "defaults": {
+    "maxTailwindKt": 5,
+    "maxCrosswindKt": 15
+  },
+  "approachRanking": [
+    "ILS_CAT_III",
+    "ILS_CAT_II",
+    "ILS_CAT_I",
+    "RNP_LPV",
+    "RNP_LNAV_VNAV",
+    "RNP_AR",
+    "LOC",
+    "RNP_LNAV",
+    "VOR",
+    "TACAN",
+    "NDB",
+    "VISUAL"
+  ],
+  "selectionRules": {
+    "preferential": "AIP preferential configuration: the first configuration (in order) whose runways are within the wind limits.",
+    "approach": "No AIP preference: the runway with the best approach (approachRanking) if within the wind limits, otherwise the runway the wind suits best. Equal approach: most headwind; equal and calm: keep the current configuration (at startup the first listed)."
+  },
+  "airports": {
+    "GCFV": {
+      "source": "AIP España AD 2-GCFV, AD 2.19 + IAC chart list, AMDT 408/26",
+      "selection": "approach",
+      "calmConfiguration": "RWY 01",
+      "configurations": [
+        {
+          "name": "RWY 01",
+          "arr": [
+            "01"
+          ],
+          "dep": [
+            "01"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 19",
+          "arr": [
+            "19"
+          ],
+          "dep": [
+            "19"
+          ],
+          "approach": "ILS_CAT_I"
+        }
+      ],
+      "notes": [
+        "RWY 01 with calm or variable wind (VATSIM Spain operations)."
+      ]
+    },
+    "GCGM": {
+      "source": "AIP España AD 2-GCGM, AD 2.19, AMDT 408/26",
+      "selection": "approach",
+      "afis": true,
+      "configurations": [
+        {
+          "name": "RWY 09",
+          "arr": [
+            "09"
+          ],
+          "dep": [
+            "09"
+          ],
+          "approach": "VISUAL"
+        },
+        {
+          "name": "RWY 27",
+          "arr": [
+            "27"
+          ],
+          "dep": [
+            "27"
+          ],
+          "approach": "VISUAL"
+        }
+      ],
+      "notes": [
+        "AFIS aerodrome: all runways are deselected, pilots decide which runway to use."
+      ]
+    },
+    "GCHI": {
+      "source": "AIP España AD 2-GCHI, AD 2.19, AIRAC AMDT 05/26",
+      "selection": "approach",
+      "calmConfiguration": "RWY 34",
+      "afis": true,
+      "afisDays": [
+        "SAT",
+        "SUN"
+      ],
+      "configurations": [
+        {
+          "name": "RWY 16",
+          "arr": [
+            "16"
+          ],
+          "dep": [
+            "16"
+          ],
+          "approach": "VISUAL"
+        },
+        {
+          "name": "RWY 34",
+          "arr": [
+            "34"
+          ],
+          "dep": [
+            "34"
+          ],
+          "approach": "VISUAL"
+        }
+      ],
+      "notes": [
+        "Tower on weekdays, AFIS at weekends (Saturday and Sunday, Canary time): at weekends all runways are deselected, pilots decide which runway to use.",
+        "On weekdays: RWY 34 with calm or variable wind, otherwise the runway with the best wind."
+      ]
+    },
+    "GCLA": {
+      "source": "AIP España AD 2-GCLA, AD 2.20 'Pistas preferentes', AIRAC AMDT 09/26",
+      "selection": "preferential",
+      "limits": {
+        "maxTailwindKt": 10,
+        "maxCrosswindKt": 25
+      },
+      "configurations": [
+        {
+          "name": "RWY 36",
+          "arr": [
+            "36"
+          ],
+          "dep": [
+            "36"
+          ]
+        },
+        {
+          "name": "RWY 18",
+          "arr": [
+            "18"
+          ],
+          "dep": [
+            "18"
+          ]
+        }
+      ],
+      "notes": [
+        "AIP: RWY 36 for take-offs and landings up to 10 kt tailwind and/or 25 kt crosswind."
+      ]
+    },
+    "GCLP": {
+      "source": "AIP España AD 2-GCLP, AD 2.20 'Pistas preferentes', AIRAC AMDT 09/26",
+      "selection": "preferential",
+      "configurations": [
+        {
+          "name": "North",
+          "arr": [
+            "03L"
+          ],
+          "dep": [
+            "03R"
+          ]
+        },
+        {
+          "name": "South",
+          "arr": [
+            "21R"
+          ],
+          "dep": [
+            "21L"
+          ]
+        }
+      ],
+      "notes": [
+        "AIP: North configuration preferred. No wind limit given: default limits."
+      ]
+    },
+    "GCRR": {
+      "source": "AIP España AD 2-GCRR, AD 2.19 + IAC chart list, AIRAC AMDT 08/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 03",
+          "arr": [
+            "03"
+          ],
+          "dep": [
+            "03"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 21",
+          "arr": [
+            "21"
+          ],
+          "dep": [
+            "21"
+          ],
+          "approach": "VISUAL"
+        }
+      ]
+    },
+    "GCTS": {
+      "source": "AIP España AD 2-GCTS, AD 2.19 + IAC chart list, AIRAC AMDT 09/26",
+      "selection": "approach",
+      "calmConfiguration": "RWY 07",
+      "configurations": [
+        {
+          "name": "RWY 07",
+          "arr": [
+            "07"
+          ],
+          "dep": [
+            "07"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 25",
+          "arr": [
+            "25"
+          ],
+          "dep": [
+            "25"
+          ],
+          "approach": "ILS_CAT_I"
+        }
+      ],
+      "notes": [
+        "AIP: on approach to RWY 07 below 2100 ft the wind is often a 5-10 kt tailwind, turning to headwind lower down.",
+        "RWY 07 with calm or variable wind (VATSIM Spain operations)."
+      ]
+    },
+    "GCXO": {
+      "source": "AIP España AD 2-GCXO, AD 2.19 + IAC chart list, AIRAC AMDT 09/26",
+      "selection": "approach",
+      "calmConfiguration": "RWY 30",
+      "configurations": [
+        {
+          "name": "RWY 12",
+          "arr": [
+            "12"
+          ],
+          "dep": [
+            "12"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 30",
+          "arr": [
+            "30"
+          ],
+          "dep": [
+            "30"
+          ],
+          "approach": "ILS_CAT_I"
+        }
+      ],
+      "notes": [
+        "RWY 30 with calm or variable wind (VATSIM Spain operations)."
+      ]
+    },
+    "GEML": {
+      "source": "AIP España AD 2-GEML, AD 2.19 + AD 2.22, AIRAC AMDT 09/26",
+      "selection": "approach",
+      "calmConfiguration": "RWY 15",
+      "configurations": [
+        {
+          "name": "RWY 15",
+          "arr": [
+            "15"
+          ],
+          "dep": [
+            "15"
+          ],
+          "approach": "VISUAL"
+        },
+        {
+          "name": "RWY 33",
+          "arr": [
+            "33"
+          ],
+          "dep": [
+            "33"
+          ],
+          "approach": "VISUAL"
+        }
+      ],
+      "notes": [
+        "No preferential runway (VATSIM Spain operations): chosen by wind; RWY 15 with calm or variable wind."
+      ]
+    },
+    "LEAB": {
+      "source": "AIP España AD 2-LEAB, AD 2.19 + IAC chart list, AMDT 410/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 09",
+          "arr": [
+            "09"
+          ],
+          "dep": [
+            "09"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 27",
+          "arr": [
+            "27"
+          ],
+          "dep": [
+            "27"
+          ],
+          "approach": "ILS_CAT_I"
+        }
+      ]
+    },
+    "LEAL": {
+      "source": "AIP España AD 2-LEAL, AD 2.19 + IAC chart list, AIRAC AMDT 09/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 10",
+          "arr": [
+            "10"
+          ],
+          "dep": [
+            "10"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 28",
+          "arr": [
+            "28"
+          ],
+          "dep": [
+            "28"
+          ],
+          "approach": "RNP_LPV"
+        }
+      ]
+    },
+    "LEAM": {
+      "source": "AIP España AD 2-LEAM, AD 2.19 + IAC chart list, AIRAC AMDT 09/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 25",
+          "arr": [
+            "25"
+          ],
+          "dep": [
+            "25"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 07",
+          "arr": [
+            "07"
+          ],
+          "dep": [
+            "07"
+          ],
+          "approach": "RNP_LPV"
+        }
+      ]
+    },
+    "LEAS": {
+      "source": "AIP España AD 2-LEAS, AD 2.20 'Procedimientos generales de rodaje', AIRAC AMDT 09/26",
+      "selection": "preferential",
+      "configurations": [
+        {
+          "name": "RWY 29",
+          "arr": [
+            "29"
+          ],
+          "dep": [
+            "29"
+          ]
+        },
+        {
+          "name": "RWY 11",
+          "arr": [
+            "11"
+          ],
+          "dep": [
+            "11"
+          ]
+        }
+      ],
+      "notes": [
+        "AIP: west configuration (RWY 29) preferred unless the weather requires RWY 11. No wind limit given: default limits."
+      ]
+    },
+    "LEBA": {
+      "source": "AIP España AD 2-LEBA, AD 2.19 + IAC chart list, AIRAC AMDT 09/26",
+      "selection": "approach",
+      "afis": true,
+      "configurations": [
+        {
+          "name": "RWY 03",
+          "arr": [
+            "03"
+          ],
+          "dep": [
+            "03"
+          ],
+          "approach": "RNP_LNAV"
+        },
+        {
+          "name": "RWY 21",
+          "arr": [
+            "21"
+          ],
+          "dep": [
+            "21"
+          ],
+          "approach": "RNP_LNAV"
+        }
+      ],
+      "notes": [
+        "AFIS aerodrome: all runways are deselected, pilots decide which runway to use."
+      ]
+    },
+    "LEBB": {
+      "source": "AIP España AD 2-LEBB, AD 2.19 + IAC chart list, AMDT 409/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 30",
+          "arr": [
+            "30"
+          ],
+          "dep": [
+            "30"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 12",
+          "arr": [
+            "12"
+          ],
+          "dep": [
+            "12"
+          ],
+          "approach": "ILS_CAT_I"
+        }
+      ],
+      "notes": [
+        "RWY 10/28 is preferred for VFR operations only and is not selected."
+      ]
+    },
+    "LEBG": {
+      "source": "AIP España AD 2-LEBG, AD 2.19 + IAC chart list, AIRAC AMDT 06/26",
+      "selection": "approach",
+      "afis": true,
+      "configurations": [
+        {
+          "name": "RWY 04",
+          "arr": [
+            "04"
+          ],
+          "dep": [
+            "04"
+          ],
+          "approach": "RNP_LPV"
+        },
+        {
+          "name": "RWY 22",
+          "arr": [
+            "22"
+          ],
+          "dep": [
+            "22"
+          ],
+          "approach": "RNP_LPV"
+        }
+      ],
+      "notes": [
+        "AFIS aerodrome: all runways are deselected, pilots decide which runway to use."
+      ]
+    },
+    "LEBL": {
+      "source": "AIP España AD 2-LEBL, AD 2.20 'Configuraciones preferentes' and LVP section, AIRAC AMDT 09/26 (WEF 01-OCT-26)",
+      "selection": "preferential",
+      "limits": {
+        "maxTailwindKt": 10,
+        "maxCrosswindKt": 20
+      },
+      "preferentialSuspendedBelow": {
+        "ceilingFt": 500,
+        "visibilityM": 1900
+      },
+      "notInLowVisibility": [
+        "02",
+        "20"
+      ],
+      "schedules": [
+        {
+          "name": "day",
+          "from": "07:00",
+          "to": "23:00",
+          "configurations": [
+            {
+              "name": "West parallel",
+              "arr": [
+                "24R"
+              ],
+              "dep": [
+                "24L"
+              ]
+            },
+            {
+              "name": "East parallel",
+              "arr": [
+                "06L"
+              ],
+              "dep": [
+                "06R"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "night",
+          "from": "23:00",
+          "to": "07:00",
+          "configurations": [
+            {
+              "name": "North crossed",
+              "arr": [
+                "02"
+              ],
+              "dep": [
+                "06R"
+              ]
+            },
+            {
+              "name": "West single runway",
+              "arr": [
+                "24L"
+              ],
+              "dep": [
+                "24L"
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "Day departures: 24R (west) / 06L (east) only for aircraft that justify needing the longer runway.",
+        "Night: if RWY 02 cannot be used for arrivals, west configuration. The AIP's last-resort east night configuration is left out (no runway closures on VATSIM).",
+        "Night configuration may be extended past 0700 LT or started before 2300 LT when traffic allows.",
+        "Preferential configurations are also suspended with braking action below good, wind shear or thunderstorms."
+      ]
+    },
+    "LEBZ": {
+      "source": "AIP España AD 2-LEBZ, AD 2.19 + IAC chart list, AMDT 407/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 31",
+          "arr": [
+            "31"
+          ],
+          "dep": [
+            "31"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 13",
+          "arr": [
+            "13"
+          ],
+          "dep": [
+            "13"
+          ],
+          "approach": "TACAN"
+        }
+      ]
+    },
+    "LECH": {
+      "source": "AIP España AD 2-LECH, AD 2.19 + IAC chart list, AIRAC AMDT 07/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 06",
+          "arr": [
+            "06"
+          ],
+          "dep": [
+            "06"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 24",
+          "arr": [
+            "24"
+          ],
+          "dep": [
+            "24"
+          ],
+          "approach": "RNP_LPV"
+        }
+      ]
+    },
+    "LECO": {
+      "source": "AIP España AD 2-LECO, AD 2.19 + IAC chart list, AIRAC AMDT 09/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 21",
+          "arr": [
+            "21"
+          ],
+          "dep": [
+            "21"
+          ],
+          "approach": "ILS_CAT_II"
+        },
+        {
+          "name": "RWY 03",
+          "arr": [
+            "03"
+          ],
+          "dep": [
+            "03"
+          ],
+          "approach": "RNP_LNAV"
+        }
+      ]
+    },
+    "LECU": {
+      "source": "AIP España AD 2-LECU, AD 2-LECU/LEVS, AIRAC AMDT 07/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 27",
+          "arr": [
+            "27"
+          ],
+          "dep": [
+            "27"
+          ],
+          "approach": "VISUAL"
+        },
+        {
+          "name": "RWY 09",
+          "arr": [
+            "09"
+          ],
+          "dep": [
+            "09"
+          ],
+          "approach": "VISUAL"
+        }
+      ],
+      "notes": [
+        "No instrument approach procedures: chosen by wind only."
+      ]
+    },
+    "LEDA": {
+      "source": "AIP España AD 2-LEDA, AD 2.19, AD 2.22 + IAC chart list, AIRAC AMDT 05/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 31",
+          "arr": [
+            "31"
+          ],
+          "dep": [
+            "31"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 13",
+          "arr": [
+            "13"
+          ],
+          "dep": [
+            "13"
+          ],
+          "approach": "RNP_LPV"
+        }
+      ],
+      "notes": [
+        "AIP AD 2.22: THR 31 preferred for departures of code C or larger aircraft."
+      ]
+    },
+    "LEGA": {
+      "source": "AIP España AD 2-LEGA, AD 2.19 + IAC chart list, AIRAC AMDT 09/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 36",
+          "arr": [
+            "36"
+          ],
+          "dep": [
+            "36"
+          ],
+          "approach": "TACAN"
+        },
+        {
+          "name": "RWY 18",
+          "arr": [
+            "18"
+          ],
+          "dep": [
+            "18"
+          ],
+          "approach": "VISUAL"
+        }
+      ]
+    },
+    "LEGE": {
+      "source": "AIP España AD 2-LEGE, AD 2.19 + IAC chart list, AIRAC AMDT 09/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 19",
+          "arr": [
+            "19"
+          ],
+          "dep": [
+            "19"
+          ],
+          "approach": "ILS_CAT_III"
+        },
+        {
+          "name": "RWY 01",
+          "arr": [
+            "01"
+          ],
+          "dep": [
+            "01"
+          ],
+          "approach": "RNP_LPV"
+        }
+      ]
+    },
+    "LEGR": {
+      "source": "AIP España AD 2-LEGR, AD 2.19 + IAC chart list, AIRAC AMDT 07/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 09",
+          "arr": [
+            "09"
+          ],
+          "dep": [
+            "09"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 27",
+          "arr": [
+            "27"
+          ],
+          "dep": [
+            "27"
+          ],
+          "approach": "VISUAL"
+        }
+      ]
+    },
+    "LEGT": {
+      "source": "AIP España AD 2-LEGT, AD 2.19 + IAC chart list, AIRAC AMDT 07/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 04",
+          "arr": [
+            "04"
+          ],
+          "dep": [
+            "04"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 22",
+          "arr": [
+            "22"
+          ],
+          "dep": [
+            "22"
+          ],
+          "approach": "VISUAL"
+        }
+      ]
+    },
+    "LEHC": {
+      "source": "AIP España AD 2-LEHC, AD 2.19 + IAC chart list, AIRAC AMDT 03/26",
+      "selection": "approach",
+      "afis": true,
+      "configurations": [
+        {
+          "name": "RWY 30L",
+          "arr": [
+            "30L"
+          ],
+          "dep": [
+            "30L"
+          ],
+          "approach": "RNP_LPV"
+        },
+        {
+          "name": "RWY 12R",
+          "arr": [
+            "12R"
+          ],
+          "dep": [
+            "12R"
+          ],
+          "approach": "RNP_LPV"
+        }
+      ],
+      "notes": [
+        "AFIS aerodrome: all runways are deselected, pilots decide which runway to use.",
+        "RWY 12L/30R is restricted (no tailwheel, no wide gear, no training flights) and is not selected."
+      ]
+    },
+    "LEIB": {
+      "source": "AIP España AD 2-LEIB, AD 2.20 'Uso de pista - Pista preferente', AIRAC AMDT 06/26",
+      "selection": "preferential",
+      "limits": {
+        "maxTailwindKt": 5
+      },
+      "configurations": [
+        {
+          "name": "RWY 24",
+          "arr": [
+            "24"
+          ],
+          "dep": [
+            "24"
+          ]
+        },
+        {
+          "name": "RWY 06",
+          "arr": [
+            "06"
+          ],
+          "dep": [
+            "06"
+          ]
+        }
+      ],
+      "notes": [
+        "RWY 24 preferred for environmental reasons (both ends have ILS CAT I)."
+      ]
+    },
+    "LEJR": {
+      "source": "AIP España AD 2-LEJR, AD 2.19 + IAC chart list, AIRAC AMDT 07/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 20",
+          "arr": [
+            "20"
+          ],
+          "dep": [
+            "20"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 02",
+          "arr": [
+            "02"
+          ],
+          "dep": [
+            "02"
+          ],
+          "approach": "RNP_LPV"
+        }
+      ]
+    },
+    "LELC": {
+      "source": "AIP España AD 2-LELC, AD 2.12 + AD 2.19 + IAC chart list, AMDT 405/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 04R",
+          "arr": [
+            "04R"
+          ],
+          "dep": [
+            "04R"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 22L",
+          "arr": [
+            "22L"
+          ],
+          "dep": [
+            "22L"
+          ],
+          "approach": "ILS_CAT_I"
+        }
+      ],
+      "notes": [
+        "RWY 04L/22R is military use only (AD 2.12 note 4) and is never selected."
+      ]
+    },
+    "LELL": {
+      "source": "AIP España AD 2-LELL, AIRAC AMDT 05/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 13",
+          "arr": [
+            "13"
+          ],
+          "dep": [
+            "13"
+          ],
+          "approach": "VISUAL"
+        },
+        {
+          "name": "RWY 31",
+          "arr": [
+            "31"
+          ],
+          "dep": [
+            "31"
+          ],
+          "approach": "VISUAL"
+        }
+      ],
+      "notes": [
+        "No instrument approach procedures: chosen by wind only."
+      ]
+    },
+    "LELN": {
+      "source": "AIP España AD 2-LELN, AD 2.19 + IAC chart list, AMDT 409/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 23",
+          "arr": [
+            "23"
+          ],
+          "dep": [
+            "23"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 05",
+          "arr": [
+            "05"
+          ],
+          "dep": [
+            "05"
+          ],
+          "approach": "VOR"
+        }
+      ],
+      "notes": [
+        "Runway 06/24 (secondary) is not selected."
+      ]
+    },
+    "LEMD": {
+      "source": "AIP España AD 2-LEMD, AD 2.21 'Configuraciones preferentes', AIRAC AMDT 09/26",
+      "selection": "preferential",
+      "limits": {
+        "maxTailwindKt": 10,
+        "maxCrosswindKt": 20
+      },
+      "preferentialSuspendedBelow": {
+        "ceilingFt": 500,
+        "visibilityM": 1900
+      },
+      "schedules": [
+        {
+          "name": "day",
+          "from": "07:00",
+          "to": "23:00",
+          "configurations": [
+            {
+              "name": "North",
+              "arr": [
+                "32L",
+                "32R"
+              ],
+              "dep": [
+                "36L",
+                "36R"
+              ]
+            },
+            {
+              "name": "South",
+              "arr": [
+                "18L",
+                "18R"
+              ],
+              "dep": [
+                "14L",
+                "14R"
+              ],
+              "weekendVariant": {
+                "configuration": "South night",
+                "days": [
+                  "SAT",
+                  "SUN"
+                ],
+                "until": "09:00"
+              }
+            }
+          ]
+        },
+        {
+          "name": "night",
+          "from": "23:00",
+          "to": "07:00",
+          "configurations": [
+            {
+              "name": "North night",
+              "arr": [
+                "32R"
+              ],
+              "dep": [
+                "36L"
+              ]
+            },
+            {
+              "name": "South night",
+              "arr": [
+                "18L"
+              ],
+              "dep": [
+                "14L"
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "In South configuration, on Friday-Saturday and Saturday-Sunday nights the night period runs 23:00-09:00 LT (weekendVariant): on Saturday and Sunday the South night configuration is kept until 09:00 LT.",
+        "Arrivals by geographic criterion: from the east to 32R/18L, from the west to 32L/18R.",
+        "Preferential configurations are also suspended with braking action below good, wind shear or thunderstorms."
+      ]
+    },
+    "LEMG": {
+      "source": "AIP España AD 2-LEMG, AD 2.20 'Configuración de pistas', AMDT 410/26",
+      "selection": "preferential",
+      "limits": {
+        "maxTailwindKt": 10,
+        "maxCrosswindKt": 20
+      },
+      "configurations": [
+        {
+          "name": "South",
+          "arr": [
+            "12"
+          ],
+          "dep": [
+            "13"
+          ]
+        },
+        {
+          "name": "North",
+          "arr": [
+            "31"
+          ],
+          "dep": [
+            "30"
+          ]
+        }
+      ],
+      "notes": [
+        "Two-runway configurations used (VATSIM Spain operations). The AIP also lists single-runway variants: South 13, North 31."
+      ]
+    },
+    "LEMH": {
+      "source": "AIP España AD 2-LEMH, AD 2.19 + IAC chart list, AIRAC AMDT 09/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 01",
+          "arr": [
+            "01"
+          ],
+          "dep": [
+            "01"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 19",
+          "arr": [
+            "19"
+          ],
+          "dep": [
+            "19"
+          ],
+          "approach": "ILS_CAT_I"
+        }
+      ]
+    },
+    "LEMI": {
+      "source": "AIP España AD 2-LEMI, AD 2.19 + IAC chart list, AIRAC AMDT 05/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 23",
+          "arr": [
+            "23"
+          ],
+          "dep": [
+            "23"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 05",
+          "arr": [
+            "05"
+          ],
+          "dep": [
+            "05"
+          ],
+          "approach": "VOR"
+        }
+      ]
+    },
+    "LEMO": {
+      "source": "AIP España AD 2-LEMO, AD 2.19 + IAC chart list, AMDT 407/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 20",
+          "arr": [
+            "20"
+          ],
+          "dep": [
+            "20"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 02",
+          "arr": [
+            "02"
+          ],
+          "dep": [
+            "02"
+          ],
+          "approach": "VOR"
+        }
+      ]
+    },
+    "LEPA": {
+      "source": "AIP España AD 2-LEPA, AD 2.20 'Uso de pista - Pistas preferentes', AIRAC AMDT 09/26 (WEF 01-OCT-26)",
+      "selection": "preferential",
+      "limits": {
+        "maxTailwindKt": 10
+      },
+      "configurations": [
+        {
+          "name": "West",
+          "arr": [
+            "24L"
+          ],
+          "dep": [
+            "24R"
+          ]
+        },
+        {
+          "name": "East",
+          "arr": [
+            "06L"
+          ],
+          "dep": [
+            "06R"
+          ]
+        }
+      ],
+      "notes": [
+        "West: RWY 24R may also be used for arrivals at ATC's initiative to expedite arrivals.",
+        "East: RWY 06L may also be used for departures at ATC's initiative to expedite departures."
+      ]
+    },
+    "LEPP": {
+      "source": "AIP España AD 2-LEPP, AD 2.19 + IAC chart list, AIRAC AMDT 08/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 15",
+          "arr": [
+            "15"
+          ],
+          "dep": [
+            "15"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 33",
+          "arr": [
+            "33"
+          ],
+          "dep": [
+            "33"
+          ],
+          "approach": "RNP_LNAV"
+        }
+      ]
+    },
+    "LERJ": {
+      "source": "AIP España AD 2-LERJ, AD 2.19 + IAC chart list, AIRAC AMDT 09/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 29",
+          "arr": [
+            "29"
+          ],
+          "dep": [
+            "29"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 11",
+          "arr": [
+            "11"
+          ],
+          "dep": [
+            "11"
+          ],
+          "approach": "RNP_LPV"
+        }
+      ]
+    },
+    "LERL": {
+      "source": "AIP España AD 2-LERL, AD 2.20, AIRAC AMDT 05/26",
+      "selection": "preferential",
+      "limits": {
+        "maxTailwindKt": 10
+      },
+      "configurations": [
+        {
+          "name": "RWY 10",
+          "arr": [
+            "10"
+          ],
+          "dep": [
+            "10"
+          ]
+        },
+        {
+          "name": "RWY 28",
+          "arr": [
+            "28"
+          ],
+          "dep": [
+            "28"
+          ]
+        }
+      ],
+      "notes": [
+        "AIP: RWY 10 preferred up to 10 kt tailwind (dry or good braking)."
+      ]
+    },
+    "LERS": {
+      "source": "AIP España AD 2-LERS, AD 2.20 'Pista preferente', AMDT 409/26",
+      "selection": "preferential",
+      "configurations": [
+        {
+          "name": "RWY 25",
+          "arr": [
+            "25"
+          ],
+          "dep": [
+            "25"
+          ]
+        },
+        {
+          "name": "RWY 07",
+          "arr": [
+            "07"
+          ],
+          "dep": [
+            "07"
+          ]
+        }
+      ],
+      "notes": [
+        "AIP: 'la pista preferente es la RWY 25'. No wind limit given, default limits apply. RWY 25 also has the ILS."
+      ]
+    },
+    "LERT": {
+      "source": "AIP España AD 2-LERT, AD 2.19 + IAC chart list, AIRAC AMDT 09/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 10",
+          "arr": [
+            "10"
+          ],
+          "dep": [
+            "10"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 28",
+          "arr": [
+            "28"
+          ],
+          "dep": [
+            "28"
+          ],
+          "approach": "TACAN"
+        }
+      ]
+    },
+    "LESA": {
+      "source": "AIP España AD 2-LESA, AD 2.19 + IAC chart list, AIRAC AMDT 08/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 21",
+          "arr": [
+            "21"
+          ],
+          "dep": [
+            "21"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 03",
+          "arr": [
+            "03"
+          ],
+          "dep": [
+            "03"
+          ],
+          "approach": "VOR"
+        }
+      ],
+      "notes": [
+        "Runway 07/25 (secondary) is not selected."
+      ]
+    },
+    "LESO": {
+      "source": "AIP España AD 2-LESO, AD 2.19 + IAC chart list, AIRAC AMDT 07/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 22",
+          "arr": [
+            "22"
+          ],
+          "dep": [
+            "22"
+          ],
+          "approach": "RNP_LPV"
+        },
+        {
+          "name": "RWY 04",
+          "arr": [
+            "04"
+          ],
+          "dep": [
+            "04"
+          ],
+          "approach": "RNP_LNAV"
+        }
+      ]
+    },
+    "LEST": {
+      "source": "AIP España AD 2-LEST, AD 2.19 + IAC chart list, AIRAC AMDT 08/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 17",
+          "arr": [
+            "17"
+          ],
+          "dep": [
+            "17"
+          ],
+          "approach": "ILS_CAT_III"
+        },
+        {
+          "name": "RWY 35",
+          "arr": [
+            "35"
+          ],
+          "dep": [
+            "35"
+          ],
+          "approach": "ILS_CAT_I"
+        }
+      ]
+    },
+    "LESU": {
+      "source": "AIP España AD 2-LESU, AD 2.22 + IAC chart list, AIRAC AMDT 09/26",
+      "selection": "approach",
+      "afis": true,
+      "configurations": [
+        {
+          "name": "RWY 03",
+          "arr": [
+            "03"
+          ],
+          "dep": [
+            "03"
+          ],
+          "approach": "RNP_LNAV"
+        },
+        {
+          "name": "RWY 21",
+          "arr": [
+            "21"
+          ],
+          "dep": [
+            "21"
+          ],
+          "approach": "VISUAL"
+        }
+      ],
+      "notes": [
+        "AFIS aerodrome: all runways are deselected, pilots decide which runway to use.",
+        "RNP RWY 03 minima type not in the chart title; ranked as LNAV. RWY 21 landings by visual circling only."
+      ]
+    },
+    "LETL": {
+      "source": "AIP España AD 2-LETL, AD 2-LETL, AMDT 409/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 36",
+          "arr": [
+            "36"
+          ],
+          "dep": [
+            "36"
+          ],
+          "approach": "VISUAL"
+        },
+        {
+          "name": "RWY 18",
+          "arr": [
+            "18"
+          ],
+          "dep": [
+            "18"
+          ],
+          "approach": "VISUAL"
+        }
+      ],
+      "notes": [
+        "No instrument approach procedures: chosen by wind only."
+      ]
+    },
+    "LETO": {
+      "source": "AIP España AD 2-LETO, AD 2.19 + IAC chart list, AMDT 404/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 22",
+          "arr": [
+            "22"
+          ],
+          "dep": [
+            "22"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 04",
+          "arr": [
+            "04"
+          ],
+          "dep": [
+            "04"
+          ],
+          "approach": "VISUAL"
+        }
+      ]
+    },
+    "LEVC": {
+      "source": "AIP España AD 2-LEVC, AD 2.19 + IAC chart list, AIRAC AMDT 07/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 12",
+          "arr": [
+            "12"
+          ],
+          "dep": [
+            "12"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 30",
+          "arr": [
+            "30"
+          ],
+          "dep": [
+            "30"
+          ],
+          "approach": "ILS_CAT_I"
+        }
+      ]
+    },
+    "LEVD": {
+      "source": "AIP España AD 2-LEVD, AD 2.19 + IAC chart list, AIRAC AMDT 09/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 23",
+          "arr": [
+            "23"
+          ],
+          "dep": [
+            "23"
+          ],
+          "approach": "ILS_CAT_II"
+        },
+        {
+          "name": "RWY 05",
+          "arr": [
+            "05"
+          ],
+          "dep": [
+            "05"
+          ],
+          "approach": "VOR"
+        }
+      ],
+      "notes": [
+        "Runway 14/32 (secondary) is not selected."
+      ]
+    },
+    "LEVT": {
+      "source": "AIP España AD 2-LEVT, AD 2.19 + IAC chart list, AIRAC AMDT 09/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 04",
+          "arr": [
+            "04"
+          ],
+          "dep": [
+            "04"
+          ],
+          "approach": "ILS_CAT_III"
+        },
+        {
+          "name": "RWY 22",
+          "arr": [
+            "22"
+          ],
+          "dep": [
+            "22"
+          ],
+          "approach": "RNP_LPV"
+        }
+      ]
+    },
+    "LEVX": {
+      "source": "AIP España AD 2-LEVX, AD 2.19 + IAC chart list, AMDT 407/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 19",
+          "arr": [
+            "19"
+          ],
+          "dep": [
+            "19"
+          ],
+          "approach": "ILS_CAT_III"
+        },
+        {
+          "name": "RWY 01",
+          "arr": [
+            "01"
+          ],
+          "dep": [
+            "01"
+          ],
+          "approach": "RNP_LPV"
+        }
+      ]
+    },
+    "LEXJ": {
+      "source": "AIP España AD 2-LEXJ, AD 2.19 + IAC chart list, AMDT 407/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 29",
+          "arr": [
+            "29"
+          ],
+          "dep": [
+            "29"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 11",
+          "arr": [
+            "11"
+          ],
+          "dep": [
+            "11"
+          ],
+          "approach": "RNP_LPV"
+        }
+      ]
+    },
+    "LEZG": {
+      "source": "AIP España AD 2-LEZG, AD 2.19, AD 2.20 + IAC chart list, AIRAC AMDT 09/26",
+      "selection": "preferential",
+      "configurations": [
+        {
+          "name": "RWY 30R",
+          "arr": [
+            "30R"
+          ],
+          "dep": [
+            "30R"
+          ]
+        },
+        {
+          "name": "RWY 12",
+          "arr": [
+            "12R"
+          ],
+          "dep": [
+            "12L"
+          ]
+        }
+      ],
+      "notes": [
+        "Preferential: 30R (ILS CAT II/III), per VATSIM Spain operations. In the 12 direction, arrivals 12R (VOR/NDB/TACAN approaches) and departures 12L."
+      ]
+    },
+    "LEZL": {
+      "source": "AIP España AD 2-LEZL, AD 2.19 + IAC chart list, AMDT 407/26",
+      "selection": "approach",
+      "configurations": [
+        {
+          "name": "RWY 27",
+          "arr": [
+            "27"
+          ],
+          "dep": [
+            "27"
+          ],
+          "approach": "ILS_CAT_I"
+        },
+        {
+          "name": "RWY 09",
+          "arr": [
+            "09"
+          ],
+          "dep": [
+            "09"
+          ],
+          "approach": "ILS_CAT_I"
+        }
+      ]
+    }
+  }
+}

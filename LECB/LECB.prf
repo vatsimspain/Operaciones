@@ -53,6 +53,9 @@ Plugins	Plugin9	\LEXX\Plugins\MAESTRO\MAESTRO.dll
 Plugins	Plugin9Display0	Standard ES radar screen
 Plugins	Plugin10	\LEXX\Plugins\DiscordEuroscope\DiscordEuroscope.dll
 Plugins	Plugin10Display0	Standard ES radar screen
+Plugins	Plugin11	\LEXX\Plugins\ESRunwayPlugin\ESRunwayPlugin.dll
+Plugins	Plugin11Display0	Standard ES radar screen
+Plugins	Plugin11Display1	Ground Radar display
 RecentFiles	Recent1	\LECB\ASR\LECB.asr
 RecentFiles	Recent2	\LECB\ASR\GND GR\LEPA_GND_GR.asr
 RecentFiles	Recent3	\LECB\ASR\GND GR\LEBL_GND_GR.asr
