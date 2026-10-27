@@ -103,6 +103,23 @@ LINETO:3:3
 MOVETO:3:-3
 LINETO:-3:3
 
+//---------------------------------------------TWR---------------------------------------------//
+MAP:TODONEGRO
+FOLDER:GCCC
+COLOR:NEGRO
+//TWR
+ACTIVE:ID:FVT,GMI,HIT,LAT,LPT,RRT,TST,XOT:*:*:*
+//GND
+ACTIVE:ID:FVG,LAG,LPG,RRG,TSG,XOG:*:*:*
+//DEL
+ACTIVE:ID:LPD,TSD,XOD:*:*:*
+LAYER:-100
+COORD:N041.28.35.655:W060.58.09.155
+COORD:S006.40.08.529:W062.06.04.944
+COORD:S006.46.46.061:E043.03.50.642
+COORD:N048.26.00.204:E041.48.21.986
+COORDPOLY:100
+
 //---------------------------------------------GCCC---------------------------------------------//
 
 MAP:AERODROMES & HELIPORTS
