@@ -245,7 +245,7 @@ ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/GEML - We love feedback! vats.im/es-feedback
 PROFILE:GEML_A_TWR:50:4
 ATIS2:$radioname
-ATIS3:Procedural Approach Service below 6000ft - vats.im/lexx
+ATIS3:Flight Information Service in Melilla Corridor - vats.im/lexx
 ATIS4:Charts at chartfox.org/GEML - We love feedback! vats.im/es-feedback
 PROFILE:LEAB_GND:20:3
 ATIS2:$radioname
@@ -465,7 +465,7 @@ ATIS3:vats.im/lexx
 ATIS4:Charts at chartfox.org/LEGR - We love feedback! vats.im/es-feedback
 PROFILE:LEGR_A_TWR:50:4
 ATIS2:$radioname
-ATIS3:Procedural Approach Service below FL95 - vats.im/lexx
+ATIS3:Procedural Approach Service below 9500ft - vats.im/lexx
 ATIS4:Charts at chartfox.org/LEGR - We love feedback! vats.im/es-feedback
 PROFILE:LELN_TWR:50:4
 ATIS2:$radioname
