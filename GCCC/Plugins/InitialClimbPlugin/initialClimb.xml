@@ -345,9 +345,15 @@
 			<sid name="ARACO">
 				<alt>050</alt>
 			</sid>
-			<sid name="LPC">
+			<sid name="BOXCO">
 				<alt>050</alt>
 			</sid>
+			<sid name="EXIQE">
+				<alt>050</alt>
+			</sid>
+			<sid name="NASOL">
+				<alt>050</alt>
+			</sid>			
 			<sid name="TFN">
 				<alt>050</alt>
 			</sid>
@@ -359,9 +365,15 @@
 			<sid name="FD34ARA">
 				<alt>050</alt>
 			</sid>
-			<sid name="FD34LPC">
+			<sid name="FD34BOX">
 				<alt>050</alt>
 			</sid>
+			<sid name="FD34EXI">
+				<alt>050</alt>
+			</sid>
+			<sid name="FD34NAS">
+				<alt>050</alt>
+			</sid>			
 			<sid name="FD34TFN">
 				<alt>050</alt>
 			</sid>
