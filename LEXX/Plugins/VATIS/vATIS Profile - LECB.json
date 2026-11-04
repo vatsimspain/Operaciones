@@ -2,7 +2,7 @@
   "name": "LECB",
   "id": "fcf909a7-be46-49d1-9904-ab94d3651ced",
   "updateUrl": "https://raw.githubusercontent.com/vatspa/Operaciones/refs/heads/estable/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECB.json",
-  "updateSerial": 2026110400,
+  "updateSerial": 2026110401,
   "stations": [
     {
       "id": "f5306cb5-8b2d-44f4-9355-ac82f8e72317",
@@ -16817,7 +16817,7 @@
           "id": "3ecc9d4b-e07b-4cc2-9934-5d7ad71cc495",
           "name": "SOUTH",
           "airportConditions": "EXPECT ILS Y APCH.\r\nRWY IN USE ^19.",
-          "notams": "",
+          "notams": "CAUTION TANGO1 IS ON MAIN TAXIWAY",
           "template": "LEMH ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -26390,7 +26390,7 @@
           "id": "c8ef05f8-9426-44bf-9c6e-084dff84da7b",
           "name": "WEST",
           "airportConditions": "EXPECT ILS APCH.\r\nRWY IN USE ^30,",
-          "notams": "",
+          "notams": "CAUTION, PARALLEL HOLDING POINT AT TIRIO",
           "template": "LEVC ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
