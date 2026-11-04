@@ -1,7 +1,7 @@
 {
   "name": "GCCC",
   "id": "7bfc7410-77a3-4245-a437-5a6280f42081",
-//"updateUrl": "https://raw.githubusercontent.com/vatspa/Operaciones/refs/heads/estable/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20GCCC.json",
+
   "updateUrl": "https://raw.githubusercontent.com/vatsimspain/Operaciones/refs/heads/d-atis/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20GCCC.json",
   "updateSerial": 2026110400,
   "stations": [
