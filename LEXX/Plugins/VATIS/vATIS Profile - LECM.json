@@ -7111,7 +7111,7 @@
           "id": "4152a240-6659-46c1-adb4-609e17c49fdf",
           "name": "SOUTH",
           "airportConditions": "EXPECT ILS Z APCH. RWY IN USE ^21.",
-          "notams": "",
+          "notams": "INTERMEDIATE TURNING PAD UNSERVICEABLE",
           "template": "LECO ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -19212,7 +19212,7 @@
           "id": "be8b93b5-af47-492e-ab3d-2c2db3a7cf63",
           "name": "SOUTH DUAL",
           "airportConditions": "EXPECT ILS Z APCH. RWY IN USE FOR ARR ^12 AND FOR DEP ^13\n\r",
-          "notams": "",
+          "notams": "FIRST RAPID EXIT TAXIWAY ONLY AVAILABLE FOR LIGHT AIRCRAFTS",
           "template": "LEMG ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
