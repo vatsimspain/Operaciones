@@ -1,9 +1,8 @@
 {
   "name": "LECM",
-  "id": "c7c86657-2726-4ec5-9529-32f2d2101f5b",
-
+  "id": "46efea1f-e928-4536-8214-6f28741cd9bc",
   "updateUrl": "https://raw.githubusercontent.com/vatsimspain/Operaciones/refs/heads/d-atis/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECM.json",
-  "updateSerial": 2026110401,
+  "updateSerial": 2026110402,
   "stations": [
     {
       "id": "dc1c49aa-09f7-4187-914b-ae079b0297a9",
@@ -28755,32 +28754,32 @@
             {
               "low": 1032,
               "high": 1050,
-              "altitude": 65
+              "altitude": 133
             },
             {
               "low": 1014,
               "high": 1031,
-              "altitude": 70
+              "altitude": 140
             },
             {
               "low": 996,
               "high": 1013,
-              "altitude": 75
+              "altitude": 145
             },
             {
               "low": 978,
               "high": 995,
-              "altitude": 80
+              "altitude": 150
             },
             {
               "low": 960,
               "high": 977,
-              "altitude": 85
+              "altitude": 155
             },
             {
               "low": 942,
               "high": 959,
-              "altitude": 90
+              "altitude": 160
             }
           ],
           "template": {
