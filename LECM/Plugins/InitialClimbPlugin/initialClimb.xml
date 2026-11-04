@@ -466,25 +466,25 @@
 				<alt>080</alt>
 			</sid>
 			<sid name="CLANA">
-				<alt>090</alt>
+				<alt>080</alt>
 			</sid>
 			<sid name="JRZ">
-				<alt>090</alt>
+				<alt>080</alt>
 			</sid>
 			<sid name="MAR">
-				<alt>090</alt>
+				<alt>080</alt>
 			</sid>
 			<sid name="ONUBA">
-				<alt>090</alt>
+				<alt>080</alt>
 			</sid>
 			<sid name="SANTA">
 				<alt>080</alt>
 			</sid>
 			<sid name="VJF">
-				<alt>090</alt>
+				<alt>080</alt>
 			</sid>
 			<sid name="VIBAS">
-				<alt>090</alt>
+				<alt>080</alt>
 			</sid>
 		</runway>
 		<runway name="27">
@@ -495,25 +495,25 @@
 				<alt>080</alt>
 			</sid>
 			<sid name="CLANA">
-				<alt>090</alt>
+				<alt>080</alt>
 			</sid>
 			<sid name="SANTA">
 				<alt>080</alt>
 			</sid>
 			<sid name="JRZ">
-				<alt>090</alt>
+				<alt>080</alt>
 			</sid>
 			<sid name="MAR">
-				<alt>090</alt>
+				<alt>080</alt>
 			</sid>
 			<sid name="ONUBA">
-				<alt>090</alt>
+				<alt>080</alt>
 			</sid>
 			<sid name="VJF">
-				<alt>090</alt>
+				<alt>080</alt>
 			</sid>
 			<sid name="VIBAS">
-				<alt>090</alt>
+				<alt>080</alt>
 			</sid>
 		</runway>
     </apt>
