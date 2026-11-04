@@ -1,7 +1,8 @@
 {
   "name": "LECM",
   "id": "c7c86657-2726-4ec5-9529-32f2d2101f5b",
-  "updateUrl": "https://raw.githubusercontent.com/vatspa/Operaciones/refs/heads/estable/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECM.json",
+//"updateUrl": "https://raw.githubusercontent.com/vatspa/Operaciones/refs/heads/estable/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECM.json",
+  "updateUrl": "https://raw.githubusercontent.com/vatsimspain/Operaciones/refs/heads/d-atis/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECM.json",
   "updateSerial": 2026110401,
   "stations": [
     {
@@ -7095,7 +7096,7 @@
           "id": "1c769a28-66c0-4710-9c2e-d14af1c4da84",
           "name": "NORTH",
           "airportConditions": "EXPECT RNP APCH. RWY IN USE ^03.",
-          "notams": "",
+          "notams": "INTERMEDIATE TURNING PAD UNSERVICEABLE",
           "template": "LECO ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -26445,7 +26446,7 @@
         {
           "id": "0d9b0352-6e75-4f20-8644-e2a3c7289cb4",
           "name": "SOUTH",
-          "airportConditions": "EXPECT RNP Y APCH. RWY IN USE ^22.",
+          "airportConditions": "EXPECT RNP X APCH. RWY IN USE ^22.",
           "notams": "",
           "template": "LESO ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -33622,7 +33623,7 @@
           "id": "19b5df24-484b-42be-ba1d-bbdf9818b13c",
           "name": "SOUTH",
           "airportConditions": "EXPECT ILS Z APCH. RWY IN USE ^19.",
-          "notams": "",
+          "notams": "EXPECT TO VACATE VIA CHARLIE 3",
           "template": "LEVX ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
