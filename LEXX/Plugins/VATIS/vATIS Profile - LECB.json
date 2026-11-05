@@ -1,9 +1,8 @@
 {
   "name": "LECB",
-  "id": "fcf909a7-be46-49d1-9904-ab94d3651ced",
-
+  "id": "ffcad6d3-c517-47b7-8067-224ad235cd04",
   "updateUrl": "https://raw.githubusercontent.com/vatsimspain/Operaciones/refs/heads/d-atis/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECB.json",
-  "updateSerial": 2026110401,
+  "updateSerial": 2026110402,
   "stations": [
     {
       "id": "f5306cb5-8b2d-44f4-9355-ac82f8e72317",
@@ -138,14 +137,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers or more"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -2455,7 +2465,7 @@
         {
           "text": "CTC APPROACH 131.125 BEFORE PASSING {2000} FT.",
           "ordinal": 1,
-          "onlineCondition": "(LEBL_TWR OR LEBL_S_TWR) AND LEBL_APP AND NOT (LEBL_2_APP OR LEBL_3_APP OR LEBL_4_APP)",
+          "onlineCondition": "(LEBL_TWR OR LEBL_*_TWR) AND LEBL_APP AND NOT (LEBL_2_APP OR LEBL_3_APP OR LEBL_4_APP)",
           "enabled": true
         },
         {
@@ -2467,7 +2477,7 @@
         {
           "text": "MONITOR ADVISORY AFTER PASSING {2000} FT.",
           "ordinal": 3,
-          "onlineCondition": "LEBL_GND AND NOT (LEBL_APP OR LEBL_*_APP OR LECB_RW_APP OR LECB_RN_CTR OR LECB_DDI_CTR OR LECB_XAL_CTR OR LECB_PPI_CTR)",
+          "onlineCondition": "(LEBL_GND OR LEBL_*_GND) AND NOT (LEBL_APP OR LEBL_*_APP OR LECB_RW_APP OR LECB_RN_CTR OR LECB_DDI_CTR OR LECB_XAL_CTR OR LECB_PPI_CTR)",
           "enabled": true
         }
       ],
@@ -2610,14 +2620,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers or more"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -5058,14 +5079,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers or more"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -7454,14 +7486,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers or more"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -9850,14 +9893,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers or more"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -12246,14 +12300,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers or more"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -14636,14 +14701,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers or more"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -17032,14 +17108,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers or more"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -19428,14 +19515,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers or more"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -21819,14 +21917,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers or more"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -24209,14 +24318,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers or more"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
