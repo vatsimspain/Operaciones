@@ -1,8 +1,8 @@
 {
   "name": "LECB",
-  "id": "ffcad6d3-c517-47b7-8067-224ad235cd04",
+  "id": "c35a464d-2a53-4c71-906e-5c7f0bfc2e24",
   "updateUrl": "https://raw.githubusercontent.com/vatsimspain/Operaciones/refs/heads/d-atis/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECB.json",
-  "updateSerial": 2026110403,
+  "updateSerial": 2026110404,
   "stations": [
     {
       "id": "f5306cb5-8b2d-44f4-9355-ac82f8e72317",
@@ -2297,8 +2297,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": "\\n",
-      "airportConditionsSeparator": "\n",
+      "notamsSeparator": ".\n",
+      "airportConditionsSeparator": ".\n",
       "frequency": 121980000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -2313,7 +2313,7 @@
         {
           "id": "2f24a580-0653-4d9d-8aaa-8a3d0dcfa678",
           "name": "WRL",
-          "airportConditions": "RWY IN USE FOR ARR ^24R AND FOR DEP ^24L.",
+          "airportConditions": "RWY IN USE FOR ARR ^24R AND FOR DEP ^24L.\n",
           "notams": "",
           "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -2329,7 +2329,7 @@
         {
           "id": "43ce777a-04e9-45af-8276-332abd130a9c",
           "name": "WLL",
-          "airportConditions": "RWY IN USE FOR ARR ^24L AND FOR DEP ^24L.",
+          "airportConditions": "RWY IN USE FOR ARR ^24L AND FOR DEP ^24L.\n",
           "notams": "",
           "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -2345,7 +2345,7 @@
         {
           "id": "7550a64d-4a7c-4b29-bc5b-ca19ea3ba497",
           "name": "ENR",
-          "airportConditions": "RWY IN USE FOR ARR ^02 AND FOR DEP ^06R.",
+          "airportConditions": "RWY IN USE FOR ARR ^02 AND FOR DEP ^06R.\n",
           "notams": "",
           "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -2361,7 +2361,7 @@
         {
           "id": "2beae202-3bdd-4d48-ae3c-09ee6130351c",
           "name": "ELR",
-          "airportConditions": "RWY IN USE FOR ARR ^06L AND FOR DEP ^06R.",
+          "airportConditions": "RWY IN USE FOR ARR ^06L AND FOR DEP ^06R.\n",
           "notams": "",
           "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -2458,7 +2458,7 @@
         {
           "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 4,
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [
@@ -4780,8 +4780,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": "\n",
-      "airportConditionsSeparator": "\n",
+      "notamsSeparator": ".\n",
+      "airportConditionsSeparator": ".\n",
       "frequency": 118655000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -4796,7 +4796,7 @@
         {
           "id": "b18c9786-d9e3-44e8-b95b-c2e2079f7929",
           "name": "WRL",
-          "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^24R AND FOR DEP ^24L.\r\nHIGH INTENSITY RUNWAY OPERATIONS IN FORCE.",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^24R AND FOR DEP ^24L.\nHIGH INTENSITY RUNWAY OPERATIONS IN FORCE.\n",
           "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2W APCH TRANSITIONS FOR RUNWAY 24R.",
           "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -4812,7 +4812,7 @@
         {
           "id": "c8685408-8546-447c-9cfe-77ed1fe16633",
           "name": "WLL",
-          "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^24L AND FOR DEP ^24L.\r\nHIGH INTENSITY RUNWAY OPERATIONS IN FORCE.",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^24L AND FOR DEP ^24L.\nHIGH INTENSITY RUNWAY OPERATIONS IN FORCE.\n",
           "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2L APCH TRANSITIONS FOR RUNWAY 24L.",
           "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -4828,7 +4828,7 @@
         {
           "id": "dda8220c-52f6-40f1-b1e9-03a496bc0d5a",
           "name": "ENR",
-          "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^02 AND FOR DEP ^06R.\r\nARR ACFT MUST USE EXIT UB, RWY 02 LAST EXIT AVAILABLE U3L.",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^02 AND FOR DEP ^06R.\nARR ACFT MUST USE EXIT UB, RWY 02 LAST EXIT AVAILABLE U3L.\n",
           "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2N APCH TRANSITIONS FOR RUNWAY 02.",
           "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -4844,7 +4844,7 @@
         {
           "id": "e8ae452b-82bd-477f-9375-722ea1a36c55",
           "name": "ELR",
-          "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^06L AND FOR DEP ^06R.\r\nHIGH INTENSITY RUNWAY OPERATIONS IN FORCE.",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^06L AND FOR DEP ^06R.\nHIGH INTENSITY RUNWAY OPERATIONS IN FORCE.\n",
           "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2E APCH TRANSITIONS FOR RUNWAY 06L.",
           "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -7239,8 +7239,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": "\\n",
-      "airportConditionsSeparator": "\n",
+      "notamsSeparator": ".\n",
+      "airportConditionsSeparator": ".\n",
       "frequency": 120080000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -7255,7 +7255,7 @@
         {
           "id": "e71cb457-3071-4252-af1e-0f574247a038",
           "name": "EAST",
-          "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^10.",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^10.\n",
           "notams": "",
           "template": "LEAL ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -7271,7 +7271,7 @@
         {
           "id": "0224e410-0860-4125-9157-f1ad802ebd84",
           "name": "WEST",
-          "airportConditions": "EXPECT RNP Y APCH.\r\nRWY IN USE ^28.",
+          "airportConditions": "EXPECT RNP Y APCH.\nRWY IN USE ^28.\n",
           "notams": "",
           "template": "LEAL ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -7343,7 +7343,7 @@
         {
           "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 4,
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [],
@@ -9646,8 +9646,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": "\n",
-      "airportConditionsSeparator": "\n",
+      "notamsSeparator": ".\n",
+      "airportConditionsSeparator": ".\n",
       "frequency": 128755000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -9662,7 +9662,7 @@
         {
           "id": "35c6c850-97fa-477f-9622-c7983a9dd229",
           "name": "NORTH",
-          "airportConditions": "EXPECT RNP Y APCH.\r\nRWY IN USE ^01.",
+          "airportConditions": "EXPECT RNP Y APCH.\nRWY IN USE ^01.\n",
           "notams": "",
           "template": "LEGE ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -9678,7 +9678,7 @@
         {
           "id": "b18b1f0b-0461-4744-aa7f-3b6253aa1562",
           "name": "SOUTH",
-          "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^19.",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^19.\n",
           "notams": "",
           "template": "LEGE ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -9750,7 +9750,7 @@
         {
           "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 4,
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [],
@@ -12053,8 +12053,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": "\n",
-      "airportConditionsSeparator": "\n",
+      "notamsSeparator": ".\n",
+      "airportConditionsSeparator": ".\n",
       "frequency": 119805000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -12069,7 +12069,7 @@
         {
           "id": "d3f4008d-2099-44f0-bb63-27507707230f",
           "name": "EAST",
-          "airportConditions": "EXPECT ILS APCH.\r\nRWY IN USE ^06.",
+          "airportConditions": "EXPECT ILS APCH.\nRWY IN USE ^06.\n",
           "notams": "",
           "template": "LEIB ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -12085,7 +12085,7 @@
         {
           "id": "f50ae1c2-6a2a-4cf9-9d1b-2e3b17fd7b28",
           "name": "WEST",
-          "airportConditions": "EXPECT ILS APCH.\r\nRWY IN USE ^24.",
+          "airportConditions": "EXPECT ILS APCH.\nRWY IN USE ^24.\n",
           "notams": "",
           "template": "LEIB ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -12157,7 +12157,7 @@
         {
           "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 4,
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [],
@@ -14460,8 +14460,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": "\n",
-      "airportConditionsSeparator": "\n",
+      "notamsSeparator": ".\n",
+      "airportConditionsSeparator": ".\n",
       "frequency": 128605000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -14476,7 +14476,7 @@
         {
           "id": "e3b5a15b-c8f4-46ba-a625-b0d85e54926c",
           "name": "EAST",
-          "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^04.",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^04.\n",
           "notams": "",
           "template": "LELC ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -14492,7 +14492,7 @@
         {
           "id": "9cefc70e-cb54-444e-a8e9-86e0c150b25b",
           "name": "WEST",
-          "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^22L.",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^22L.\n",
           "notams": "",
           "template": "LELC ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -14556,9 +14556,15 @@
           "enabled": false
         },
         {
-          "text": "DATALINK DEP CLR AVBL.",
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION.",
           "ordinal": 3,
-          "enabled": false
+          "weatherCondition": "rvr <= 550m",
+          "enabled": true
+        },
+        {
+          "text": "DATALINK DEP CLR AVBL.",
+          "ordinal": 4,
+          "enabled": true
         }
       ],
       "notamDefinitions": [],
@@ -16861,8 +16867,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": "\n",
-      "airportConditionsSeparator": "\n",
+      "notamsSeparator": ".\n",
+      "airportConditionsSeparator": ".\n",
       "frequency": 129155000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -16877,7 +16883,7 @@
         {
           "id": "422869e0-1137-45f9-a3e4-a33f6971ce14",
           "name": "NORTH",
-          "airportConditions": "EXPECT ILS Y APCH.\r\nRWY IN USE ^01.",
+          "airportConditions": "EXPECT ILS Y APCH.\nRWY IN USE ^01.\n",
           "notams": "",
           "template": "LEMH ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -16893,7 +16899,7 @@
         {
           "id": "3ecc9d4b-e07b-4cc2-9934-5d7ad71cc495",
           "name": "SOUTH",
-          "airportConditions": "EXPECT ILS Y APCH.\r\nRWY IN USE ^19.",
+          "airportConditions": "EXPECT ILS Y APCH.\nRWY IN USE ^19.\n",
           "notams": "CAUTION TANGO1 IS ON MAIN TAXIWAY",
           "template": "LEMH ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -16965,7 +16971,7 @@
         {
           "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 4,
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [],
@@ -19269,7 +19275,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "notamsSeparator": ".\n",
-      "airportConditionsSeparator": "\n",
+      "airportConditionsSeparator": ".\n",
       "frequency": 121780000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -19284,7 +19290,7 @@
         {
           "id": "083e6c1c-6b0b-429b-a969-44ec8367350f",
           "name": "EAST",
-          "airportConditions": "RWY IN USE FOR ARR ^06L AND FOR DEP ^06R.",
+          "airportConditions": "RWY IN USE FOR ARR ^06L AND FOR DEP ^06R.\n",
           "notams": "",
           "template": "LEPA ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -19300,7 +19306,7 @@
         {
           "id": "fe49153e-4085-4b6f-aa3f-3005d6bddb6a",
           "name": "WEST",
-          "airportConditions": "RWY IN USE FOR ARR ^24L AND FOR DEP ^24R.",
+          "airportConditions": "RWY IN USE FOR ARR ^24L AND FOR DEP ^24R.\n",
           "notams": "",
           "template": "LEPA ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -19377,7 +19383,7 @@
         {
           "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 4,
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [
@@ -21688,7 +21694,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "notamsSeparator": ".\n",
-      "airportConditionsSeparator": "\n",
+      "airportConditionsSeparator": ".\n",
       "frequency": 119255000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -21703,7 +21709,7 @@
         {
           "id": "32fbc3f9-d02a-4e4a-801a-d5cd2938775c",
           "name": "EAST",
-          "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^06L AND FOR DEP ^06R.",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^06L AND FOR DEP ^06R.\n",
           "notams": "",
           "template": "LEPA ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -21719,7 +21725,7 @@
         {
           "id": "960c25b2-6ffc-4b81-b36b-1de061b3de3a",
           "name": "WEST",
-          "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^24L AND FOR DEP ^24R.",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^24L AND FOR DEP ^24R.\n",
           "notams": "",
           "template": "LEPA ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -24100,8 +24106,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": "\n",
-      "airportConditionsSeparator": "\n",
+      "notamsSeparator": ".\n",
+      "airportConditionsSeparator": ".\n",
       "frequency": 120255000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -24116,7 +24122,7 @@
         {
           "id": "9b8acda8-226a-41e4-b745-cb634c0de3bb",
           "name": "EAST",
-          "airportConditions": "EXPECT RNP Y APCH.\r\nRWY IN USE ^07.",
+          "airportConditions": "EXPECT RNP Y APCH.\nRWY IN USE ^07.\n",
           "notams": "",
           "template": "LERS ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -24132,7 +24138,7 @@
         {
           "id": "1820d7bb-1026-4a91-a0d5-1709c16a762d",
           "name": "WEST",
-          "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^25.",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^25.\n",
           "notams": "",
           "template": "LERS ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -24198,7 +24204,7 @@
         {
           "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 3,
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [],
@@ -26501,8 +26507,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": "\n",
-      "airportConditionsSeparator": "\n",
+      "notamsSeparator": ".\n",
+      "airportConditionsSeparator": ".\n",
       "frequency": 121080000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -26517,7 +26523,7 @@
         {
           "id": "e706ed80-0276-457d-8988-8eef147ccd5d",
           "name": "EAST",
-          "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^12.",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^12.\n",
           "notams": "",
           "template": "LEVC ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -26533,7 +26539,7 @@
         {
           "id": "c8ef05f8-9426-44bf-9c6e-084dff84da7b",
           "name": "WEST",
-          "airportConditions": "EXPECT ILS APCH.\r\nRWY IN USE ^30,",
+          "airportConditions": "EXPECT ILS APCH.\nRWY IN USE ^30,\n",
           "notams": "CAUTION, PARALLEL HOLDING POINT AT TIRIO",
           "template": "LEVC ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -26605,14 +26611,14 @@
         {
           "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 4,
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [
         {
           "text": "PARALLEL HOLDING AT TIRIO.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         }
       ],
       "datisTextReplacements": [],

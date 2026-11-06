@@ -1,9 +1,8 @@
 {
   "name": "GCCC",
-  "id": "7bfc7410-77a3-4245-a437-5a6280f42081",
-
+  "id": "d32b9d73-75b6-4044-982e-fd3dd633e255",
   "updateUrl": "https://raw.githubusercontent.com/vatsimspain/Operaciones/refs/heads/d-atis/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20GCCC.json",
-  "updateSerial": 2026110400,
+  "updateSerial": 2026110401,
   "stations": [
     {
       "id": "7dd8fe85-460d-4a2c-b796-fee9d2a35823",
@@ -138,14 +137,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers or more"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -2287,8 +2297,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": "\n",
-      "airportConditionsSeparator": "\n",
+      "notamsSeparator": ".\n",
+      "airportConditionsSeparator": ".\n",
       "frequency": 118650000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -2303,7 +2313,7 @@
         {
           "id": "9700e0ea-fb93-4028-9a55-370e2beba1fe",
           "name": "NORTH",
-          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^01.",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^01.\n",
           "notams": "",
           "template": "GCFV ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -2319,7 +2329,7 @@
         {
           "id": "fb411792-29f4-412d-b8a6-6d471f1aa164",
           "name": "SOUTH",
-          "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^19.",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^19.\n",
           "notams": "",
           "template": "GCFV ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -2385,16 +2395,10 @@
         {
           "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 3,
-          "enabled": false
+          "enabled": true
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "",
-          "ordinal": 1,
-          "enabled": false
-        }
-      ],
+      "notamDefinitions": [],
       "datisTextReplacements": [],
       "datisPrependAirportConditions": "",
       "datisAppendAirportConditions": "",
@@ -2534,14 +2538,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers or more"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -4683,8 +4698,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": "\n",
-      "airportConditionsSeparator": "\n",
+      "notamsSeparator": ".\n",
+      "airportConditionsSeparator": ".\n",
       "frequency": 118250000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -4699,7 +4714,7 @@
         {
           "id": "f9607d34-989f-456a-8d02-aad78a04b188",
           "name": "NORTH",
-          "airportConditions": "EXPECT RNP Y APCH.\nRWY IN USE ^36.",
+          "airportConditions": "EXPECT RNP Y APCH.\nRWY IN USE ^36.\n",
           "notams": "",
           "template": "GCLA ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -4715,7 +4730,7 @@
         {
           "id": "7e1e24d1-b90f-4a56-b7b4-08b0e8d892a3",
           "name": "SOUTH",
-          "airportConditions": "EXPECT RNP A APCH.\nRWY IN USE ^18.",
+          "airportConditions": "EXPECT RNP A APCH.\nRWY IN USE ^18.\n",
           "notams": "",
           "template": "GCLA ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -4781,7 +4796,7 @@
         {
           "text": "DATALINK DEP CLR AVBL..",
           "ordinal": 3,
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [],
@@ -4924,14 +4939,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers or more"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -7073,8 +7099,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": "\n",
-      "airportConditionsSeparator": "\n",
+      "notamsSeparator": ".\n",
+      "airportConditionsSeparator": ".\n",
       "frequency": 118600000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -7089,7 +7115,7 @@
         {
           "id": "4b9b9851-fb90-476d-8328-9c5737979299",
           "name": "NORTH",
-          "airportConditions": "EXPECT ILS Z APCH ^03L.\nRWY IN USE ^03L AND ^03R.",
+          "airportConditions": "EXPECT ILS Z APCH ^03L.\nRWY IN USE ^03L AND ^03R.\n",
           "notams": "COMPLY 190 KNOTS AT LP09S AND 160 AT 4 DME. ADVISE IF UNABLE. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY.",
           "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -7105,7 +7131,7 @@
         {
           "id": "87894ce8-820d-4a5b-944a-9c9331a50aeb",
           "name": "SOUTH",
-          "airportConditions": "EXPECT ILS Z APCH ^21R.\nRWY IN USE ^21R AND ^21L.",
+          "airportConditions": "EXPECT ILS Z APCH ^21R.\nRWY IN USE ^21R AND ^21L.\n",
           "notams": "COMPLY 190 KNOTS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY. LPC VOR OUT OF SERVICE. EXPECT CONTINGENCY DEPARTURE RWY 21 LEFT.",
           "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -7121,7 +7147,7 @@
         {
           "id": "7a444aca-4b32-45ab-955c-34a2bdefa157",
           "name": "NORTH SINGLE",
-          "airportConditions": "EXPECT ILS Z APCH ^03L.\nRWY IN USE FOR DEP ^03L.",
+          "airportConditions": "EXPECT ILS Z APCH ^03L.\nRWY IN USE FOR DEP ^03L.\n",
           "notams": "COMPLY 190 KNOTS AT LP09S AND 160 AT 4 DME. ADVISE IF UNABLE.",
           "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -7137,7 +7163,7 @@
         {
           "id": "f67ced4b-9790-461f-b94e-3edf90c1a0f3",
           "name": "SOUTH SINGLE",
-          "airportConditions": "EXPECT ILS Z APCH ^21R.\nRWY IN USE FOR DEP ^21R.",
+          "airportConditions": "EXPECT ILS Z APCH ^21R.\nRWY IN USE FOR DEP ^21R.\n",
           "notams": "COMPLY 190 KNOTS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE. LPC VOR OUT OF SERVICE. EXPECT CONTINGENCY DEPARTURE RWY 21 RIGHT.",
           "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -7153,7 +7179,7 @@
         {
           "id": "7522c10b-0335-46c5-8bf1-675be3198a07",
           "name": "NORTH DUAL",
-          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^03L AND FOR DEP ^03L AND ^03R.",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^03L AND FOR DEP ^03L AND ^03R.\n",
           "notams": "COMPLY 190 KNOTS AT LP09S AND 160 AT 4 DME. ADVISE IF UNABLE. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY.",
           "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -7169,7 +7195,7 @@
         {
           "id": "dca220dc-7cd1-4824-ab45-ed5b7a0f43b0",
           "name": "SOUTH DUAL",
-          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^21R AND FOR DEP ^21L AND ^21R.",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^21R AND FOR DEP ^21L AND ^21R.\n",
           "notams": "COMPLY 190 KNOTS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY. LPC VOR OUT OF SERVICE. EXPECT CONTINGENCY DEPARTURE RWY 21 RIGHT AND 21 LEFT.",
           "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -7235,7 +7261,7 @@
         {
           "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 3,
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [],
@@ -7378,14 +7404,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers or more"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -9527,8 +9564,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": "\n",
-      "airportConditionsSeparator": "\n",
+      "notamsSeparator": ".\n",
+      "airportConditionsSeparator": ".\n",
       "frequency": 118625000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -9543,7 +9580,7 @@
         {
           "id": "f5a9400a-573c-4508-b7e1-6d0c18571abc",
           "name": "NORTH",
-          "airportConditions": "EXPECT ILS APCH.\nRWY IN USE ^03.",
+          "airportConditions": "EXPECT ILS APCH.\nRWY IN USE ^03.\n",
           "notams": "",
           "template": "GCRR ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -9559,7 +9596,7 @@
         {
           "id": "494440f4-817b-4964-bda4-52e13c83b586",
           "name": "SOUTH",
-          "airportConditions": "EXPECT RNP APCH.\nRWY IN USE ^21.",
+          "airportConditions": "EXPECT RNP APCH.\nRWY IN USE ^21.\n",
           "notams": "",
           "template": "GCRR ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -9625,7 +9662,7 @@
         {
           "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 3,
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [],
@@ -9768,14 +9805,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers or more"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -11917,8 +11965,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": "\n",
-      "airportConditionsSeparator": "\n",
+      "notamsSeparator": ".\n",
+      "airportConditionsSeparator": ".\n",
       "frequency": 118675000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -11933,7 +11981,7 @@
         {
           "id": "c4ef9e8f-cb05-496f-a6bf-10417a56b0df",
           "name": "EAST",
-          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^07.",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^07.\n",
           "notams": "",
           "template": "GCTS ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -11949,7 +11997,7 @@
         {
           "id": "3c30175d-db50-4502-83d6-8429e4ca9b00",
           "name": "WEST",
-          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^25.",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^25.\n",
           "notams": "",
           "template": "GCTS ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -12015,7 +12063,7 @@
         {
           "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 3,
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [],
@@ -12158,14 +12206,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers or more"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -14307,8 +14366,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": "\n",
-      "airportConditionsSeparator": "\n",
+      "notamsSeparator": ".\n",
+      "airportConditionsSeparator": ".\n",
       "frequency": 118575000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -14323,7 +14382,7 @@
         {
           "id": "5ef90002-9714-46d7-ab6e-e7e5a3ee0d7f",
           "name": "EAST",
-          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^12.",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^12.\n",
           "notams": "",
           "template": "GCXO ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -14339,7 +14398,7 @@
         {
           "id": "e8915e1b-93d0-4b5c-9d0a-ed586bc7523b",
           "name": "WEST",
-          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^30.",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^30.\n",
           "notams": "",
           "template": "GCXO ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -14411,7 +14470,7 @@
         {
           "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 4,
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [],
