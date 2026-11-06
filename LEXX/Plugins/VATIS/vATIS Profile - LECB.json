@@ -2,7 +2,7 @@
   "name": "LECB",
   "id": "ffcad6d3-c517-47b7-8067-224ad235cd04",
   "updateUrl": "https://raw.githubusercontent.com/vatsimspain/Operaciones/refs/heads/d-atis/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECB.json",
-  "updateSerial": 2026110402,
+  "updateSerial": 2026110403,
   "stations": [
     {
       "id": "f5306cb5-8b2d-44f4-9355-ac82f8e72317",
@@ -19268,7 +19268,7 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": "\n",
+      "notamsSeparator": ".\n",
       "airportConditionsSeparator": "\n",
       "frequency": 121780000,
       "idsEndpoint": "",
@@ -19349,6 +19349,11 @@
           "variableName": "RWYCC",
           "text": "RWYCC",
           "voice": "RUNWAY CONDITION"
+        },
+        {
+          "variableName": "CDP",
+          "text": "CDP",
+          "voice": "CHARLIE DELTA PAPA"
         }
       ],
       "patterns": [],
@@ -19375,7 +19380,14 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [],
+      "notamDefinitions": [
+        {
+          "text": "CDP VOR OUT OF SERVICE",
+          "ordinal": 1,
+          "separatorAfter": "",
+          "enabled": false
+        }
+      ],
       "datisTextReplacements": [],
       "datisPrependAirportConditions": "",
       "datisAppendAirportConditions": "",
@@ -21675,7 +21687,7 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": "\n",
+      "notamsSeparator": ".\n",
       "airportConditionsSeparator": "\n",
       "frequency": 119255000,
       "idsEndpoint": "",
@@ -21756,6 +21768,11 @@
           "variableName": "RWYCC",
           "text": "RWYCC",
           "voice": "RUNWAY CONDITION"
+        },
+        {
+          "variableName": "CDP",
+          "text": "CDP",
+          "voice": "CHARLIE DELTA PAPA"
         }
       ],
       "patterns": [],
@@ -21777,7 +21794,13 @@
           "enabled": true
         }
       ],
-      "notamDefinitions": [],
+      "notamDefinitions": [
+        {
+          "text": "CDP VOR OUT OF SERVICE",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ],
       "datisTextReplacements": [],
       "datisPrependAirportConditions": "",
       "datisAppendAirportConditions": "",
