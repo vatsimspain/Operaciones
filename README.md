@@ -8,13 +8,15 @@
 
 ## Autores
  
-- Roger Puig - [@rpuig2001](https://www.github.com/rpuig2001)
+
 - Alejandro Gallegos - [@ImAlex28](https://www.github.com/ImAlex28)
 - Álvaro Ruiz - [@ACCSP2](https://github.com/ACCSP2)
 - Iker Hervás - [@IkerHervas](https://github.com/IkerHervas)
 - Izan Sabater - [@izxnsr](https://github.com/izxnsr)
+- Gabriel - [@shaeone](https://github.com/shaeone)
 ## Autores previos
 - Toni Monner - [@ACCSP5](https://github.com/ACCSP5)
+- Roger Puig - [@rpuig2001](https://www.github.com/rpuig2001)
  
 ## Releases & Changelog
 
