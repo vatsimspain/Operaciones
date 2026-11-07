@@ -1,6 +1,7 @@
 {
   "name": "LECM",
   "id": "46efea1f-e928-4536-8214-6f28741cd9bc",
+  
   "updateUrl": "https://raw.githubusercontent.com/vatsimspain/Operaciones/refs/heads/d-atis/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECM.json",
   "updateSerial": 2026110402,
   "stations": [
