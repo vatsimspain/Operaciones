@@ -1,8 +1,8 @@
 {
   "name": "LECB",
   "id": "c35a464d-2a53-4c71-906e-5c7f0bfc2e24",
-  "updateUrl": "https://raw.githubusercontent.com/vatsimspain/Operaciones/refs/heads/d-atis/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECB.json",
-  "updateSerial": 2026110404,
+  "updateUrl": "https://raw.githubusercontent.com/vatspa/Operaciones/refs/heads/estable/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECB.json",
+  "updateSerial": 2026071100,
   "stations": [
     {
       "id": "f5306cb5-8b2d-44f4-9355-ac82f8e72317",
