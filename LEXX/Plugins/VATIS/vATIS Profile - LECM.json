@@ -3,7 +3,7 @@
   "id": "2ab7557d-3aba-47c4-9089-d925470d70fa",
   
   "updateUrl": "https://raw.githubusercontent.com/vatspa/Operaciones/refs/heads/estable/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECM.json",
-  "updateSerial": 2026110700,
+  "updateSerial": 2026110701,
   "stations": [
     {
       "id": "dc1c49aa-09f7-4187-914b-ae079b0297a9",
@@ -14494,7 +14494,7 @@
         {
           "text": "MONITOR ADVISORY AFTER PASSING {3000} FT.",
           "ordinal": 4,
-          "onlineCondition": "NOT (LEMD_*_APP OR LECM_TLI_CTR OR LECM_R2_CTR OR LECM_CTR)",
+          "onlineCondition": "(LEMD_TWR OR LEMD_*_TWR) AND NOT (LEMD_*_APP OR LECM_TLI_CTR OR LECM_R2_CTR OR LECM_CTR)",
           "enabled": true
         }
       ],
