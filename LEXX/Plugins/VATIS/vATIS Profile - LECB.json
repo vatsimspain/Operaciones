@@ -2,7 +2,7 @@
   "name": "LECB",
   "id": "4da9dee2-dcaa-4363-afe2-873f2798f9d6",
   "updateUrl": "https://raw.githubusercontent.com/vatspa/Operaciones/refs/heads/estable/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECB.json",
-  "updateSerial": 2026110701,
+  "updateSerial": 2026110702,
   "stations": [
     {
       "id": "f5306cb5-8b2d-44f4-9355-ac82f8e72317",
@@ -4967,7 +4967,7 @@
           "id": "23743eac-043d-49ff-a934-06ac07dff107",
           "name": "ENN",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^02 AND FOR DEP ^02.\n",
-          "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2E APCH TRANSITIONS FOR RUNWAY 06L.",
+          "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2N APCH TRANSITIONS FOR RUNWAY 02.",
           "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -4983,7 +4983,7 @@
           "id": "a1e5e44e-efb5-487d-a94b-dd0686307a33",
           "name": "ERR",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^06R AND FOR DEP ^06R.\n",
-          "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2E APCH TRANSITIONS FOR RUNWAY 06L.",
+          "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2R APCH TRANSITIONS FOR RUNWAY 06R.",
           "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -4999,7 +4999,7 @@
           "id": "f87f0e49-c96c-4ce7-8bda-05971dc2c064",
           "name": "WRR",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^24R AND FOR DEP ^24R.\n",
-          "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2E APCH TRANSITIONS FOR RUNWAY 06L.",
+          "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2W APCH TRANSITIONS FOR RUNWAY 24R.",
           "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -5015,7 +5015,7 @@
           "id": "e876d273-7435-4c33-aec9-af5e3045279a",
           "name": "ENL",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^02 AND FOR DEP ^06L.\n",
-          "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2E APCH TRANSITIONS FOR RUNWAY 06L.",
+          "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2N APCH TRANSITIONS FOR RUNWAY 02.",
           "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -5031,7 +5031,7 @@
           "id": "754c5316-561c-4b8a-9a5b-512d4d30adc8",
           "name": "WRS",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^24R AND FOR DEP ^20.\n",
-          "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2E APCH TRANSITIONS FOR RUNWAY 06L.",
+          "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2W APCH TRANSITIONS FOR RUNWAY 24R.",
           "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
