@@ -1,8 +1,8 @@
 {
   "name": "LECB",
-  "id": "c35a464d-2a53-4c71-906e-5c7f0bfc2e24",
+  "id": "4da9dee2-dcaa-4363-afe2-873f2798f9d6",
   "updateUrl": "https://raw.githubusercontent.com/vatspa/Operaciones/refs/heads/estable/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECB.json",
-  "updateSerial": 2026110700,
+  "updateSerial": 2026110701,
   "stations": [
     {
       "id": "f5306cb5-8b2d-44f4-9355-ac82f8e72317",
@@ -2312,7 +2312,7 @@
       "presets": [
         {
           "id": "2f24a580-0653-4d9d-8aaa-8a3d0dcfa678",
-          "name": "WRL",
+          "name": "WRL PREF DIURNO",
           "airportConditions": "RWY IN USE FOR ARR ^24R AND FOR DEP ^24L.\n",
           "notams": "",
           "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
@@ -2328,7 +2328,7 @@
         },
         {
           "id": "43ce777a-04e9-45af-8276-332abd130a9c",
-          "name": "WLL",
+          "name": "WLL ALTN NOCTURNO",
           "airportConditions": "RWY IN USE FOR ARR ^24L AND FOR DEP ^24L.\n",
           "notams": "",
           "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
@@ -2344,7 +2344,7 @@
         },
         {
           "id": "7550a64d-4a7c-4b29-bc5b-ca19ea3ba497",
-          "name": "ENR",
+          "name": "ENR PREF NOCTURNO",
           "airportConditions": "RWY IN USE FOR ARR ^02 AND FOR DEP ^06R.\n",
           "notams": "",
           "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
@@ -2360,10 +2360,100 @@
         },
         {
           "id": "2beae202-3bdd-4d48-ae3c-09ee6130351c",
-          "name": "ELR",
+          "name": "ELR ALTN DIURNO",
           "airportConditions": "RWY IN USE FOR ARR ^06L AND FOR DEP ^06R.\n",
           "notams": "",
           "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "3cdca67c-5a5e-4dde-b9a9-a0785a725c5e",
+          "name": "ELL",
+          "airportConditions": "RWY IN USE FOR ARR ^06L AND FOR DEP ^06L.\n",
+          "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[RECENT_WX]\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "346153f2-f9af-4eb0-986f-5a27a4d86108",
+          "name": "ENN",
+          "airportConditions": "RWY IN USE FOR ARR ^02 AND FOR DEP ^02.\r\nARR ACFT MUST USE EXIT UB, RWY 02 LAST EXIT AVAILABLE U3L.",
+          "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[RECENT_WX]\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "30b46c87-381a-4b01-9acd-1f15179fca06",
+          "name": "ERR",
+          "airportConditions": "RWY IN USE FOR ARR ^06R AND FOR DEP ^06R.\n",
+          "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[RECENT_WX]\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "69db5678-1ad6-4a41-9602-fe7e55d30b41",
+          "name": "WRR",
+          "airportConditions": "RWY IN USE FOR ARR ^24R AND FOR DEP ^24R.\n",
+          "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[RECENT_WX]\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "d8899dd3-71e1-4f6a-86b4-0ea1dbb1197e",
+          "name": "ENL",
+          "airportConditions": "RWY IN USE FOR ARR ^02 AND FOR DEP ^06L.\n",
+          "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[RECENT_WX]\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "831f4d81-991b-41a4-a4c7-0650518a2d2c",
+          "name": "WRS",
+          "airportConditions": "RWY IN USE FOR ARR ^24R AND FOR DEP ^20.\n",
+          "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[RECENT_WX]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4795,7 +4885,7 @@
       "presets": [
         {
           "id": "b18c9786-d9e3-44e8-b95b-c2e2079f7929",
-          "name": "WRL",
+          "name": "WRL PREF DIURNA",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^24R AND FOR DEP ^24L.\nHIGH INTENSITY RUNWAY OPERATIONS IN FORCE.\n",
           "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2W APCH TRANSITIONS FOR RUNWAY 24R.",
           "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
@@ -4811,8 +4901,8 @@
         },
         {
           "id": "c8685408-8546-447c-9cfe-77ed1fe16633",
-          "name": "WLL",
-          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^24L AND FOR DEP ^24L.\nHIGH INTENSITY RUNWAY OPERATIONS IN FORCE.\n",
+          "name": "WLL ALTN NOCTURNA",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^24L AND FOR DEP ^24L.",
           "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2L APCH TRANSITIONS FOR RUNWAY 24L.",
           "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -4827,7 +4917,7 @@
         },
         {
           "id": "dda8220c-52f6-40f1-b1e9-03a496bc0d5a",
-          "name": "ENR",
+          "name": "ENR PREF NOCTURNA",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^02 AND FOR DEP ^06R.\nARR ACFT MUST USE EXIT UB, RWY 02 LAST EXIT AVAILABLE U3L.\n",
           "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2N APCH TRANSITIONS FOR RUNWAY 02.",
           "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
@@ -4843,8 +4933,104 @@
         },
         {
           "id": "e8ae452b-82bd-477f-9375-722ea1a36c55",
-          "name": "ELR",
+          "name": "ELR ALTN DIURNA",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^06L AND FOR DEP ^06R.\nHIGH INTENSITY RUNWAY OPERATIONS IN FORCE.\n",
+          "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2E APCH TRANSITIONS FOR RUNWAY 06L.",
+          "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "77cbb7fc-bc4a-42e4-a251-1ee25803b27d",
+          "name": "ELL",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^06L AND FOR DEP ^06L.\n",
+          "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2E APCH TRANSITIONS FOR RUNWAY 06L.",
+          "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "23743eac-043d-49ff-a934-06ac07dff107",
+          "name": "ENN",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^02 AND FOR DEP ^02.\n",
+          "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2E APCH TRANSITIONS FOR RUNWAY 06L.",
+          "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "a1e5e44e-efb5-487d-a94b-dd0686307a33",
+          "name": "ERR",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^06R AND FOR DEP ^06R.\n",
+          "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2E APCH TRANSITIONS FOR RUNWAY 06L.",
+          "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "f87f0e49-c96c-4ce7-8bda-05971dc2c064",
+          "name": "WRR",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^24R AND FOR DEP ^24R.\n",
+          "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2E APCH TRANSITIONS FOR RUNWAY 06L.",
+          "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "e876d273-7435-4c33-aec9-af5e3045279a",
+          "name": "ENL",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^02 AND FOR DEP ^06L.\n",
+          "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2E APCH TRANSITIONS FOR RUNWAY 06L.",
+          "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "754c5316-561c-4b8a-9a5b-512d4d30adc8",
+          "name": "WRS",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^24R AND FOR DEP ^20.\n",
           "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2E APCH TRANSITIONS FOR RUNWAY 06L.",
           "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
