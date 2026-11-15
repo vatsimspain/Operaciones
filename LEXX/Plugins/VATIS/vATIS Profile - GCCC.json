@@ -2,7 +2,7 @@
   "name": "GCCC",
   "id": "d32b9d73-75b6-4044-982e-fd3dd633e255",
   "updateUrl": "https://raw.githubusercontent.com/vatsimspain/Operaciones/refs/heads/estable/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20GCCC.json",
-  "updateSerial": 2026110700,
+  "updateSerial": 2026110701,
   "stations": [
     {
       "id": "7dd8fe85-460d-4a2c-b796-fee9d2a35823",
@@ -4714,7 +4714,7 @@
         {
           "id": "f9607d34-989f-456a-8d02-aad78a04b188",
           "name": "NORTH",
-          "airportConditions": "EXPECT RNP Y APCH.\nRWY IN USE ^36.\n",
+          "airportConditions": "RWY IN USE ^36.\n",
           "notams": "",
           "template": "GCLA ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -4730,7 +4730,7 @@
         {
           "id": "7e1e24d1-b90f-4a56-b7b4-08b0e8d892a3",
           "name": "SOUTH",
-          "airportConditions": "EXPECT RNP A APCH.\nRWY IN USE ^18.\n",
+          "airportConditions": "RWY IN USE ^18.\n",
           "notams": "",
           "template": "GCLA ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
