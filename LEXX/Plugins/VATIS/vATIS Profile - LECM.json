@@ -3,7 +3,7 @@
   "id": "2ab7557d-3aba-47c4-9089-d925470d70fa",
   
   "updateUrl": "https://raw.githubusercontent.com/vatspa/Operaciones/refs/heads/estable/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECM.json",
-  "updateSerial": 2026110701,
+  "updateSerial": 2026111601,
   "stations": [
     {
       "id": "dc1c49aa-09f7-4187-914b-ae079b0297a9",
@@ -2314,7 +2314,7 @@
         {
           "id": "2e05627e-dc68-4ecc-90c0-00421dfa3168",
           "name": "EAST",
-          "airportConditions": "EXPECT RNP Y APCH.\nRWY IN USE ^07.\n",
+          "airportConditions": "RWY IN USE ^07.\n",
           "notams": "",
           "template": "LEAM ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -2330,7 +2330,7 @@
         {
           "id": "d9b95c19-26a1-49c0-85c4-862342c54edb",
           "name": "WEST",
-          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^25.\n",
+          "airportConditions": "RWY IN USE ^25.\n",
           "notams": "",
           "template": "LEAM ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -9551,7 +9551,7 @@
         {
           "id": "b9c63ebd-9812-4782-9d3d-0f2ed9c2a572",
           "name": "WEST",
-          "airportConditions": "EXPECT CIRCLING TO LAND APCH.\nRWY IN USE ^27.\n",
+          "airportConditions": "RWY IN USE ^27.\n",
           "notams": "",
           "template": "LEGR ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -11942,7 +11942,7 @@
         {
           "id": "573fbd15-bbd6-4ed6-a35e-cb9e88ef86d3",
           "name": "NORTH",
-          "airportConditions": "EXPECT RNP Y APCH.\nRWY IN USE ^02.\n",
+          "airportConditions": "RWY IN USE ^02.\n",
           "notams": "",
           "template": "LEJR ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -11958,7 +11958,7 @@
         {
           "id": "40d41be4-7742-48d5-9a85-6c138d768249",
           "name": "SOUTH",
-          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^20.\n",
+          "airportConditions": "RWY IN USE ^20.\n",
           "notams": "",
           "template": "LEJR ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -16845,7 +16845,7 @@
         {
           "id": "3e54338b-be3b-4038-9b96-bae169475704",
           "name": "NORTH NIGHT",
-          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^32R.\n",
+          "airportConditions": "EXPECT ILS Z APCH.\nSINGLE RWY IN USE\nRWY IN USE ^32R.\n",
           "notams": "",
           "template": "LEMD ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -16861,7 +16861,7 @@
         {
           "id": "2f2775e4-6343-4c8c-bb27-870e6844b49a",
           "name": "SOUTH NIGHT",
-          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^18L.\n",
+          "airportConditions": "EXPECT ILS Z APCH.\nSINGLE RWY IN USE\nRWY IN USE ^18L.\n",
           "notams": "",
           "template": "LEMD ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -16934,6 +16934,11 @@
           "text": "INDEPENDENT PARALLEL OPERATIONS IN FORCE.",
           "ordinal": 4,
           "enabled": true
+        },
+        {
+          "text": "DEPENDENT PARALLEL OPERATIONS IN FORCE.",
+          "ordinal": 5,
+          "enabled": false
         }
       ],
       "notamDefinitions": [],

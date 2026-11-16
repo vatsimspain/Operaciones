@@ -2,7 +2,7 @@
   "name": "GCCC",
   "id": "d32b9d73-75b6-4044-982e-fd3dd633e255",
   "updateUrl": "https://raw.githubusercontent.com/vatsimspain/Operaciones/refs/heads/estable/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20GCCC.json",
-  "updateSerial": 2026110701,
+  "updateSerial": 2026111601,
   "stations": [
     {
       "id": "7dd8fe85-460d-4a2c-b796-fee9d2a35823",
@@ -7115,8 +7115,8 @@
         {
           "id": "4b9b9851-fb90-476d-8328-9c5737979299",
           "name": "NORTH",
-          "airportConditions": "EXPECT ILS Z APCH ^03L.\nRWY IN USE ^03L AND ^03R.\n",
-          "notams": "COMPLY 190 KNOTS AT LP09S AND 160 AT 4 DME. ADVISE IF UNABLE. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY.",
+          "airportConditions": "EXPECT ILS Z APCH ^03L.\nRWY IN USE ^03L AND ^03R.\nPOSSIBLE ILS SGL INTERFERENCES DUE TO ACFT XNG ACT RWY.\n",
+          "notams": "COMPLY 190 KNOTS AT FALPU AND 160 AT 4 DME. ADVISE IF UNABLE.",
           "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -7131,8 +7131,8 @@
         {
           "id": "87894ce8-820d-4a5b-944a-9c9331a50aeb",
           "name": "SOUTH",
-          "airportConditions": "EXPECT ILS Z APCH ^21R.\nRWY IN USE ^21R AND ^21L.\n",
-          "notams": "COMPLY 190 KNOTS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY. LPC VOR OUT OF SERVICE. EXPECT CONTINGENCY DEPARTURE RWY 21 LEFT.",
+          "airportConditions": "EXPECT ILS Z APCH ^21R.\nRWY IN USE ^21R AND ^21L.\nPOSSIBLE ILS SGL INTERFERENCES DUE TO ACFT XNG ACT RWY.\n",
+          "notams": "COMPLY 190 KNOTS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE.\nLPC VOR OUT OF SERVICE. EXPECT CONTINGENCY DEPARTURE RWY 21 LEFT.\n",
           "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -7147,8 +7147,8 @@
         {
           "id": "7a444aca-4b32-45ab-955c-34a2bdefa157",
           "name": "NORTH SINGLE",
-          "airportConditions": "EXPECT ILS Z APCH ^03L.\nRWY IN USE FOR DEP ^03L.\n",
-          "notams": "COMPLY 190 KNOTS AT LP09S AND 160 AT 4 DME. ADVISE IF UNABLE.",
+          "airportConditions": "EXPECT ILS Z APCH ^03L.\nRWY IN USE ^03L.\n",
+          "notams": "COMPLY 190 KNOTS AT FALPU AND 160 AT 4 DME. ADVISE IF UNABLE.",
           "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -7163,8 +7163,8 @@
         {
           "id": "f67ced4b-9790-461f-b94e-3edf90c1a0f3",
           "name": "SOUTH SINGLE",
-          "airportConditions": "EXPECT ILS Z APCH ^21R.\nRWY IN USE FOR DEP ^21R.\n",
-          "notams": "COMPLY 190 KNOTS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE. LPC VOR OUT OF SERVICE. EXPECT CONTINGENCY DEPARTURE RWY 21 RIGHT.",
+          "airportConditions": "EXPECT ILS Z APCH ^21R.\nRWY IN USE ^21R.\n",
+          "notams": "COMPLY 190 KNOTS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE.\nLPC VOR OUT OF SERVICE.\nEXPECT CONTINGENCY DEPARTURE RWY 21 RIGHT.",
           "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -7179,8 +7179,8 @@
         {
           "id": "7522c10b-0335-46c5-8bf1-675be3198a07",
           "name": "NORTH DUAL",
-          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^03L AND FOR DEP ^03L AND ^03R.\n",
-          "notams": "COMPLY 190 KNOTS AT LP09S AND 160 AT 4 DME. ADVISE IF UNABLE. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY.",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^03L AND FOR DEP ^03L AND ^03R.\nPOSSIBLE ILS SGL INTERFERENCES DUE TO ACFT XNG ACT RWY.\n",
+          "notams": "COMPLY 190 KNOTS AT FALPU AND 160 AT 4 DME. ADVISE IF UNABLE.",
           "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -7195,8 +7195,8 @@
         {
           "id": "dca220dc-7cd1-4824-ab45-ed5b7a0f43b0",
           "name": "SOUTH DUAL",
-          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^21R AND FOR DEP ^21L AND ^21R.\n",
-          "notams": "COMPLY 190 KNOTS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY. LPC VOR OUT OF SERVICE. EXPECT CONTINGENCY DEPARTURE RWY 21 RIGHT AND 21 LEFT.",
+          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^21R AND FOR DEP ^21L AND ^21R.\nPOSSIBLE ILS SGL INTERFERENCES DUE TO ACFT XNG ACT RWY.\n",
+          "notams": "COMPLY 190 KNOTS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE.\nLPC VOR OUT OF SERVICE.\nEXPECT CONTINGENCY DEPARTURE RWY 21 RIGHT AND 21 LEFT.",
           "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -7240,6 +7240,21 @@
           "text": "GCLP",
           "voice": "THIS IS GRAN CANARIA"
         },
+        {
+          "variableName": "SGL",
+          "text": "SGL",
+          "voice": "SIGNAL"
+        },
+        {
+          "variableName": "XNG",
+          "text": "XNG",
+          "voice": "CROSSING"
+        },
+        {
+          "variableName": "ACT",
+          "text": "ACT",
+          "voice": "ACTIVE"
+        }, 
         {
           "variableName": "RWYCC",
           "text": "RWYCC",
