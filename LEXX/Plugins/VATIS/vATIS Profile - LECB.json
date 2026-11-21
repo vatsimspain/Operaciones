@@ -2561,13 +2561,13 @@
         {
           "text": "CTC NEXT ABLV FREQ BEFORE PASSING {2000} FT.",
           "ordinal": 2,
-          "onlineCondition": "LEBL_*_APP OR LECB_RW_APP OR LECB_RN_CTR OR LECB_DDI_CTR OR LECB_XAL_CTR OR LECB_PPI_CTR",
+          "onlineCondition": "LEBL_*_APP OR LECB_RW_CTR OR LECB_RN_CTR OR LECB_DDI_CTR OR LECB_XAL_CTR OR LECB_PPI_CTR",
           "enabled": true
         },
         {
           "text": "MONITOR ADVISORY AFTER PASSING {2000} FT.",
           "ordinal": 3,
-          "onlineCondition": "(LEBL_GND OR LEBL_*_GND) AND NOT (LEBL_APP OR LEBL_*_APP OR LECB_RW_APP OR LECB_RN_CTR OR LECB_DDI_CTR OR LECB_XAL_CTR OR LECB_PPI_CTR)",
+          "onlineCondition": "(LEBL_GND OR LEBL_*_GND) AND NOT (LEBL_APP OR LEBL_*_APP OR LECB_RW_CTR OR LECB_RN_CTR OR LECB_DDI_CTR OR LECB_XAL_CTR OR LECB_PPI_CTR)",
           "enabled": true
         }
       ],
