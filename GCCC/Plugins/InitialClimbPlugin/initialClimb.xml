@@ -2,57 +2,64 @@
 <initialClimb>
     <apt icao="GCFV">
 		<runway name="01">
-			<sid name="MAPED">
-				<alt>040</alt>
-			</sid>
-			<sid name="KORAL6Z">
-				<alt>100</alt>
-			</sid>
-			<sid name="KORAL9Q">
+			<sid name="KORAL">
 				<alt>120</alt>
 			</sid>
 			<sid name="LARYS">
-				<alt>040</alt>
+				<alt>080</alt>
+			</sid>
+			<sid name="LORPO">
+				<alt>080</alt>
 			</sid>
 			<sid name="LUNOB">
 				<alt>040</alt>
 			</sid>
-			<sid name="LORPO">
+			<sid name="MAPED">
 				<alt>040</alt>
 			</sid>
-			<sid name="SAMAR">
+			<sid name="SAMAR1Q">
 				<alt>120</alt>
 			</sid>
-			<sid name="VASTO">
+			<sid name="VASTO1Q">
 				<alt>120</alt>
+			</sid>
+			<sid name="SAMAR1S">
+				<alt>100</alt>
+			</sid>
+			<sid name="VASTO1S">
+				<alt>100</alt>
+			</sid>
+			<sid name="KORAL1S">
+				<alt>100</alt>
 			</sid>
 		</runway>
 		<runway name="19">
-			<sid name="MAPED">
-				<alt>040</alt>
-			</sid>
-			<sid name="KORAL4Y">
-				<alt>100</alt>
-			</sid>
 			<sid name="KORAL7R">
 				<alt>120</alt>
 			</sid>
-			<sid name="LARYS">
-				<alt>040</alt>
+			<sid name="LORPO7R">
+				<alt>080</alt>
 			</sid>
-			<sid name="LUNOB">
-				<alt>040</alt>
-			</sid>
-			<sid name="LORPO">
-				<alt>040</alt>
-			</sid>
-			<sid name="SAMAR">
+			<sid name="SAMAR5R">
 				<alt>120</alt>
 			</sid>
-			<sid name="VASTO">
+			<sid name="VASTO8R">
 				<alt>120</alt>
+			</sid>
+			<sid name="KORAL1W">
+				<alt>100</alt>
+			</sid>
+			<sid name="LARYS4R">
+				<alt>140</alt>
+			</sid>
+			<sid name="LUNOB3R">
+				<alt>040</alt>
+			</sid>
+			<sid name="MAPED3R">
+				<alt>040</alt>
 			</sid>
 		</runway>
+
     </apt>
 	<apt icao="GCLA">
 		<runway name="18">

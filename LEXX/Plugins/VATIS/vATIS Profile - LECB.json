@@ -2,7 +2,7 @@
   "name": "LECB",
   "id": "4da9dee2-dcaa-4363-afe2-873f2798f9d6",
   "updateUrl": "https://raw.githubusercontent.com/vatspa/Operaciones/refs/heads/estable/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECB.json",
-  "updateSerial": 2026111601,
+  "updateSerial": 2026111602,
   "stations": [
     {
       "id": "f5306cb5-8b2d-44f4-9355-ac82f8e72317",
@@ -2561,13 +2561,13 @@
         {
           "text": "CTC NEXT ABLV FREQ BEFORE PASSING {2000} FT.",
           "ordinal": 2,
-          "onlineCondition": "LEBL_*_APP OR LECB_RW_APP OR LECB_RN_CTR OR LECB_DDI_CTR OR LECB_XAL_CTR OR LECB_PPI_CTR",
+          "onlineCondition": "LEBL_*_APP OR LECB_RW_CTR OR LECB_RN_CTR OR LECB_DDI_CTR OR LECB_XAL_CTR OR LECB_PPI_CTR",
           "enabled": true
         },
         {
           "text": "MONITOR ADVISORY AFTER PASSING {2000} FT.",
           "ordinal": 3,
-          "onlineCondition": "(LEBL_GND OR LEBL_*_GND) AND NOT (LEBL_APP OR LEBL_*_APP OR LECB_RW_APP OR LECB_RN_CTR OR LECB_DDI_CTR OR LECB_XAL_CTR OR LECB_PPI_CTR)",
+          "onlineCondition": "(LEBL_GND OR LEBL_*_GND) AND NOT (LEBL_APP OR LEBL_*_APP OR LECB_RW_CTR OR LECB_RN_CTR OR LECB_DDI_CTR OR LECB_XAL_CTR OR LECB_PPI_CTR)",
           "enabled": true
         }
       ],
