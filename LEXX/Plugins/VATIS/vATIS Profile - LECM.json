@@ -2398,11 +2398,6 @@
           "ordinal": 3,
           "weatherCondition": "rvr <= 550m",
           "enabled": true
-        },
-        {
-          "text": "DATALINK DEP CLR AVBL.",
-          "ordinal": 4,
-          "enabled": true
         }
       ],
       "notamDefinitions": [],
@@ -7212,11 +7207,6 @@
           "ordinal": 3,
           "weatherCondition": "rvr < 1800m OR ceiling < 500ft",
           "enabled": true
-        },
-        {
-          "text": "DATALINK DEP CLR AVBL.",
-          "ordinal": 4,
-          "enabled": true
         }
       ],
       "notamDefinitions": [],
@@ -9618,11 +9608,6 @@
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION.",
           "ordinal": 3,
           "weatherCondition": "rvr <= 550m",
-          "enabled": true
-        },
-        {
-          "text": "DATALINK DEP CLR AVBL.",
-          "ordinal": 4,
           "enabled": true
         }
       ],
@@ -26634,11 +26619,6 @@
           "text": "RWYCC 5 5 5. WET WET WET.",
           "ordinal": 2,
           "enabled": false
-        },
-        {
-          "text": "DATALINK DEP CLR AVBL.",
-          "ordinal": 3,
-          "enabled": true
         }
       ],
       "notamDefinitions": [],
@@ -29035,11 +29015,6 @@
           "text": "RWYCC 5 5 5. WET WET WET.",
           "ordinal": 2,
           "enabled": false
-        },
-        {
-          "text": "DATALINK DEP CLR AVBL.",
-          "ordinal": 3,
-          "enabled": true
         }
       ],
       "notamDefinitions": [],
@@ -31441,11 +31416,6 @@
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION.",
           "ordinal": 3,
           "weatherCondition": "rvr <= 1700m OR ceiling < 600ft",
-          "enabled": true
-        },
-        {
-          "text": "DATALINK DEP CLR AVBL.",
-          "ordinal": 4,
           "enabled": true
         }
       ],
@@ -33849,11 +33819,6 @@
           "ordinal": 3,
           "weatherCondition": "rvr <= 1700m OR ceiling < 400ft",
           "enabled": true
-        },
-        {
-          "text": "DATALINK DEP CLR AVBL.",
-          "ordinal": 4,
-          "enabled": true
         }
       ],
       "notamDefinitions": [],
@@ -36250,11 +36215,6 @@
           "text": "RWYCC 5 5 5. WET WET WET.",
           "ordinal": 2,
           "enabled": false
-        },
-        {
-          "text": "DATALINK DEP CLR AVBL.",
-          "ordinal": 3,
-          "enabled": true
         }
       ],
       "notamDefinitions": [],

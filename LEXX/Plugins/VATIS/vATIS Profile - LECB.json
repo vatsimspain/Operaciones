@@ -2,7 +2,7 @@
   "name": "LECB",
   "id": "4da9dee2-dcaa-4363-afe2-873f2798f9d6",
   "updateUrl": "https://raw.githubusercontent.com/vatspa/Operaciones/refs/heads/estable/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECB.json",
-  "updateSerial": 2026111602,
+  "updateSerial": 2026111603,
   "stations": [
     {
       "id": "f5306cb5-8b2d-44f4-9355-ac82f8e72317",
@@ -9932,11 +9932,6 @@
           "ordinal": 3,
           "weatherCondition": "rvr <= 600m OR ceiling <= 300ft",
           "enabled": true
-        },
-        {
-          "text": "DATALINK DEP CLR AVBL.",
-          "ordinal": 4,
-          "enabled": true
         }
       ],
       "notamDefinitions": [],
@@ -17152,11 +17147,6 @@
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION.",
           "ordinal": 3,
           "weatherCondition": "rvr <= 550m",
-          "enabled": true
-        },
-        {
-          "text": "DATALINK DEP CLR AVBL.",
-          "ordinal": 4,
           "enabled": true
         }
       ],
@@ -24386,11 +24376,6 @@
           "text": "RWYCC 5 5 5. WET WET WET.",
           "ordinal": 2,
           "enabled": false
-        },
-        {
-          "text": "DATALINK DEP CLR AVBL.",
-          "ordinal": 3,
-          "enabled": true
         }
       ],
       "notamDefinitions": [],
