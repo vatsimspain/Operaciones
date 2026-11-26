@@ -2,57 +2,64 @@
 <initialClimb>
     <apt icao="GCFV">
 		<runway name="01">
-			<sid name="MAPED">
-				<alt>040</alt>
-			</sid>
-			<sid name="KORAL6Z">
-				<alt>100</alt>
-			</sid>
-			<sid name="KORAL9Q">
+			<sid name="KORAL">
 				<alt>120</alt>
 			</sid>
 			<sid name="LARYS">
-				<alt>040</alt>
+				<alt>080</alt>
+			</sid>
+			<sid name="LORPO">
+				<alt>080</alt>
 			</sid>
 			<sid name="LUNOB">
 				<alt>040</alt>
 			</sid>
-			<sid name="LORPO">
+			<sid name="MAPED">
 				<alt>040</alt>
 			</sid>
-			<sid name="SAMAR">
+			<sid name="SAMAR1Q">
 				<alt>120</alt>
 			</sid>
-			<sid name="VASTO">
+			<sid name="VASTO1Q">
 				<alt>120</alt>
+			</sid>
+			<sid name="SAMAR1S">
+				<alt>100</alt>
+			</sid>
+			<sid name="VASTO1S">
+				<alt>100</alt>
+			</sid>
+			<sid name="KORAL1S">
+				<alt>100</alt>
 			</sid>
 		</runway>
 		<runway name="19">
-			<sid name="MAPED">
-				<alt>040</alt>
-			</sid>
-			<sid name="KORAL4Y">
-				<alt>100</alt>
-			</sid>
 			<sid name="KORAL7R">
 				<alt>120</alt>
 			</sid>
-			<sid name="LARYS">
-				<alt>040</alt>
+			<sid name="LORPO7R">
+				<alt>080</alt>
 			</sid>
-			<sid name="LUNOB">
-				<alt>040</alt>
-			</sid>
-			<sid name="LORPO">
-				<alt>040</alt>
-			</sid>
-			<sid name="SAMAR">
+			<sid name="SAMAR5R">
 				<alt>120</alt>
 			</sid>
-			<sid name="VASTO">
+			<sid name="VASTO8R">
 				<alt>120</alt>
+			</sid>
+			<sid name="KORAL1W">
+				<alt>100</alt>
+			</sid>
+			<sid name="LARYS4R">
+				<alt>140</alt>
+			</sid>
+			<sid name="LUNOB3R">
+				<alt>040</alt>
+			</sid>
+			<sid name="MAPED3R">
+				<alt>040</alt>
 			</sid>
 		</runway>
+
     </apt>
 	<apt icao="GCLA">
 		<runway name="18">
@@ -129,16 +136,16 @@
     <apt icao="GCLP">
 		<runway name="03L">
 			<sid name="ARACO">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="BIMBO">
 				<alt>120</alt>
 			</sid>
 			<sid name="COSTI">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="HIE">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="KONBA">
 				<alt>120</alt>
@@ -147,19 +154,19 @@
 				<alt>050</alt>
 			</sid>
 			<sid name="KORAL">
-				<alt>100</alt>
+				<alt>120</alt>
 			</sid>
 			<sid name="LOMAS">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="ODEGI">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="RASEP">
-				<alt>100</alt>
+				<alt>110</alt>
 			</sid>
 			<sid name="REMGI">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="SAMAR">
 				<alt>120</alt>
@@ -168,27 +175,30 @@
 				<alt>120</alt>
 			</sid>
 			<sid name="TFN">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="VASTO">
 				<alt>120</alt>
 			</sid>
 			<sid name="MOVAS">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
+			<sid name="XORBO">
+				<alt>050</alt>
+			</sid>			
 		</runway>
 		<runway name="03R">
 			<sid name="ARACO">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="BIMBO">
 				<alt>120</alt>
 			</sid>
 			<sid name="COSTI">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="HIE">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="KONBA">
 				<alt>120</alt>
@@ -197,19 +207,19 @@
 				<alt>050</alt>
 			</sid>
 			<sid name="KORAL">
-				<alt>100</alt>
+				<alt>120</alt>
 			</sid>
 			<sid name="LOMAS">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="ODEGI">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="RASEP">
-				<alt>100</alt>
+				<alt>110</alt>
 			</sid>
 			<sid name="REMGI">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="SAMAR">
 				<alt>120</alt>
@@ -218,113 +228,122 @@
 				<alt>120</alt>
 			</sid>
 			<sid name="TFN">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="VASTO">
 				<alt>120</alt>
 			</sid>
 			<sid name="MOVAS">
-				<alt>060</alt>
+				<alt>050</alt>
+			</sid>
+			<sid name="XORBO">
+				<alt>050</alt>
 			</sid>
 		</runway>
 		<runway name="21L">
 			<sid name="ARACO">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="BIMBO">
-				<alt>120</alt>
+				<alt>150</alt>
 			</sid>
 			<sid name="COSTI">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="HIE">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="KONBA">
-				<alt>120</alt>
+				<alt>150</alt>
 			</sid>
 			<sid name="KOPUD">
 				<alt>050</alt>
 			</sid>
 			<sid name="KORAL">
-				<alt>060</alt>
+				<alt>200</alt>
 			</sid>
 			<sid name="LOMAS">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="ODEGI">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="RASEP">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="REMGI">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="SAMAR">
-				<alt>120</alt>
+				<alt>200</alt>
 			</sid>
 			<sid name="SARAY">
-				<alt>120</alt>
+				<alt>200</alt>
 			</sid>
 			<sid name="TFN">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="VASTO">
-				<alt>120</alt>
+				<alt>200</alt>
 			</sid>
 			<sid name="MOVAS">
-				<alt>060</alt>
+				<alt>050</alt>
+			</sid>
+			<sid name="XORBO">
+				<alt>050</alt>
 			</sid>
 		</runway>
 		<runway name="21R">
 			<sid name="ARACO">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="BIMBO">
-				<alt>120</alt>
+				<alt>150</alt>
 			</sid>
 			<sid name="COSTI">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="HIE">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="KONBA">
-				<alt>120</alt>
+				<alt>150</alt>
 			</sid>
 			<sid name="KOPUD">
 				<alt>050</alt>
 			</sid>
 			<sid name="KORAL">
-				<alt>060</alt>
+				<alt>200</alt>
 			</sid>
 			<sid name="LOMAS">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="ODEGI">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="RASEP">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="REMGI">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="SAMAR">
-				<alt>120</alt>
+				<alt>200</alt>
 			</sid>
 			<sid name="SARAY">
-				<alt>120</alt>
+				<alt>200</alt>
 			</sid>
 			<sid name="TFN">
-				<alt>060</alt>
+				<alt>050</alt>
 			</sid>
 			<sid name="VASTO">
-				<alt>120</alt>
+				<alt>200</alt>
 			</sid>
 			<sid name="MOVAS">
-				<alt>060</alt>
+				<alt>050</alt>
+			</sid>
+			<sid name="XORBO">
+				<alt>050</alt>
 			</sid>
 		</runway>
     </apt>
@@ -333,9 +352,15 @@
 			<sid name="ARACO">
 				<alt>050</alt>
 			</sid>
-			<sid name="LPC">
+			<sid name="BOXCO">
 				<alt>050</alt>
 			</sid>
+			<sid name="EXIQE">
+				<alt>050</alt>
+			</sid>
+			<sid name="NASOL">
+				<alt>050</alt>
+			</sid>			
 			<sid name="TFN">
 				<alt>050</alt>
 			</sid>
@@ -347,9 +372,15 @@
 			<sid name="FD34ARA">
 				<alt>050</alt>
 			</sid>
-			<sid name="FD34LPC">
+			<sid name="FD34BOX">
 				<alt>050</alt>
 			</sid>
+			<sid name="FD34EXI">
+				<alt>050</alt>
+			</sid>
+			<sid name="FD34NAS">
+				<alt>050</alt>
+			</sid>			
 			<sid name="FD34TFN">
 				<alt>050</alt>
 			</sid>
