@@ -1,6 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <initialClimb>
-	<apt icao="LEAS">
+	<apt icao="LEAM">
+		<runway name="07">
+			<sid name="AGIDO2T">
+				<alt>110</alt>
+			</sid>
+			<sid name="DOSEK2T">
+				<alt>100</alt>
+			</sid>
+			<sid name="ESILA3T">
+				<alt>110</alt>
+			</sid>
+			<sid name="KUNEN2T">
+				<alt>110</alt>
+			</sid>
+			<sid name="RISPO2T">
+				<alt>100</alt>
+			</sid>
+			<sid name="VADAT1T">
+				<alt>060</alt>
+			</sid>
+			<sid name="AGIDO1B">
+				<alt>080</alt>
+			</sid>
+			<sid name="AGIDO1X">
+				<alt>080</alt>
+			</sid>
+			<sid name="DOSEK2B">
+				<alt>080</alt>
+			</sid>
+			<sid name="ESILA2B">
+				<alt>080</alt>
+			</sid>
+			<sid name="ESILA3V">
+				<alt>110</alt>
+			</sid>
+			<sid name="ESILA2X">
+				<alt>110</alt>
+			</sid>
+			<sid name="KUNEN2B">
+				<alt>110</alt>
+			</sid>
+			<sid name="RISPO1B">
+				<alt>080</alt>
+			</sid>
+			<sid name="AGIDO1X">
+				<alt>080</alt>
+			</sid>
+			<sid name="VADAT2B">
+				<alt>100</alt>
+			</sid>
+		</runway>
+		<runway name="25">
+			<sid name="AGIDO2S">
+				<alt>110</alt>
+			</sid>
+			<sid name="DOSEK2S">
+				<alt>100</alt>
+			</sid>
+			<sid name="ESILA">
+				<alt>110</alt>
+			</sid>
+			<sid name="KUNEN2S">
+				<alt>110</alt>
+			</sid>
+			<sid name="RISPO2S">
+				<alt>100</alt>
+			</sid>
+			<sid name="VADAT2S">
+				<alt>050</alt>
+			</sid>
+			<sid name="AGIDO1A">
+				<alt>080</alt>
+			</sid>
+			<sid name="DOSEK2A">
+				<alt>100</alt>
+			</sid>
+			<sid name="DOSEK2Y">
+				<alt>080</alt>
+			</sid>
+			<sid name="KUNEN1A">
+				<alt>100</alt>
+			</sid>
+			<sid name="KUNEN1E">
+				<alt>110</alt>
+			</sid>
+			<sid name="RISPO1A">
+				<alt>080</alt>
+			</sid>
+			<sid name="RISPO1Y">
+				<alt>080</alt>
+			</sid>
+			<sid name="VADAT2A">
+				<alt>100</alt>
+			</sid>
+		</runway>
+	</apt>
+		<apt icao="LEAS">
 		<runway name="11">
 			<sid name="MAVOS">
 				<alt>150</alt>

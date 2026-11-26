@@ -7127,7 +7127,7 @@
           "id": "87894ce8-820d-4a5b-944a-9c9331a50aeb",
           "name": "SOUTH",
           "airportConditions": "EXPECT ILS Z APCH ^21R.\nRWY IN USE ^21R AND ^21L.\nPOSSIBLE ILS SGL INTERFERENCES DUE TO ACFT XNG ACT RWY.\n",
-          "notams": "COMPLY 190 KNOTS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE.\nLPC VOR OUT OF SERVICE. EXPECT CONTINGENCY DEPARTURE RWY 21 LEFT.\n",
+          "notams": "COMPLY 190 KNOTS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE.\nLPC VOR OUT OF SERVICE.\n",
           "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -7159,7 +7159,7 @@
           "id": "f67ced4b-9790-461f-b94e-3edf90c1a0f3",
           "name": "SOUTH SINGLE",
           "airportConditions": "EXPECT ILS Z APCH ^21R.\nRWY IN USE ^21R.\n",
-          "notams": "COMPLY 190 KNOTS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE.\nLPC VOR OUT OF SERVICE.\nEXPECT CONTINGENCY DEPARTURE RWY 21 RIGHT.",
+          "notams": "COMPLY 190 KNOTS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE.\nLPC VOR OUT OF SERVICE.",
           "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -7191,7 +7191,7 @@
           "id": "dca220dc-7cd1-4824-ab45-ed5b7a0f43b0",
           "name": "SOUTH DUAL",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^21R AND FOR DEP ^21L AND ^21R.\nPOSSIBLE ILS SGL INTERFERENCES DUE TO ACFT XNG ACT RWY.\n",
-          "notams": "COMPLY 190 KNOTS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE.\nLPC VOR OUT OF SERVICE.\nEXPECT CONTINGENCY DEPARTURE RWY 21 RIGHT AND 21 LEFT.",
+          "notams": "COMPLY 190 KNOTS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE.\nLPC VOR OUT OF SERVICE.",
           "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,

@@ -37,34 +37,52 @@
    {
       "icao": "LEAM",
       "sids": {
+         "AGIDO": [
+            {
+               "direction": "EVEN",
+               "airways": ["M192","DCT ROLAS"],
+                "min_fl": 105,
+                "max_fl": 660,
+            }
+         ],
 			"DOSEK": [
             {
-               "direction": "EVEN"
+               "direction": "EVEN",
+               "airways": ["N860","DCT RESTU"],
+                "min_fl": 95,
+                "max_fl": 660,
             }
-		],
+   		],
+         "ESILA": [
+            {
+               "direction": "EVEN",
+               "airways": ["N865","DCT UNTOS"],
+                "min_fl": 135,
+                "max_fl": 660,
+            }
+         ],
+         "KUNEN": [
+            {
+               "direction": "ANY",
+               "airways": ["L112","DCT NESDA"],
+                "min_fl": 105,
+                "max_fl": 660,
+            }
+         ],
 			"RISPO": [
             {
-               "direction": "EVEN"
-            }
-         ],
-			"AGIDO": [
-            {
-               "direction": "EVEN"
-            }
-         ],
-		 	"ESILA": [
-            {
-               "direction": "EVEN"
-            }
-         ],
-		 	"KUNEN": [
-            {
-               "direction": "ANY"
+               "direction": "EVEN",
+               "airways": ["M143","DCT TOSGA"],
+                "min_fl": 95,
+                "max_fl": 660,
             }
          ],
 		 	"VADAT": [
             {
-               "direction": "ODD"
+               "direction": "ODD",
+               "airways": ["N860"],
+                "min_fl": 95,
+                "max_fl": 660,
             }
          ]
       }
