@@ -57,8 +57,7 @@ Plugins	Plugin10Display0	Standard ES radar screen
 Plugins	Plugin11	\LEXX\Plugins\DiscordEuroscope\DiscordEuroscope.dll
 Plugins	Plugin11Display0	Standard ES radar screen
 Plugins	Plugin12	\LEXX\Plugins\XPGuard\XPGuardES.dll
-Plugins	Plugin12Display0	Standard ES radar screen
-Plugins	Plugin12Display1	Ground Radar display
+Plugins	Plugin12Display0	Ground Radar display
 RecentFiles	Recent1	\GCCC\ASR\GCCC.asr
 RecentFiles	Recent2	\GCCC\ASR\GND GR\GCTS_GND_GR.asr
 RecentFiles	Recent3	\GCCC\ASR\GND GR\GCLP_GND_GR.asr
