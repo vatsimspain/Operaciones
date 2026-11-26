@@ -1,9 +1,8 @@
 {
   "name": "LECM",
   "id": "2ab7557d-3aba-47c4-9089-d925470d70fa",
-  
   "updateUrl": "https://raw.githubusercontent.com/vatspa/Operaciones/refs/heads/estable/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECM.json",
-  "updateSerial": 2026111602,
+  "updateSerial": 2026112600,
   "stations": [
     {
       "id": "dc1c49aa-09f7-4187-914b-ae079b0297a9",
@@ -21801,7 +21800,7 @@
       ],
       "notamDefinitions": [
         {
-          "text": "CTC APPROACH 118.455 BEFORE PASSING {2000 FT.",
+          "text": "CTC APPROACH 118.455 BEFORE PASSING {2000} FT.",
           "ordinal": 1,
           "onlineCondition": "LEMG_APP",
           "enabled": true

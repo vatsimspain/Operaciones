@@ -2,7 +2,7 @@
   "name": "LECB",
   "id": "4da9dee2-dcaa-4363-afe2-873f2798f9d6",
   "updateUrl": "https://raw.githubusercontent.com/vatspa/Operaciones/refs/heads/estable/LEXX/Plugins/VATIS/vATIS%20Profile%20-%20LECB.json",
-  "updateSerial": 2026111603,
+  "updateSerial": 2026112600,
   "stations": [
     {
       "id": "f5306cb5-8b2d-44f4-9355-ac82f8e72317",
@@ -21885,7 +21885,7 @@
         {
           "id": "32fbc3f9-d02a-4e4a-801a-d5cd2938775c",
           "name": "EAST",
-          "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^06L AND FOR DEP ^06R.\n",
+          "airportConditions": "EXPECT RNP Y APCH.\nRWY IN USE FOR ARR ^06L AND FOR DEP ^06R.\n",
           "notams": "",
           "template": "LEPA ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
